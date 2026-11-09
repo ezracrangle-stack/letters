@@ -1,0 +1,5438 @@
+{
+ "brookfield": [
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/Brookfield-BN-IR-V2/2026/Q2/Q2-26-Brookfield-Letter-to-Shareholders.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "Q2 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/Brookfield-BN-IR-V2/2026/Q1/Q1-26-Brookfield-Letter-to-Shareholders-vF.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "Q1 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2026/Q4-25%20BN%20Letter%20to%20Shareholders_vF.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "Q4 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2025/Q3%20Brookfield%20Letter%20to%20Shareholders%20vF.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "Q3 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/brookfield-bn/reports-filings/letter-to-shareholder/q2-2025-bn-letter-to-shareholders-f.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "Q2 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2025/letter-to-shareholders-march-final.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "Q1 2025",
+    "sort": 202503
+   },
+   "title": "Special letter, March 2025",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2025/bn-q1-2025-ltr-to-shareholders-vf.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "Q1 2025",
+    "sort": 202503
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2025/BN%20Q4%202024_Ltr_to_Shareholders_F.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "Q4 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2024/BN%20Q3%202024_Ltr_to_Shareholders_F.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "Q3 2024",
+    "sort": 202409
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2024/BN%20Q2%202024_Ltr_to_Shareholders_F.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q2",
+    "label": "Q2 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2024/BN%20Q1%202024_Ltr_to_Shareholders_vF.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "Q1 2024",
+    "sort": 202403
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2023/Q4-23%20BN%20Ltr_to_Shareholders_F.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "Q4 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2023/BN%202023%20Letter%20-%202023%20Summary%20and%20Update_F.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Annual",
+    "label": "2023",
+    "sort": 202312
+   },
+   "title": "2023 summary and update",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2023/Q3-23%20BN%20Ltr_to_Shareholders_F.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "Q3 2023",
+    "sort": 202309
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2023/Q2-23%20BN%20Ltr_to_Shareholders%20vF.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "Q2 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2023/Q1-23%20BN%20Ltr_to_Shareholders%20vF.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q1",
+    "label": "Q1 2023",
+    "sort": 202303
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2022/BN-Q4-2022-Ltr-to-Shareholders-F.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "Q4 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2022/2022-Q3-BAM-Ltr-to-Shareholders.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "Q3 2022",
+    "sort": 202209
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2022/2022-Q2-BAM-Ltr-to-Shareholders-FF-B.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "Q2 2022",
+    "sort": 202206
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2022/q1-2022-letter-to-shareholders-1.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "Q1 2022",
+    "sort": 202203
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2021/q4-2021-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q4",
+    "label": "Q4 2021",
+    "sort": 202112
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2021/q3-2021-letter-to-shareholders.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q3",
+    "label": "Q3 2021",
+    "sort": 202109
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2021/q2-2021-letter-to-shareholders.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q2",
+    "label": "Q2 2021",
+    "sort": 202106
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2021/letter-to-shareholders-q1-2021.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q1",
+    "label": "Q1 2021",
+    "sort": 202103
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2020/letters-to-shareholders-q4.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q4",
+    "label": "Q4 2020",
+    "sort": 202012
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2020/letters-to-shareholders-q3.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q3",
+    "label": "Q3 2020",
+    "sort": 202009
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2020/f-bam-q2-2020-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q2",
+    "label": "Q2 2020",
+    "sort": 202006
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2020/f-bam-q1-2020-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q1",
+    "label": "Q1 2020",
+    "sort": 202003
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2019/q4-2019-letter-to-shareholders-v1.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q4",
+    "label": "Q4 2019",
+    "sort": 201912
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2019/f-bam-q3-2019-lts.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q3",
+    "label": "Q3 2019",
+    "sort": 201909
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2019/f-bam-q2-2019-lts.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q2",
+    "label": "Q2 2019",
+    "sort": 201906
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2019/f-bam-q1-2019-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q1",
+    "label": "Q1 2019",
+    "sort": 201903
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2018/bam-q4-2018-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q4",
+    "label": "Q4 2018",
+    "sort": 201812
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2018/bam-q3-2018-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q3",
+    "label": "Q3 2018",
+    "sort": 201809
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2018/bam-q2-2018-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q2",
+    "label": "Q2 2018",
+    "sort": 201806
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2018/f-bam-q1-2018-ltr-to-shareholders-r.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q1",
+    "label": "Q1 2018",
+    "sort": 201803
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/f-bam-year-end-2017-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q4",
+    "label": "Q4 2017",
+    "sort": 201712
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/f-bam-q3-2017-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q3",
+    "label": "Q3 2017",
+    "sort": 201709
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2017/bam-q2-2017-ltr-to-shareholders-v2.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q2",
+    "label": "Q2 2017",
+    "sort": 201706
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2017/bam-q1-2017-ltr-to-shareholders-final.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q1",
+    "label": "Q1 2017",
+    "sort": 201703
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2016/q4-2016-letter-to-shareholders.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q4",
+    "label": "Q4 2016",
+    "sort": 201612
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2016/q3-2016-letter-to-shareholders.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q3",
+    "label": "Q3 2016",
+    "sort": 201609
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2016/bam-q2-2016-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q2",
+    "label": "Q2 2016",
+    "sort": 201606
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2016/bam-q1-2016-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q1",
+    "label": "Q1 2016",
+    "sort": 201603
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2015/bam-q4-2015-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2015,
+    "part": "Q4",
+    "label": "Q4 2015",
+    "sort": 201512
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2015/bam-q3-2015-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2015,
+    "part": "Q3",
+    "label": "Q3 2015",
+    "sort": 201509
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2015/bam-q2-2015-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2015,
+    "part": "Q2",
+    "label": "Q2 2015",
+    "sort": 201506
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2015/bam-q1-2015-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2015,
+    "part": "Q1",
+    "label": "Q1 2015",
+    "sort": 201503
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2014/bam-q4-2014-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2014,
+    "part": "Q4",
+    "label": "Q4 2014",
+    "sort": 201412
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2014/bam-q3-2014-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2014,
+    "part": "Q3",
+    "label": "Q3 2014",
+    "sort": 201409
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2014/bam-q2-2014-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2014,
+    "part": "Q2",
+    "label": "Q2 2014",
+    "sort": 201406
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2014/bam-q1-2014-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2014,
+    "part": "Q1",
+    "label": "Q1 2014",
+    "sort": 201403
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2013/q4-2013-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2013,
+    "part": "Q4",
+    "label": "Q4 2013",
+    "sort": 201312
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2013/q3-2013-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2013,
+    "part": "Q3",
+    "label": "Q3 2013",
+    "sort": 201309
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2013/q2-2013-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2013,
+    "part": "Q2",
+    "label": "Q2 2013",
+    "sort": 201306
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2013/q1-2013-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2013,
+    "part": "Q1",
+    "label": "Q1 2013",
+    "sort": 201303
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2012/bam-2012-q4-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2012,
+    "part": "Q4",
+    "label": "Q4 2012",
+    "sort": 201212
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2012/bam-2012-q3-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2012,
+    "part": "Q3",
+    "label": "Q3 2012",
+    "sort": 201209
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2012/bam-2012-q2-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2012,
+    "part": "Q2",
+    "label": "Q2 2012",
+    "sort": 201206
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/BN-IR-Master/Letter-to-Shareholders/2012/bam-2012-q1-ltr-to-shareholders.pdf",
+   "period": {
+    "year": 2012,
+    "part": "Q1",
+    "label": "Q1 2012",
+    "sort": 201203
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "hayden": [
+  {
+   "url": "https://content.haydencapital.com/Hayden-Capital-Quarterly-Letter-2026-Q2.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "Q2 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://content.haydencapital.com/Hayden-Capital-Quarterly-Letter-2026-Q1.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "Q1 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://content.haydencapital.com/Hayden-Capital-Quarterly-Letter-2025-Q4.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "Q4 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://content.haydencapital.com/Hayden-Capital-Quarterly-Letter-2025-Q3.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "Q3 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://content.haydencapital.com/Hayden-Capital-Quarterly-Letter-2025-Q2.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "Q2 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/4a9ffb18bc28f68ba29204e3f7d0b39c7647268c.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "Q1 2025",
+    "sort": 202503
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/9c9467e51c44263b26ff964a880bda2c6fa24da4.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "Q4 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/13469e413194b143586bce7e8d722e1222a3e288.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "Q3 2024",
+    "sort": 202409
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/973b528d3676b3be0b7321a05d2de5fe5a613946.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q2",
+    "label": "Q2 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/95b701009d43fd751510f0f3948022eb3279331e.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "Q1 2024",
+    "sort": 202403
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/dbac7e5ca9eceaa544ca56025eb9f3a62142801b.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "Q4 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/c8b8d0f18055ed1ab5a786867064bd08a24e3aa1.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "Q3 2023",
+    "sort": 202309
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/76f5d9871cae228ec16c90feb80889af82454d28.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "Q2 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/5ffc019acfe69a90aac441bc2a34820784ccc961.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q1",
+    "label": "Q1 2023",
+    "sort": 202303
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/c36a7b7894ef5d34f7b561ca024299ec711c5709.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "Q4 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/da03decc402613d6c6aea077272c1b070da8aa5b.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "Q3 2022",
+    "sort": 202209
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/a0718f1b357a64a97daf4dc82b6d874af83bfe53.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "Q2 2022",
+    "sort": 202206
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/5e1012fc3c9e95c0b49c4925aeeb453c5a1d9d4a.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "Q1 2022",
+    "sort": 202203
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/5924ac7d9e1f11fb61bbccf90707daa6ee846ec7.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q4",
+    "label": "Q4 2021",
+    "sort": 202112
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/bbcf7266ed5009b54715f8ca65a18928196c6c03.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q3",
+    "label": "Q3 2021",
+    "sort": 202109
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/5906c2aa50b434598562641ca1d215c97cca3424.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q2",
+    "label": "Q2 2021",
+    "sort": 202106
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/cff0385ead11564bd365ee8169c24f3b2b0db47a.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q1",
+    "label": "Q1 2021",
+    "sort": 202103
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/46081fd83e90f3280cf54a6ed7f7e882dcc1dd9a.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q4",
+    "label": "Q4 2020",
+    "sort": 202012
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/21fa950f2fc9ee48f38f893570201aaec2952c53.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q3",
+    "label": "Q3 2020",
+    "sort": 202009
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/a3e63439cfb895828cd27f84a72373e2445db5f4.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q2",
+    "label": "Q2 2020",
+    "sort": 202006
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/5f4c088e737762f2646aa9923ac2562e6429bff7.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q1",
+    "label": "Q1 2020",
+    "sort": 202003
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/56c3d5481b51d5891ee2c9a4177968fc69c34cef.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q4",
+    "label": "Q4 2019",
+    "sort": 201912
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/2b9b27bfd856d70b1ae5b8b12eb9fe60b18988f4.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q3",
+    "label": "Q3 2019",
+    "sort": 201909
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/20efe6b2eeebfeb4fc5f70a76ce9e55525e46da7.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q2",
+    "label": "Q2 2019",
+    "sort": 201906
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/1d7594f8fa623efa303286d0bc61906703dbe5aa.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q1",
+    "label": "Q1 2019",
+    "sort": 201903
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/345c1bbca980b00c78dcf34d0a97cca3bd6aaf8b.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q4",
+    "label": "Q4 2018",
+    "sort": 201812
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/14db4fefc13ae535be66d6d34494d17e980770a7.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q3",
+    "label": "Q3 2018",
+    "sort": 201809
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/d50290e173b02c6c004f1586cf2276142465109a.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q2",
+    "label": "Q2 2018",
+    "sort": 201806
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/aef6435510934500c1ce85a7728ef671c5686bf1.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q1",
+    "label": "Q1 2018",
+    "sort": 201803
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/9e31dc88cf9b10721414568d83d95a95334e22cc.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q4",
+    "label": "Q4 2017",
+    "sort": 201712
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/48d170f563558f35cd12205d2f1a1d7564c4219a.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q3",
+    "label": "Q3 2017",
+    "sort": 201709
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/2431a79448e54c9325d4b8bee1d29d8d32468399.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q2",
+    "label": "Q2 2017",
+    "sort": 201706
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/49f7e57228b0085f0aa5f3223ccaf99b9af81a73.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q1",
+    "label": "Q1 2017",
+    "sort": 201703
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/e782ab58a8b196ea5684f967216de98391673303.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q4",
+    "label": "Q4 2016",
+    "sort": 201612
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/89619f9800313b5efe6d65d88d2801bb4fe807f3.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q3",
+    "label": "Q3 2016",
+    "sort": 201609
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/97c0377dc91bce26f8dc7198e93b9eb18b43e520.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q2",
+    "label": "Q2 2016",
+    "sort": 201606
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://cdn.sanity.io/files/w6mgmtx0/production/a7b021cc67941c911006b1678f449d470dbad2e4.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q1",
+    "label": "Q1 2016",
+    "sort": 201603
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "1-main": [
+  {
+   "url": "https://www.1maincapital.com/s/Q326-letter.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "Q3 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q226-letter.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "Q2 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q126-letter.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "Q1 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q425-letter.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "Q4 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q325-letter.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "Q3 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q225-letter.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "Q2 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q125-letter.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "Q1 2025",
+    "sort": 202503
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q424-letter.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "Q4 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q324-letter-vFinal.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "Q3 2024",
+    "sort": 202409
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q224-Letter.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q2",
+    "label": "Q2 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q124-letter.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "Q1 2024",
+    "sort": 202403
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q423-letter.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "Q4 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q323-letter.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "Q3 2023",
+    "sort": 202309
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q223-letter.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "Q2 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q123-letter.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q1",
+    "label": "Q1 2023",
+    "sort": 202303
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q422-letter.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "Q4 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q322-letter.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "Q3 2022",
+    "sort": 202209
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q222-letter.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "Q2 2022",
+    "sort": 202206
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q122-letter.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "Q1 2022",
+    "sort": 202203
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q421-letter.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q4",
+    "label": "Q4 2021",
+    "sort": 202112
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q321-letter.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q3",
+    "label": "Q3 2021",
+    "sort": 202109
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q221-letter.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q2",
+    "label": "Q2 2021",
+    "sort": 202106
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q121-letter.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q1",
+    "label": "Q1 2021",
+    "sort": 202103
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q420-letter.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q4",
+    "label": "Q4 2020",
+    "sort": 202012
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q320-letter.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q3",
+    "label": "Q3 2020",
+    "sort": 202009
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q220-letter.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q2",
+    "label": "Q2 2020",
+    "sort": 202006
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q120-letter.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q1",
+    "label": "Q1 2020",
+    "sort": 202003
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q419-letter.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q4",
+    "label": "Q4 2019",
+    "sort": 201912
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q319-letter.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q3",
+    "label": "Q3 2019",
+    "sort": 201909
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q219-letter.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q2",
+    "label": "Q2 2019",
+    "sort": 201906
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q119-letter.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q1",
+    "label": "Q1 2019",
+    "sort": 201903
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q418-letter.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q4",
+    "label": "Q4 2018",
+    "sort": 201812
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q318-letter.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q3",
+    "label": "Q3 2018",
+    "sort": 201809
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.1maincapital.com/s/Q218-letter.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q2",
+    "label": "Q2 2018",
+    "sort": 201806
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "rv-capital": [],
+ "wedgewood": [
+  {
+   "url": "https://wedgewoodpartners.com/wp-content/uploads/2026/10/Wedgewood-Partners-Third-Quarter-2026-Client-Letter-Bad-Moon-Rising-2.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "Q3 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://wedgewoodpartners.com/wp-content/uploads/2026/01/WW_4Q2025ClientLetter.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "Q4 2025",
+    "sort": 202512
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://focusdst.com/wp-content/uploads/2022/08/Wedgewood-Partners-Second-Quarter-2025-Client-Letter-A-Day-in-the-Stock-Market-Life.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "Q2 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://wedgewoodpartners.com/wp-content/uploads/2025/01/WW_4Q2024_Client_Letter_Curb_Your_Enthusiasm.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "Q4 2024",
+    "sort": 202412
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://wedgewoodpartners.com/wp-content/uploads/2024/10/3Q2024_PowellandCoTakeItEasy.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "Q3 2024",
+    "sort": 202409
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://wedgewoodpartners.com/wp-content/uploads/2024/04/Wedgewood-Partners-First-Quarter-2024-Client-Letter-The-Magnificent-Roaring-20s-1.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "Q1 2024",
+    "sort": 202403
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://wedgewoodpartners.com/wp-content/uploads/2024/01/WW_clientLetter_4Q2023.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "Q4 2023",
+    "sort": 202312
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://www.gurufocus.com/news/1687820/rolfes-wedgewood-partners-1stquarter-letter-the-end-of-an-error-the-beginning-of-an-error",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "Q1 2022",
+    "sort": 202203
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://66586259-e635-40d5-bf11-9d22ba98eca0.filesusr.com/ugd/d2a1d2_ff750f7afc8b4601a14ea1571b376bfc.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q4",
+    "label": "Q4 2021",
+    "sort": 202112
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://66586259-e635-40d5-bf11-9d22ba98eca0.filesusr.com/ugd/d2a1d2_7edda3c956ef433dbbc1c1499ad03904.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q3",
+    "label": "Q3 2021",
+    "sort": 202109
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://66586259-e635-40d5-bf11-9d22ba98eca0.filesusr.com/ugd/d2a1d2_a7010caa73484aa79860d446dfa072a3.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q2",
+    "label": "Q2 2021",
+    "sort": 202106
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://66586259-e635-40d5-bf11-9d22ba98eca0.filesusr.com/ugd/d2a1d2_de9b06acfa2e43c1b2cccbeecbca5f38.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q1",
+    "label": "Q1 2021",
+    "sort": 202103
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://66586259-e635-40d5-bf11-9d22ba98eca0.filesusr.com/ugd/5bfe4b_756cc8b19de347b6b09d9dda7776016b.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q4",
+    "label": "Q4 2020",
+    "sort": 202012
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://66586259-e635-40d5-bf11-9d22ba98eca0.filesusr.com/ugd/5bfe4b_7f46984994bc44abab0fa9d012fa35da.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q3",
+    "label": "Q3 2020",
+    "sort": 202009
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://66586259-e635-40d5-bf11-9d22ba98eca0.filesusr.com/ugd/5bfe4b_a12f91a6fbfb4131afc3d1d848b4ae84.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q2",
+    "label": "Q2 2020",
+    "sort": 202006
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://66586259-e635-40d5-bf11-9d22ba98eca0.filesusr.com/ugd/5bfe4b_7f47cdae028142f1ade840f42986ab09.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q1",
+    "label": "Q1 2020",
+    "sort": 202003
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://66586259-e635-40d5-bf11-9d22ba98eca0.filesusr.com/ugd/5bfe4b_b0a5446be1a44fb587a7e770cb425849.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q4",
+    "label": "Q4 2019",
+    "sort": 201912
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://docs.wixstatic.com/ugd/5bfe4b_03b9a051772a4b9792c849ed7f74150a.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q3",
+    "label": "Q3 2019",
+    "sort": 201909
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://docs.wixstatic.com/ugd/5bfe4b_d88728c47e5442b9aa1f1d731c89ef5b.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q2",
+    "label": "Q2 2019",
+    "sort": 201906
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://docs.wixstatic.com/ugd/5bfe4b_6bcd2ede3d6a435cac1d652f2ba5edc2.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q4",
+    "label": "Q4 2018",
+    "sort": 201812
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://docs.wixstatic.com/ugd/5bfe4b_a0f6d8ad7b8d407c9182e0030b246e99.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q3",
+    "label": "Q3 2018",
+    "sort": 201809
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://docs.wixstatic.com/ugd/5bfe4b_bf8dff6575d44546b17534ed393d5ab5.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q2",
+    "label": "Q2 2018",
+    "sort": 201806
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://docs.wixstatic.com/ugd/5bfe4b_35e96d3611164971bbc694a49cab705f.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q1",
+    "label": "Q1 2018",
+    "sort": 201803
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://web.archive.org/web/20220414143830/https://www.wedgewoodpartners.com/_files/ugd/5bfe4b_0b747f631c6f4bb08de919ccfe5e168f.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q3",
+    "label": "Q3 2017",
+    "sort": 201709
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://web.archive.org/web/20221021014932/http://docs.wixstatic.com/ugd/5bfe4b_35920891da8c4b7a81811d3ab677c14f.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q2",
+    "label": "Q2 2017",
+    "sort": 201706
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://web.archive.org/web/20221021014906/http://docs.wixstatic.com/ugd/5bfe4b_067ef1d8bd934921928b4391b0238403.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q1",
+    "label": "Q1 2017",
+    "sort": 201703
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://web.archive.org/web/20220309073915/http://media.wix.com/ugd/5bfe4b_118cca9ea5fd442fa921bc537ff661dd.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q4",
+    "label": "Q4 2016",
+    "sort": 201612
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://web.archive.org/web/20221021014908/http://media.wix.com/ugd/5bfe4b_78c56d48b25c4ec38b23c252d9982d02.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q3",
+    "label": "Q3 2016",
+    "sort": 201609
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://web.archive.org/web/20221021014905/http://media.wix.com/ugd/5bfe4b_d18a091439a6474bbcd5f95e55585067.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q2",
+    "label": "Q2 2016",
+    "sort": 201606
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  },
+  {
+   "url": "https://web.archive.org/web/20221021014934/http://media.wix.com/ugd/5bfe4b_1ea5b1df87b94c84a3eb545789442b3c.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q1",
+    "label": "Q1 2016",
+    "sort": 201603
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "manual",
+   "backfill": false
+  }
+ ],
+ "emeth": [
+  {
+   "url": "https://www.emethvaluecapital.com/_files/ugd/b2ee4c_1316a576226d400f8b2892ead53fa664.pdf",
+   "period": {
+    "year": 2026,
+    "part": "H1",
+    "label": "H1 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.emethvaluecapital.com/_files/ugd/b2ee4c_a623f4db4919487e9b5db15be48fd620.pdf",
+   "period": {
+    "year": 2025,
+    "part": "H2",
+    "label": "H2 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.emethvaluecapital.com/_files/ugd/b2ee4c_e317fa2ccc4e46ca968d6ad92274e990.pdf",
+   "period": {
+    "year": 2025,
+    "part": "H1",
+    "label": "H1 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.emethvaluecapital.com/_files/ugd/b2ee4c_17e4e33398384e2881b862a7ad1732ab.pdf",
+   "period": {
+    "year": 2024,
+    "part": "H2",
+    "label": "H2 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.emethvaluecapital.com/_files/ugd/b2ee4c_20c78122b86e480585caee35e131cb21.pdf",
+   "period": {
+    "year": 2024,
+    "part": "H1",
+    "label": "H1 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.emethvaluecapital.com/_files/ugd/b2ee4c_e2c2b62e3e794df38a38db1afcba3f51.pdf",
+   "period": {
+    "year": 2023,
+    "part": "H2",
+    "label": "H2 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.emethvaluecapital.com/_files/ugd/b2ee4c_2031a8e52ed04ba09d298a8d7817224f.pdf",
+   "period": {
+    "year": 2023,
+    "part": "H1",
+    "label": "H1 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.emethvaluecapital.com/_files/ugd/b2ee4c_5db470f9ff0848c1b2b59f900e6a3a46.pdf",
+   "period": {
+    "year": 2022,
+    "part": "H2",
+    "label": "H2 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.emethvaluecapital.com/_files/ugd/b2ee4c_85ec8e2bc7184c81984c5a3d1a80febf.pdf",
+   "period": {
+    "year": 2022,
+    "part": "H1",
+    "label": "H1 2022",
+    "sort": 202206
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.emethvaluecapital.com/_files/ugd/b2ee4c_fc839e04aba8426f90a25b138770adfa.pdf",
+   "period": {
+    "year": 2021,
+    "part": "H2",
+    "label": "H2 2021",
+    "sort": 202112
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.emethvaluecapital.com/_files/ugd/b2ee4c_055675c3bfbf4021a019f83b5cde8c2b.pdf",
+   "period": {
+    "year": 2021,
+    "part": "H1",
+    "label": "H1 2021",
+    "sort": 202106
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.emethvaluecapital.com/_files/ugd/b2ee4c_14163c6720eb40a39837a7895eaaf3f3.pdf",
+   "period": {
+    "year": 2020,
+    "part": "H2",
+    "label": "H2 2020",
+    "sort": 202012
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.emethvaluecapital.com/_files/ugd/b2ee4c_75b389f51b584b999bc6d2741f9b13a1.pdf",
+   "period": {
+    "year": 2020,
+    "part": "H1",
+    "label": "H1 2020",
+    "sort": 202006
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.emethvaluecapital.com/_files/ugd/b2ee4c_59715957d759401885c56f76622e826c.pdf",
+   "period": {
+    "year": 2019,
+    "part": "H2",
+    "label": "H2 2019",
+    "sort": 201912
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.emethvaluecapital.com/_files/ugd/b2ee4c_dd6ae4f435c144dda97ac38d3a0338d4.pdf",
+   "period": {
+    "year": 2019,
+    "part": "H1",
+    "label": "H1 2019",
+    "sort": 201906
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.emethvaluecapital.com/_files/ugd/b2ee4c_8d2623edfabc45a79ed28d9ce783da4b.pdf",
+   "period": {
+    "year": 2018,
+    "part": "H2",
+    "label": "H2 2018",
+    "sort": 201812
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "laughing-water": [
+  {
+   "url": "https://www.laughingwatercapital.com/s/LWC-H1-2026-Letter.pdf",
+   "period": {
+    "year": 2026,
+    "part": "H1",
+    "label": "H1 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/LWC-Q1-2026-Letter.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "Q1 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-YE25.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "Q4 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/LWC-Q325-Letter.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "Q3 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/LWC-Q225-Letter.pdf",
+   "period": {
+    "year": 2025,
+    "part": "H1",
+    "label": "H1 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/LWC-Q125-Letter.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "Q1 2025",
+    "sort": 202503
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-YE24.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "Q4 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-Q224-Letter.pdf",
+   "period": {
+    "year": 2024,
+    "part": "H1",
+    "label": "H1 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-Q124-Letter.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "Q1 2024",
+    "sort": 202403
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-YE23-Letter2.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "Q4 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-Q323-Letter.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "Q3 2023",
+    "sort": 202309
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-H123-Letter.pdf",
+   "period": {
+    "year": 2023,
+    "part": "H1",
+    "label": "H1 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-Q123-LFCR-final.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q1",
+    "label": "Q1 2023",
+    "sort": 202303
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-YE-2022.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "Q4 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-1H22.pdf",
+   "period": {
+    "year": 2022,
+    "part": "H1",
+    "label": "H1 2022",
+    "sort": 202206
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-Q122-sn57.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "Q1 2022",
+    "sort": 202203
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-YE-2021.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q4",
+    "label": "Q4 2021",
+    "sort": 202112
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-H1-2021-gggt.pdf",
+   "period": {
+    "year": 2021,
+    "part": "H1",
+    "label": "H1 2021",
+    "sort": 202106
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-Q1-2021.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q1",
+    "label": "Q1 2021",
+    "sort": 202103
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-YE-2020.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q4",
+    "label": "Q4 2020",
+    "sort": 202012
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-Q320.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q3",
+    "label": "Q3 2020",
+    "sort": 202009
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-1H20.pdf",
+   "period": {
+    "year": 2020,
+    "part": "H1",
+    "label": "H1 2020",
+    "sort": 202006
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-Q120.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q1",
+    "label": "Q1 2020",
+    "sort": 202003
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/LWC-March-2020-Interim-Update.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q1",
+    "label": "Q1 2020",
+    "sort": 202003
+   },
+   "title": "March 2020 interim update",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/LWC-Year-End-Letter-2019.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q4",
+    "label": "Q4 2019",
+    "sort": 201912
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-H1-2019.pdf",
+   "period": {
+    "year": 2019,
+    "part": "H1",
+    "label": "H1 2019",
+    "sort": 201906
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-Q1-2019.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q1",
+    "label": "Q1 2019",
+    "sort": 201903
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/LWC-Year-End-2018-Letter.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q4",
+    "label": "Q4 2018",
+    "sort": 201812
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-Q3-2018.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q3",
+    "label": "Q3 2018",
+    "sort": 201809
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-H118.pdf",
+   "period": {
+    "year": 2018,
+    "part": "H1",
+    "label": "H1 2018",
+    "sort": 201806
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-Q1-2018.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q1",
+    "label": "Q1 2018",
+    "sort": 201803
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/LWC-Year-End-2017-Letter-efj3.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q4",
+    "label": "Q4 2017",
+    "sort": 201712
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-Q3-2017-letter-acyn.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q3",
+    "label": "Q3 2017",
+    "sort": 201709
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-H1-2017-Letter-final-a8nb.pdf",
+   "period": {
+    "year": 2017,
+    "part": "H1",
+    "label": "H1 2017",
+    "sort": 201706
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/LWC-Year-End-2016-Letter-ycwz.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q4",
+    "label": "Q4 2016",
+    "sort": 201612
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-Q2-2016-fj59.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q2",
+    "label": "Q2 2016",
+    "sort": 201606
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.laughingwatercapital.com/s/Laughing-Water-Capital-Q1-2016-7k6s.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q1",
+    "label": "Q1 2016",
+    "sort": 201603
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "maran": [
+  {
+   "url": "https://marancapital.com/s/Maran-Partners-Fund-LP-2026-2Q-Letter.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "Q2 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://marancapital.com/s/Maran-Partners-Fund-LP-2026-1Q-Letter.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "Q1 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://marancapital.com/s/Maran-Partners_2025.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Annual",
+    "label": "2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://marancapital.com/s/Maran-2024.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Annual",
+    "label": "2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://marancapital.com/s/Maran-2023.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Annual",
+    "label": "2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://marancapital.com/s/Maran-2022.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Annual",
+    "label": "2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://marancapital.com/s/Maran-2021.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Annual",
+    "label": "2021",
+    "sort": 202112
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://marancapital.com/s/Maran-2020.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Annual",
+    "label": "2020",
+    "sort": 202012
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://marancapital.com/s/Maran-Partners-Fund-LP-2019-Q4-Letter.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Annual",
+    "label": "2019",
+    "sort": 201912
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://marancapital.com/s/Maran-Partners-Fund-LP-Founders-Letter_Web.pdf",
+   "period": {
+    "year": 2015,
+    "part": "Annual",
+    "label": "2015",
+    "sort": 201512
+   },
+   "title": "Founder's letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "greenhaven": [
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Q2-2026-Final.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "Q2 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven_Road_Partners_Fund_2025Q4_FINAL__-cpdz.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "Q4 2025",
+    "sort": 202512
+   },
+   "title": "Q4 2025 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2025-Q4-Final_-jdyt.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "Q4 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven_Road_Partners_Fund_2025Q4_FINAL__.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "Q4 2025",
+    "sort": 202512
+   },
+   "title": "Q4 2025 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2025-Q3-Final.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "Q3 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2025Q3-FINAL_.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "Q3 2025",
+    "sort": 202509
+   },
+   "title": "Q3 2025 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Q2-2025-FINAL.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "Q2 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2025Q2-FINAL.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "Q2 2025",
+    "sort": 202506
+   },
+   "title": "Q2 2025 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2025-Q1-FINAL-fgeg.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "Q1 2025",
+    "sort": 202503
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2025Q1-FINAL_.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "Q1 2025",
+    "sort": 202503
+   },
+   "title": "Q1 2025 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2024-Q4-FINAL.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "Q4 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2024-Q4-FINAL-seny.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "Q4 2024",
+    "sort": 202412
+   },
+   "title": "Q4 2024 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2024-Q3-FINAL.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "Q3 2024",
+    "sort": 202409
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-Q3-2024-Final.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "Q3 2024",
+    "sort": 202409
+   },
+   "title": "Q3 2024 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/GreenhavenRoad2024Q2FINAL.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q2",
+    "label": "Q2 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2024-Q2-FINAL-6wje.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q2",
+    "label": "Q2 2024",
+    "sort": 202406
+   },
+   "title": "Q2 2024 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2024-Q1-fINAL.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "Q1 2024",
+    "sort": 202403
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2024-Q1-FINAL.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "Q1 2024",
+    "sort": 202403
+   },
+   "title": "Q1 2024 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2023-Q4-FINAL_.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "Q4 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2023-Q4-FINAL-c6lx.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "Q4 2023",
+    "sort": 202312
+   },
+   "title": "Q4 2023 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2023-Q3-FINAL.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "Q3 2023",
+    "sort": 202309
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2023-Q3-FINAL.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "Q3 2023",
+    "sort": 202309
+   },
+   "title": "Q3 2023 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2023-Q2-FINAL-PUBLIC.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "Q2 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2023-Q2-Final.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "Q2 2023",
+    "sort": 202306
+   },
+   "title": "Q2 2023 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2023-Q1-Quarterly-Letter69.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q1",
+    "label": "Q1 2023",
+    "sort": 202303
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2023-Q1-Partners-Fund-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q1",
+    "label": "Q1 2023",
+    "sort": 202303
+   },
+   "title": "Q1 2023 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2022-Q4-Final.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "Q4 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2022-Q4-Partners-Fund-Quarterly-Letter95.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "Q4 2022",
+    "sort": 202212
+   },
+   "title": "Q4 2022 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2022-Q3-final.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "Q3 2022",
+    "sort": 202209
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2022-Q3-Partners-Fund-Quarterly-Letter19-copy-cgch.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "Q3 2022",
+    "sort": 202209
+   },
+   "title": "Q3 2022 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2022-Q2-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "Q2 2022",
+    "sort": 202206
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2022-Q2-Partners-Fund-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "Q2 2022",
+    "sort": 202206
+   },
+   "title": "Q2 2022 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2022-Q1-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "Q1 2022",
+    "sort": 202203
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2021-Q4-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q4",
+    "label": "Q4 2021",
+    "sort": 202112
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2021-Q3-Quarterly-Letter21.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q3",
+    "label": "Q3 2021",
+    "sort": 202109
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2021-Q3-Partners-Fund-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q3",
+    "label": "Q3 2021",
+    "sort": 202109
+   },
+   "title": "Q3 2021 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Letter-2021-Q214.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q2",
+    "label": "Q2 2021",
+    "sort": 202106
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2021-Q2-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q2",
+    "label": "Q2 2021",
+    "sort": 202106
+   },
+   "title": "Q2 2021 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Letter-2021-Q1.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q1",
+    "label": "Q1 2021",
+    "sort": 202103
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Prtners-Fund-Q1-2021-Final_.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q1",
+    "label": "Q1 2021",
+    "sort": 202103
+   },
+   "title": "Q1 2021 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Letter-2020-Q4.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q4",
+    "label": "Q4 2020",
+    "sort": 202012
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2020-Q4-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q4",
+    "label": "Q4 2020",
+    "sort": 202012
+   },
+   "title": "Q4 2020 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Letter-2020-Q3.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q3",
+    "label": "Q3 2020",
+    "sort": 202009
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2020-Q3.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q3",
+    "label": "Q3 2020",
+    "sort": 202009
+   },
+   "title": "Q3 2020 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Letter-2020-Q2.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q2",
+    "label": "Q2 2020",
+    "sort": 202006
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2020-Q2-Quarterly-Letter3.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q2",
+    "label": "Q2 2020",
+    "sort": 202006
+   },
+   "title": "Q2 2020 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Letter-2020-Q1.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q1",
+    "label": "Q1 2020",
+    "sort": 202003
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2020-Q1-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q1",
+    "label": "Q1 2020",
+    "sort": 202003
+   },
+   "title": "Q1 2020 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Letter-2019-Q4.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q4",
+    "label": "Q4 2019",
+    "sort": 201912
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2019-Q4-Quarterly-Letter-pmgf.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q4",
+    "label": "Q4 2019",
+    "sort": 201912
+   },
+   "title": "Q4 2019 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Letter-2019-Q3.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q3",
+    "label": "Q3 2019",
+    "sort": 201909
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2019-Q3-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q3",
+    "label": "Q3 2019",
+    "sort": 201909
+   },
+   "title": "Q3 2019 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Letter-2019-Q2.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q2",
+    "label": "Q2 2019",
+    "sort": 201906
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2019-Q2.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q2",
+    "label": "Q2 2019",
+    "sort": 201906
+   },
+   "title": "Q2 2019 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Letter-2019-Q1.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q1",
+    "label": "Q1 2019",
+    "sort": 201903
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2019-Q12-76y5.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q1",
+    "label": "Q1 2019",
+    "sort": 201903
+   },
+   "title": "Q1 2019 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-2018-Q4-FINAL.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q4",
+    "label": "Q4 2018",
+    "sort": 201812
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2018-Q4.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q4",
+    "label": "Q4 2018",
+    "sort": 201812
+   },
+   "title": "Q4 2018 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2018-Q3-Final_.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q3",
+    "label": "Q3 2018",
+    "sort": 201809
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-2018-Q3.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q3",
+    "label": "Q3 2018",
+    "sort": 201809
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-2018-Q3-Final.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q3",
+    "label": "Q3 2018",
+    "sort": 201809
+   },
+   "title": "Q3 2018 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-2018-Q2_-k3tr.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q2",
+    "label": "Q2 2018",
+    "sort": 201806
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Partners-Fund-2018-Q2.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q2",
+    "label": "Q2 2018",
+    "sort": 201806
+   },
+   "title": "Q2 2018 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-2018-Q1-FINAL.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q1",
+    "label": "Q1 2018",
+    "sort": 201803
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Partners-Fund-2018-Q1-np2k.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q1",
+    "label": "Q1 2018",
+    "sort": 201803
+   },
+   "title": "Q1 2018 · Partners Fund",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2017-Q4-FINAL.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q4",
+    "label": "Q4 2017",
+    "sort": 201712
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-2017-Q3-FINAL.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q3",
+    "label": "Q3 2017",
+    "sort": 201709
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Q2-2017-FINAL.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q2",
+    "label": "Q2 2017",
+    "sort": 201706
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Q1-2017-FINAL.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q1",
+    "label": "Q1 2017",
+    "sort": 201703
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Q4-2016-FINAL.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q4",
+    "label": "Q4 2016",
+    "sort": 201612
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Q3-2016-FINAL.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q3",
+    "label": "Q3 2016",
+    "sort": 201609
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Q2-2016-FINAL.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q2",
+    "label": "Q2 2016",
+    "sort": 201606
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Q1-2016-Final-htr6.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q1",
+    "label": "Q1 2016",
+    "sort": 201603
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Q4-2015.pdf",
+   "period": {
+    "year": 2015,
+    "part": "Q4",
+    "label": "Q4 2015",
+    "sort": 201512
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Q3-2015-Final-osxp.pdf",
+   "period": {
+    "year": 2015,
+    "part": "Q3",
+    "label": "Q3 2015",
+    "sort": 201509
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Q2-2015.pdf",
+   "period": {
+    "year": 2015,
+    "part": "Q2",
+    "label": "Q2 2015",
+    "sort": 201506
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Q1_2015_FINAL-cy00.pdf",
+   "period": {
+    "year": 2015,
+    "part": "Q1",
+    "label": "Q1 2015",
+    "sort": 201503
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Q4_2014_FINAL-8o1h.pdf",
+   "period": {
+    "year": 2014,
+    "part": "Q4",
+    "label": "Q4 2014",
+    "sort": 201412
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Q3_2014_FINAL-34nw.pdf",
+   "period": {
+    "year": 2014,
+    "part": "Q3",
+    "label": "Q3 2014",
+    "sort": 201409
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Q4_2013_Final-zvj7.pdf",
+   "period": {
+    "year": 2013,
+    "part": "Q4",
+    "label": "Q4 2013",
+    "sort": 201312
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "saga": [
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_07ee41b5ab5f4496917774595a979845.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "Q3 2026",
+    "sort": 202609
+   },
+   "title": "The Growth of Knowledge (Aug 2026)",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_7cec383e066b469eb0603088927dba17.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "Q1 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_e7948aa0c51249f5bb69cb340380903e.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Annual",
+    "label": "2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_18b70ed048c24204a37444e68a3218ae.pdf",
+   "period": {
+    "year": 2024,
+    "part": "H2",
+    "label": "H2 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_2820fc91d9e343cd86c11030014e982a.pdf",
+   "period": {
+    "year": 2024,
+    "part": "H1",
+    "label": "H1 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_33a254061a274a008d574525804923ed.pdf",
+   "period": {
+    "year": 2023,
+    "part": "H2",
+    "label": "H2 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_5511790a0f35496abd60ed7d776876f4.pdf",
+   "period": {
+    "year": 2023,
+    "part": "H1",
+    "label": "H1 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_d626cafedad345668934c71e2315d0a4.pdf",
+   "period": {
+    "year": 2022,
+    "part": "H2",
+    "label": "H2 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_124ecebb0c344c2998823e1bd7d8e2bd.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "Q2 2022",
+    "sort": 202206
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_52596cc694e6475d8f1925e77b59f4e5.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "Q1 2022",
+    "sort": 202203
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_4fb25977b8a547aabf8d735eef210323.pdf",
+   "period": {
+    "year": 2021,
+    "part": "H2",
+    "label": "H2 2021",
+    "sort": 202112
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_d8d5adff75504695beb0533209a93432.pdf",
+   "period": {
+    "year": 2021,
+    "part": "H1",
+    "label": "H1 2021",
+    "sort": 202106
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_e07e78152b6840b1a566929cf9bcc517.pdf",
+   "period": {
+    "year": 2020,
+    "part": "H2",
+    "label": "H2 2020",
+    "sort": 202012
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_0e023cee5c9b4b07b96b8e60b13859ef.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q2",
+    "label": "Q2 2020",
+    "sort": 202006
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_c74309c2d5524f00a7c0b1c37f9150eb.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q1",
+    "label": "Q1 2020",
+    "sort": 202003
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_c06d27b9aadb4cb6936e764e2a274172.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q4",
+    "label": "Q4 2019",
+    "sort": 201912
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_31a98260ab2a4c2caf6906eb52e15b48.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q3",
+    "label": "Q3 2019",
+    "sort": 201909
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_ae8e9608878644d89c8a5bd605a9da37.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q2",
+    "label": "Q2 2019",
+    "sort": 201906
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_be929a1769cc4754b15c5e90c3f53a83.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q1",
+    "label": "Q1 2019",
+    "sort": 201903
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_777b08770a584706a42a16d1e2a0564f.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q4",
+    "label": "Q4 2018",
+    "sort": 201812
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_f6eb76f309b14f39b0d42f998a1cbaa9.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q3",
+    "label": "Q3 2018",
+    "sort": 201809
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_12b7404705714c76974a09d6907ee037.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q2",
+    "label": "Q2 2018",
+    "sort": 201806
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_82292853395947549413e6a3ea94d3df.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q1",
+    "label": "Q1 2018",
+    "sort": 201803
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "greystone": [
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_65d940ec228d41ca888c7fb004c0cd05.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "Q3 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_430bee92a36d490cbfc275a7f774b6f5.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "Q2 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_341a24e1457f4c49991dce03f4de505b.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "Q1 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_3f1d4b7645974584998866e0a513b174.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "Q4 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_b0167be4878743168a57c35c01385c3b.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "Q3 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_23a36f919a47449f8528f3a00602c1bb.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "Q2 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_f02d387aa8de45cdb966e41d49cb6bcf.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "Q1 2025",
+    "sort": 202503
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_a54ed5fe7f17447083511063bba629d1.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "Q4 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_bec1ec9abe1146d19c27c1a121a062e0.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "Q3 2024",
+    "sort": 202409
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_4ee3d7aaa96e4a7a97bc810ca236f6bc.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q2",
+    "label": "Q2 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_3589c8c3c0af49089ab4d02eb35d4985.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "Q1 2024",
+    "sort": 202403
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_938e4766a6484494b03599921ba07610.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "Q4 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_ffc6d148e7b74658b2eb702a7e2d5047.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "Q3 2023",
+    "sort": 202309
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_dda248eda8e646aa9b771b98c6be6a13.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "Q2 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_4bc7a737390344ceb68d07367503b878.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q1",
+    "label": "Q1 2023",
+    "sort": 202303
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_79fa4050d7784ca2b9e622c574c9abb1.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "Q4 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_88fbbb3c8834487e9613e5d9b99bcdb2.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "Q3 2022",
+    "sort": 202209
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_6b3d9dfea2cc42fb9f2318b7c81a7061.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "Q2 2022",
+    "sort": 202206
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/47fd79_be14d4321f7143a58c66a0d67d9b16fb.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "Q1 2022",
+    "sort": 202203
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/c771f2_7d2c1f85bdad4e889e1b501cf0d2f197.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q4",
+    "label": "Q4 2021",
+    "sort": 202112
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/c771f2_1b1c7720578844b795779cad73f24a05.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q3",
+    "label": "Q3 2021",
+    "sort": 202109
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/c771f2_7870d4a266c94141805e5f0459e18e11.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q2",
+    "label": "Q2 2021",
+    "sort": 202106
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/c771f2_c34dd17f91394060bd53ada4a1efa16a.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q1",
+    "label": "Q1 2021",
+    "sort": 202103
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/c771f2_d56b53a5541649b2b1d452096379fd05.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q4",
+    "label": "Q4 2020",
+    "sort": 202012
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/c771f2_273c8f0bf2f74767a8633099066ccfbe.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q3",
+    "label": "Q3 2020",
+    "sort": 202009
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.greystonecapitalfund.com/_files/ugd/c771f2_4a16ddddbeff401f936b7075603cecc2.pdf",
+   "period": {
+    "year": 2020,
+    "part": "H1",
+    "label": "H1 2020",
+    "sort": 202006
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "crossroads": [
+  {
+   "url": "https://www.crossroadscap.io/investor-letters/q2-2026-investor-letter",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "Q2 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crossroadscap.io/investor-letters/q1-2026-investor-letter",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "Q1 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crossroadscap.io/investor-letters/q4-2025-investor-letter",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "Q4 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crossroadscap.io/investor-letters/q3-2025-investor-letter",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "Q3 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crossroadscap.io/investor-letters/q2-2025-investor-letter",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "Q2 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crossroadscap.io/investor-letters/q1-2025-investor-letter",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "Q1 2025",
+    "sort": 202503
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crossroadscap.io/investor-letters/q4-2024-investor-letter",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "Q4 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crossroadscap.io/investor-letters/q3-2024-quarterly-letter",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "Q3 2024",
+    "sort": 202409
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crossroadscap.io/investor-letters/annual-letter-to-investors-2023",
+   "period": {
+    "year": 2023,
+    "part": "Annual",
+    "label": "2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crossroadscap.io/investor-letters/2022-annual-letter",
+   "period": {
+    "year": 2022,
+    "part": "Annual",
+    "label": "2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crossroadscap.io/investor-letters/annual-letter-to-investors-2021",
+   "period": {
+    "year": 2021,
+    "part": "Annual",
+    "label": "2021",
+    "sort": 202112
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crossroadscap.io/investor-letters/2019-investor-letter",
+   "period": {
+    "year": 2019,
+    "part": "Annual",
+    "label": "2019",
+    "sort": 201912
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crossroadscap.io/investor-letters/2018-investor-letter",
+   "period": {
+    "year": 2018,
+    "part": "Annual",
+    "label": "2018",
+    "sort": 201812
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.crossroadscap.io/investor-letters/2017-investor-letter",
+   "period": {
+    "year": 2017,
+    "part": "Annual",
+    "label": "2017",
+    "sort": 201712
+   },
+   "title": null,
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "semper-augustus": [
+  {
+   "url": "https://static.fmgsuite.com/media/documents/35496d1f-21fa-496b-aa89-108c8a479d2a.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Annual",
+    "label": "2025",
+    "sort": 202512
+   },
+   "title": "2025 SAI Letter: Both Sides Now: Cloud Delusions; Value at a Secular Plateau; And – Berkshire Hathaway: Going Out on Top",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/4e99c767-87f3-483c-b95f-87398c810020.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Annual",
+    "label": "2024",
+    "sort": 202412
+   },
+   "title": "2024 SAI Letter: Won't Get Fooled Again: Three Ways You Can Go Broke; Bogleheads; And – Berkshire Hathaway: Getting In Tune",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/f18f7f25-2653-4a70-9f41-c39dd8aa6762.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Annual",
+    "label": "2023",
+    "sort": 202312
+   },
+   "title": "2023 SAI Letter: Dirty Deeds Done Dirt Cheap: Berkshire Hathaway: The Flag at Half-Staff; How to Make Money in Stocks (and Not Lose It); and The China Syndrome",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/266ce60e-4a48-4ee8-a4c7-6a0fc794700e.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Annual",
+    "label": "2022",
+    "sort": 202212
+   },
+   "title": "2022 SAI Letter: Crazy Train: Profitless Prosperity; Investing In Flation; And – Berkshire: Getting Better All The Time",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/db64b928-53d6-43a9-a4d0-a9d2f69f76ba.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Annual",
+    "label": "2021",
+    "sort": 202112
+   },
+   "title": "2021 SAI Letter: Brown Sugar: Benign Neglect; Energy Policy Crashes the Grid; And - Berkshire: Charlie is My Darling",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/9af690c5-5ac8-41ac-a8f0-19195cf50a75.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Annual",
+    "label": "2020",
+    "sort": 202012
+   },
+   "title": "2020 SAI Letter: The Point of No Return: The Path From Deflation To Hyperinflation; Expedition Everest; And – Berkshire: The Goat Goes Full Repo",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/b5735a09-3345-482d-b184-e6cf71ab84ab.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Annual",
+    "label": "2019",
+    "sort": 201912
+   },
+   "title": "2019 SAI Letter: Money for Nothing: Dire Straits in Valuations; Stocks for Free; The Imperative of No; And - The Berkshire Fumblerooskie, Plus More!",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/ef57a26f-1803-4a50-98b4-6ca35c7a5005.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Annual",
+    "label": "2018",
+    "sort": 201812
+   },
+   "title": "2018 SAI Letter: Addicted to Loans: A Bubble In Debt, The Trouble With Earnings, The Second Great Pivot At Berkshire Plus: The ROE You Will Not See!",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/01ccd9db-1dac-45a8-a946-d562d2b3a5f9.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Annual",
+    "label": "2017",
+    "sort": 201712
+   },
+   "title": "2017 SAI Letter: Double, Double Toil and Trouble - Wicked Valuations, Bubbles in Monetary Policy and Passive Investing; Plus - Berkshire - Charmed by the Tax Deed",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/2c8a95a2-d0e8-42f1-8558-cea7819c76fe.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Annual",
+    "label": "2016",
+    "sort": 201612
+   },
+   "title": "2016 SAI Letter: Sympathy for the Dog; Challenging Dogma Death of the Profit Margin and a (Brief) Berkshire Redux",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/c0fe1e37-3d7c-4064-a20b-81a40511f713.pdf",
+   "period": {
+    "year": 2015,
+    "part": "Annual",
+    "label": "2015",
+    "sort": 201512
+   },
+   "title": "2015 SAI Letter: Party Like It's Nineteen Ninety-Nine- Bad Breadth, Intrinsic Value, and a Deep Dive into Berkshire Hathaway",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/0b079094-09c9-4b91-b90c-ecaaafbd346a.pdf",
+   "period": {
+    "year": 2014,
+    "part": "Annual",
+    "label": "2014",
+    "sort": 201412
+   },
+   "title": "2014 SAI Letter: Twelve Predictions from 2000 Revisited + New Predictions for the Next Fifteen Years",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/634c9f47-1c1a-4d3f-aa17-1614f0e98e45.pdf",
+   "period": {
+    "year": 2004,
+    "part": "Annual",
+    "label": "2004",
+    "sort": 200412
+   },
+   "title": "2004 SAI Letter: Headwinds and Advantages vs the S&P 500",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/8bfd7ec1-f841-4026-bbda-c2e2408e8915.pdf",
+   "period": {
+    "year": 2003,
+    "part": "Annual",
+    "label": "2003",
+    "sort": 200312
+   },
+   "title": "2003 SAI Letter: Agnosticism, Laffing Gas and Glacial Improvement in Accounting Quality",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/e028d3b3-b232-46d9-a519-2e0ba87c309f.pdf",
+   "period": {
+    "year": 2002,
+    "part": "Annual",
+    "label": "2002",
+    "sort": 200212
+   },
+   "title": "2002 SAI Letter: Mr Smith Goes to Washington - Fair Value Update and Accounting Adjustments",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/f2bfb620-57aa-480c-9386-9ad6e9f3d6ed.pdf",
+   "period": {
+    "year": 2001,
+    "part": "Annual",
+    "label": "2001",
+    "sort": 200112
+   },
+   "title": "2001 SAI Letter: The Interaction Between Profits and PE Multiples",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/b2aef9e9-dbb1-41ca-858b-17301bb5ff13.pdf",
+   "period": {
+    "year": 2000,
+    "part": "Q4",
+    "label": "Q4 2000",
+    "sort": 200012
+   },
+   "title": "November 2000: Price Matters",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/8d0ba873-9e27-4484-b079-0d915e03bfc2.pdf",
+   "period": {
+    "year": 2000,
+    "part": "Q1",
+    "label": "Q1 2000",
+    "sort": 200003
+   },
+   "title": "January 2000: Predictions for the Next Fifteen Years and the Future Economics of Microsoft",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/7b552e45-5829-4d77-8494-047d48517282.pdf",
+   "period": {
+    "year": 1999,
+    "part": "Q3",
+    "label": "Q3 1999",
+    "sort": 199909
+   },
+   "title": "August 1999: The Semper Augustus Approach to Stock Picking - Mercury General",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/31348a5e-14a5-40af-8541-367cbe0cb796.pdf",
+   "period": {
+    "year": 1999,
+    "part": "Q3",
+    "label": "Q3 1999",
+    "sort": 199909
+   },
+   "title": "July 1999: Large Cap Stocks Still Overvalued Some Bargains in Small Caps and Mid Caps",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://static.fmgsuite.com/media/documents/64ed3397-6a64-49c3-aad4-201d0148682d.pdf",
+   "period": {
+    "year": 1999,
+    "part": "Q1",
+    "label": "Q1 1999",
+    "sort": 199903
+   },
+   "title": "March 1999: Energy Stocks Today What Led Semper Augustus to the Energy Sector",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "fundsmith": [
+  {
+   "url": "https://www.fundsmith.co.uk/media/lfhpxi1x/2026-fef-semi-annual-letter-to-shareholders-web.pdf",
+   "period": {
+    "year": 2026,
+    "part": "H1",
+    "label": "H1 2026",
+    "sort": 202606
+   },
+   "title": "Semi-annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/4hcfd1pg/2025-fef-annual-letter-web.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Annual",
+    "label": "2025",
+    "sort": 202512
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/bvgden5v/2025-fef-semi-annual-letter-to-shareholders.pdf",
+   "period": {
+    "year": 2025,
+    "part": "H1",
+    "label": "H1 2025",
+    "sort": 202506
+   },
+   "title": "Semi-annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/pirmvyly/fundsmith-annual-letter-to-shareholders-2024.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Annual",
+    "label": "2024",
+    "sort": 202412
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/uznnt5w2/2024-fef-semi-annual-letter-to-shareholders.pdf",
+   "period": {
+    "year": 2024,
+    "part": "H1",
+    "label": "H1 2024",
+    "sort": 202406
+   },
+   "title": "Semi-annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/31plodnq/2023-fef-annual-letter-to-shareholders.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Annual",
+    "label": "2023",
+    "sort": 202312
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/cygbfqd0/fef-2023-semi-annual-letter-web.pdf",
+   "period": {
+    "year": 2023,
+    "part": "H1",
+    "label": "H1 2023",
+    "sort": 202306
+   },
+   "title": "Semi-annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/bm0lyc22/annual-letter-to-shareholders-2022.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Annual",
+    "label": "2022",
+    "sort": 202212
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/jhnc4xoi/2022-fef-semi-annual-letter.pdf",
+   "period": {
+    "year": 2022,
+    "part": "H1",
+    "label": "H1 2022",
+    "sort": 202206
+   },
+   "title": "Semi-annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/3wcngjie/2021-fef-annual-letter-to-shareholders-web.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Annual",
+    "label": "2021",
+    "sort": 202112
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/4swb2rkk/semi-annual-letter-to-shareholders-2021.pdf",
+   "period": {
+    "year": 2021,
+    "part": "H1",
+    "label": "H1 2021",
+    "sort": 202106
+   },
+   "title": "Semi-annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/deujnq00/annual-letter-to-shareholders-2020.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Annual",
+    "label": "2020",
+    "sort": 202012
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/qqglo3t4/2020-3-fef-letter-to-shareholders.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q1",
+    "label": "Q1 2020",
+    "sort": 202003
+   },
+   "title": "March 2020 letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/hoeistqg/annual-letter-to-shareholders-2019.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Annual",
+    "label": "2019",
+    "sort": 201912
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/sulfjbdr/annual-letter-to-shareholders-2018.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Annual",
+    "label": "2018",
+    "sort": 201812
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/ceadumtv/annual-letter-to-shareholders-2017.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Annual",
+    "label": "2017",
+    "sort": 201712
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/wmul2sfh/2016-annual-letter-to-shareholders.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Annual",
+    "label": "2016",
+    "sort": 201612
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/5jgdehk1/annual-letter-to-shareholders-2015.pdf",
+   "period": {
+    "year": 2015,
+    "part": "Annual",
+    "label": "2015",
+    "sort": 201512
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/wiulqdhi/annual-letter-to-shareholders-2014.pdf",
+   "period": {
+    "year": 2014,
+    "part": "Annual",
+    "label": "2014",
+    "sort": 201412
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/r42lzm0b/annual-letter-to-shareholders-2013-pdf.pdf",
+   "period": {
+    "year": 2013,
+    "part": "Annual",
+    "label": "2013",
+    "sort": 201312
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/h2qekhgk/annual-letter-to-shareholders-2012-pdf.pdf",
+   "period": {
+    "year": 2012,
+    "part": "Annual",
+    "label": "2012",
+    "sort": 201212
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/khugzwcd/annual-letter-to-shareholders-2011-pdf.pdf",
+   "period": {
+    "year": 2011,
+    "part": "Annual",
+    "label": "2011",
+    "sort": 201112
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.fundsmith.co.uk/media/2iiacacc/annual-letter-to-shareholders-2010-pdf.pdf",
+   "period": {
+    "year": 2010,
+    "part": "Annual",
+    "label": "2010",
+    "sort": 201012
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-09",
+   "source": "auto",
+   "backfill": true
+  }
+ ],
+ "turtle-creek": []
+}

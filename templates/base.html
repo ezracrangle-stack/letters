@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}Investor Letters{% endblock %} · Ezra's Notes</title>
+<meta name="description" content="{% block description %}Free investor letters from the value managers I read. No sign-up, no paywall, linked to the source and checked every week.{% endblock %}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ root }}static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Investor Letters · Ezra's Notes" href="{{ root }}feed.xml">
+<meta property="og:title" content="{{ self.title() }} · Ezra's Notes">
+<meta property="og:description" content="{{ self.description() }}">
+<meta property="og:url" content="{{ site_url }}/{{ page }}">
+</head>
+<body>
+<header class="masthead">
+  <div class="topline">
+    <a href="{{ newsletter_url }}">Ezra's Notes</a>
+    <span>{% if updated %}Checked {{ updated }}{% endif %}</span>
+  </div>
+  <a class="nameplate" href="{{ root }}index.html">Investor Letters</a>
+  <nav>
+    <a href="{{ root }}index.html"{% if page == 'index.html' %} aria-current="page"{% endif %}>Latest</a>
+    <a href="{{ root }}managers.html"{% if page == 'managers.html' %} aria-current="page"{% endif %}>Managers</a>
+    <a href="{{ root }}about.html"{% if page == 'about.html' %} aria-current="page"{% endif %}>About</a>
+    <a href="{{ subscribe_url }}" class="nav-cta">Subscribe</a>
+  </nav>
+</header>
+
+<main>
+{% block main %}{% endblock %}
+</main>
+
+<footer>
+  <p class="footer-links">
+    <a href="{{ newsletter_url }}">ezrasnotes.com</a>
+    <a href="{{ subscribe_url }}">Ezra's Notes on Substack</a>
+    <a href="{{ root }}feed.xml">RSS</a>
+    <a href="{{ root }}about.html">About</a>
+  </p>
+  <p class="rights">Every letter belongs to its author and firm. Links go to the manager's own website. When a letter is no longer there, the link goes to a public copy and says so. Nothing here is investment advice.</p>
+</footer>
+<script>document.querySelectorAll('a.mail').forEach(function(a){var e=a.dataset.u+'@'+a.dataset.d;a.href='mailto:'+e;a.textContent=e;});</script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,157 @@
+/* Ezra's Notes · Investor Letters
+   Black on white. Archivo Black for headlines, Lora for reading. */
+
+:root {
+  --ink: #111;
+  --mute: #555;
+  --rule: #111;
+  --hair: #d6d6d6;
+  --paper: #fff;
+  --head: "Archivo Black", "Arial Black", Helvetica, sans-serif;
+  --body: "Lora", Georgia, "Times New Roman", serif;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0 auto;
+  max-width: 780px;
+  padding: 0 22px 48px;
+  background: var(--paper);
+  color: var(--ink);
+  font: 18px/1.6 var(--body);
+}
+a { color: var(--ink); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { text-decoration-thickness: 2px; }
+code { font-size: .85em; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.small { font-size: 15px; color: var(--mute); }
+
+/* ── Masthead ─────────────────────────────── */
+.masthead { padding-top: 20px; text-align: center; }
+.topline {
+  display: flex; justify-content: space-between; align-items: baseline;
+  font: 12px/1 var(--head); text-transform: uppercase; letter-spacing: .14em;
+  padding-bottom: 10px; border-bottom: 1px solid var(--rule);
+}
+.topline a { text-decoration: none; }
+.topline span { color: var(--mute); font-family: var(--body); font-style: italic; text-transform: none; letter-spacing: 0; font-size: 14px; }
+.nameplate {
+  display: block; margin: 18px 0 14px;
+  font: clamp(38px, 9vw, 68px)/1 var(--head);
+  letter-spacing: -.01em; text-decoration: none;
+}
+.masthead nav {
+  display: flex; justify-content: center; flex-wrap: wrap; gap: 6px 26px;
+  padding: 9px 0; border-top: 3px double var(--rule); border-bottom: 1px solid var(--rule);
+  font: 13px/1.4 var(--head); text-transform: uppercase; letter-spacing: .12em;
+}
+.masthead nav a { text-decoration: none; }
+.masthead nav a[aria-current="page"] { text-decoration: underline; text-underline-offset: 5px; }
+
+main { padding-top: 30px; }
+
+/* ── Type ─────────────────────────────────── */
+h1, h2 { font-family: var(--head); font-weight: 400; line-height: 1.1; }
+.page-title { font-size: clamp(32px, 6vw, 46px); margin: 0 0 8px; }
+.dek { font-size: 21px; line-height: 1.5; margin: 0 0 12px; }
+.free { font-size: 16px; margin: 0 0 12px; padding-left: 12px; border-left: 3px solid var(--ink); }
+.lede { border-bottom: 1px solid var(--hair); padding-bottom: 18px; margin-bottom: 30px; }
+.rule-head {
+  font-size: 13px; text-transform: uppercase; letter-spacing: .14em;
+  border-top: 3px solid var(--rule); padding-top: 9px; margin: 34px 0 6px;
+}
+.firm, .firm-line { color: var(--mute); font-style: italic; }
+.firm-line { margin: 0 0 16px; }
+.firm-line.big { font-size: 20px; }
+.style { margin: 0 0 14px; }
+
+/* ── Latest letters list ──────────────────── */
+.letters { list-style: none; margin: 0; padding: 0; }
+.letters li {
+  display: grid; grid-template-columns: 92px 1fr auto; gap: 14px; align-items: baseline;
+  padding: 11px 0; border-bottom: 1px solid var(--hair);
+}
+.period { font: 14px/1 var(--head); letter-spacing: .03em; white-space: nowrap; }
+.who a { font-weight: 600; text-decoration: none; }
+.who a:hover { text-decoration: underline; }
+.who .firm { display: block; font-size: 15px; }
+.read { font: 12px/1 var(--head); text-transform: uppercase; letter-spacing: .1em; white-space: nowrap; }
+
+/* ── Call to action ───────────────────────── */
+.cta {
+  margin: 40px 0; padding: 22px 24px; text-align: center;
+  border: 1px solid var(--rule); outline: 1px solid var(--rule); outline-offset: 4px;
+}
+.cta-kicker { font: 12px/1 var(--head); text-transform: uppercase; letter-spacing: .16em; margin: 0 0 10px; }
+.cta-text { font-size: 20px; margin: 0 0 16px; }
+.cta.slim { margin-top: 48px; }
+.button {
+  display: inline-block; padding: 12px 22px; background: var(--ink); color: var(--paper);
+  font: 13px/1 var(--head); text-transform: uppercase; letter-spacing: .12em; text-decoration: none;
+}
+.button:hover { background: #333; }
+.nav-cta { border-bottom: 2px solid var(--ink); }
+
+/* ── Best for · via ───────────────────────── */
+.best-for { margin: 0 0 14px; }
+.best-for span { font: 11px/1 var(--head); text-transform: uppercase; letter-spacing: .12em; background: var(--ink); color: var(--paper); padding: 4px 6px 3px; margin-right: 6px; vertical-align: 2px; }
+.via { font: italic 13px var(--body); color: var(--mute); text-transform: none; letter-spacing: 0; }
+.read .via { display: block; margin-top: 4px; text-align: right; }
+.cta-sub { font-size: 15px; color: var(--mute); margin: -6px 0 18px; }
+
+/* ── Roster (home) ────────────────────────── */
+.roster { list-style: none; padding: 0; margin: 0; columns: 2; column-gap: 32px; }
+.roster li { break-inside: avoid; padding: 6px 0; border-bottom: 1px solid var(--hair); }
+.roster a { font-weight: 600; text-decoration: none; }
+.roster .firm { font-size: 15px; }
+.more { font: 13px/1 var(--head); text-transform: uppercase; letter-spacing: .1em; }
+
+/* ── Directory ────────────────────────────── */
+.filter input {
+  width: 100%; margin: 12px 0 8px; padding: 12px 14px;
+  font: 17px var(--body); border: 1px solid var(--rule); border-radius: 0; background: #fff;
+}
+.directory { list-style: none; padding: 0; margin: 0; }
+.directory li { padding: 24px 0; border-bottom: 1px solid var(--rule); }
+.directory h2 { font-size: 26px; margin: 0 0 2px; }
+.directory h2 a { text-decoration: none; }
+.directory .style { font-size: 16px; color: var(--mute); }
+.directory .why { margin: 0 0 10px; }
+.meta { font: 12px/1.4 var(--head); text-transform: uppercase; letter-spacing: .1em; margin: 0; }
+
+/* ── Manager page ─────────────────────────── */
+.crumb { font: 12px/1 var(--head); text-transform: uppercase; letter-spacing: .1em; margin: 0 0 18px; }
+.crumb a { text-decoration: none; }
+.take { margin: 24px 0; padding: 4px 0 4px 20px; border-left: 4px solid var(--ink); }
+.take p { font-size: 20px; margin: 0; }
+.take .take-label { font: 12px/1 var(--head); text-transform: uppercase; letter-spacing: .14em; margin-bottom: 10px; }
+.source { font-size: 15px; color: var(--mute); border-bottom: 3px double var(--rule); padding-bottom: 14px; }
+.notice { border: 1px solid var(--rule); padding: 14px 16px; }
+.year { display: grid; grid-template-columns: 90px 1fr; gap: 16px; border-bottom: 1px solid var(--hair); padding: 12px 0; }
+.year h2 { font-size: 22px; margin: 2px 0 0; }
+.year-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 22px; }
+.year-list a { text-decoration: none; border-bottom: 1px solid var(--ink); }
+.year-list a:hover { border-bottom-width: 2px; }
+.arrow { font-size: .8em; }
+
+/* ── About ────────────────────────────────── */
+.prose h2 { font-size: 20px; margin: 30px 0 8px; }
+
+/* ── Footer ───────────────────────────────── */
+footer { margin-top: 56px; padding-top: 14px; border-top: 3px double var(--rule); font-size: 14px; color: var(--mute); }
+.footer-links { display: flex; flex-wrap: wrap; gap: 6px 20px; font: 12px/1.4 var(--head); text-transform: uppercase; letter-spacing: .1em; }
+.footer-links a { color: var(--ink); text-decoration: none; }
+.rights { max-width: 560px; }
+
+/* ── Phones ───────────────────────────────── */
+@media (max-width: 560px) {
+  body { font-size: 17px; padding: 0 16px 40px; }
+  .letters li { grid-template-columns: 1fr auto; gap: 2px 12px; }
+  .letters .period { grid-column: 1 / -1; font-size: 12px; color: var(--mute); }
+  .roster { columns: 1; }
+  .year { grid-template-columns: 1fr; gap: 6px; }
+  .dek, .take p, .cta-text { font-size: 19px; }
+  .topline span { display: none; }
+  .topline { justify-content: center; }
+}

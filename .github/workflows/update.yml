@@ -1,0 +1,74 @@
+name: Weekly letters check
+
+on:
+  schedule:
+    - cron: "17 13 * * 1"      # every Monday, 13:17 UTC (7:17 am in Mexico City)
+  workflow_dispatch:            # "Run workflow" button in the Actions tab
+  push:
+    branches: [main]
+    paths:                      # rebuild right away when you edit these
+      - managers.yaml
+      - templates/**
+      - static/**
+      - scripts/**
+
+permissions:
+  contents: write               # save new letters and the rebuilt site
+  issues: write                 # open an issue when a page fails
+
+concurrency:
+  group: letters
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Check managers' pages for new letters
+        run: python scripts/update.py
+
+      - name: Build the site
+        run: python scripts/build.py
+
+      - name: Save changes
+        run: |
+          git config user.name  "letters-bot"
+          git config user.email "letters-bot@users.noreply.github.com"
+          git add data docs
+          # last_run.json changes on every run, so there is always a commit.
+          # That keeps the repository active and the weekly schedule alive.
+          git commit -m "Weekly check $(date -u +%F)" || echo "Nothing to commit"
+          git pull --rebase --autostash && git push
+
+      - name: Alert Ezra if something failed
+        if: hashFiles('alert.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create letters-alert --color B60205 --description "Weekly check problems" 2>/dev/null || true
+          OPEN=$(gh issue list --label letters-alert --state open --json number --jq '.[0].number')
+          if [ -n "$OPEN" ]; then
+            gh issue comment "$OPEN" --body-file alert.md
+          else
+            gh issue create --title "Letters check: something needs a look" --label letters-alert --body-file alert.md
+          fi
+
+      - name: Close the alert when everything works again
+        if: hashFiles('alert.md') == ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          OPEN=$(gh issue list --label letters-alert --state open --json number --jq '.[0].number' 2>/dev/null || true)
+          if [ -n "$OPEN" ]; then
+            gh issue close "$OPEN" --comment "All pages checked fine on $(date -u +%F)."
+          fi

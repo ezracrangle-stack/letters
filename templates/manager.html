@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}{{ m.name }}, {{ m.firm }}{% endblock %}
+{% block description %}{{ m.why }}{% endblock %}
+{% block main %}
+<p class="crumb"><a href="{{ root }}managers.html">&larr; All managers</a></p>
+<h1 class="page-title">{{ m.name }}</h1>
+<p class="firm-line big">{{ m.firm }}</p>
+<p class="style">{{ m.style }}</p>
+{% if m.best_for %}<p class="best-for"><span>Best for</span> {{ m.best_for }}</p>{% endif %}
+
+<blockquote class="take">
+  <p class="take-label">Why I read {{ m.name.split()[0] }}</p>
+  <p>{{ m.why }}</p>
+</blockquote>
+
+{% if m.access == 'registration' %}
+  <p class="notice">{{ m.access_note or (m.firm ~ " shares its letters with registered readers only. Sign up on the firm's site to read them.") }}</p>
+  <p><a class="button" href="{{ m.letters_page }}" target="_blank" rel="noopener">Go to {{ m.firm }} &#8599;</a></p>
+{% else %}
+  <p class="source">Links go to the firm's own site unless marked "via", which means a public copy of a letter the firm no longer hosts. <a href="{{ m.letters_page }}" target="_blank" rel="noopener">Official letters page &#8599;</a></p>
+  {% for year, items in m.by_year %}
+  <section class="year">
+    <h2>{{ year }}</h2>
+    <ul class="year-list">
+    {% for x in items %}
+      <li><a href="{{ x.url }}" target="_blank" rel="noopener">{% if x.title %}{{ x.title }}{% elif x.period.part == "Annual" %}Annual letter{% else %}{{ x.period.part }}{% endif %}<span class="sr"> {{ year }}</span><span class="arrow"> &#8599;</span></a>{% if x.via %} <span class="via">via {{ x.via }}</span>{% endif %}</li>
+    {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+{% endif %}
+
+<aside class="cta slim">
+  <p class="cta-text">Ezra's Notes: investing with a long-term mindset, seeing companies the way an owner does. Free.</p>
+  <a class="button" href="{{ subscribe_url }}">Subscribe</a>
+</aside>
+{% endblock %}

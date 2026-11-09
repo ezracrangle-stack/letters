@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}The managers{% endblock %}
+{% block description %}The fund managers whose letters I read, and why.{% endblock %}
+{% block main %}
+<h1 class="page-title">The managers</h1>
+<p class="dek">Who I read and why. Start with whoever matches the way you invest.</p>
+
+<label class="filter">
+  <span class="sr">Filter managers</span>
+  <input id="filter" type="search" placeholder="Filter by name, firm or style" autocomplete="off">
+</label>
+
+<ul class="directory" id="directory">
+{% for m in managers %}
+  <li data-search="{{ (m.name ~ ' ' ~ m.firm ~ ' ' ~ m.style ~ ' ' ~ (m.best_for or ''))|lower }}">
+    <h2><a href="{{ root }}m/{{ m.id }}.html">{{ m.name }}</a></h2>
+    <p class="firm-line">{{ m.firm }}</p>
+    <p class="style">{{ m.style }}</p>
+    {% if m.best_for %}<p class="best-for"><span>Best for</span> {{ m.best_for }}</p>{% endif %}
+    <p class="why">{{ m.why }}</p>
+    <p class="meta">
+      {% if m.access == 'registration' %}{{ m.access_meta or "Letters for registered readers on the manager's site" }}
+      {% elif m.letters %}{{ m.letters|length }} letters · latest {{ m.latest.period.label }}
+      {% else %}No letters yet{% endif %}
+    </p>
+  </li>
+{% endfor %}
+</ul>
+<p id="empty" class="small" hidden>No manager matches that.</p>
+{% endblock %}
+{% block scripts %}<script src="{{ root }}static/filter.js"></script>{% endblock %}

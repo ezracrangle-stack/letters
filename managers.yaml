@@ -1,0 +1,282 @@
+# ─────────────────────────────────────────────────────────────
+#  EZRA'S NOTES · INVESTOR LETTERS
+#  This is the only file you need to edit.
+#
+#  To ADD a manager: copy one block (from "- id:" down to the
+#  next "- id:"), paste it at the end and change the values.
+#  To REMOVE a manager: delete its block. Its letters stay in
+#  the archive file but stop showing on the site.
+#  To EDIT your comment: change the text after "why:".
+#  "best_for" says which kind of investor gets the most out of the letters.
+#
+#  Keep the two spaces of indentation. Text with a colon (:)
+#  inside must go between double quotes.
+# ─────────────────────────────────────────────────────────────
+
+managers:
+
+  - id: brookfield              # short name for the web address, lowercase, no spaces
+    name: Bruce Flatt
+    firm: Brookfield Corporation
+    style: "Real assets and alternatives: infrastructure, renewables, real estate, private equity and credit."
+    why: "Every quarter the CEO of Brookfield Corporation explains where private capital is going and what it pays for. The archive goes back to 2012."
+    best_for: "Investors in real assets, infrastructure and the business of alternative asset management."
+    letters_page: https://bn.brookfield.com/reports-filings/letters-to-shareholders
+    access: open                # open | registration
+    scrape:
+      select: 'a[href*="Letter-to-Shareholder"], a[href*="letter-to-shareholder"]'
+      url_attr: href
+      period_from: url
+      since: 2012
+    overrides:                  # fix a letter the script dated wrong
+      - match: "march-final"
+        period: Q1 2025
+        title: "Special letter, March 2025"
+      - match: "2023 Summary and Update"
+        title: "2023 summary and update"
+
+  - id: hayden
+    name: Fred Liu
+    firm: Hayden Capital
+    style: "Concentrated \"emerging compounders\", mostly internet platforms and marketplaces, many outside the US."
+    why: "Deep business-model work on marketplaces and e-commerce (Sea, Pinduoduo, MercadoLibre). Worth reading even if you never own the stocks."
+    best_for: "Growth-minded investors who want deep work on internet platforms and marketplaces."
+    letters_page: https://haydencapital.com/
+    access: open
+    scrape:
+      select: '.document-thumbnail[data-year]'
+      url_attr: data-external-link, data-pdf-url    # first one that exists wins
+      period_attrs: [data-year, data-quarter]
+
+  - id: 1-main
+    name: Yaron Naymark
+    firm: 1 Main Capital
+    style: "Concentrated, long-biased value in small caps knocked down by non-fundamental selling."
+    why: "Yaron says no to most ideas and sizes up the few that pass. Each letter explains why a stock is on sale and what has to happen for the market to see it."
+    best_for: "Small-cap investors who like buying good businesses while others are forced to sell."
+    letters_page: https://www.1maincapital.com/materials
+    access: open
+    scrape:
+      select: 'a[href$=".pdf"]'
+      url_attr: href
+      period_from: text
+      include: 'letter'          # only links whose text or address contains this word
+
+  - id: rv-capital
+    name: Rob Vinall
+    firm: RV Capital
+    style: "Business Owner Fund: about 10 to 12 owner-operated businesses held for the long term."
+    why: "Rob puts management character at the center of every decision and is candid about drawdowns, including a near-50% one."
+    best_for: "Long-term investors focused on quality businesses run by owner-operators."
+    letters_page: https://www.rvcapital.ch/articles-en
+    access: registration        # the site shows a note and a link, no individual letters
+
+  - id: wedgewood
+    name: David Rolfe
+    firm: Wedgewood Partners
+    style: "Focused, low-turnover growth portfolios in large and SMID caps, owned like businesses."
+    why: "Dave pairs holding-by-holding notes with blunt commentary on the Fed and valuations, and follows the same companies for years."
+    best_for: "Investors in large-cap quality growth who hold for years."
+    letters_page: https://wedgewoodpartners.com/investor-resources/
+    access: open
+    scrape:                     # the page only shows the newest letter; the archive below is manual
+      select: 'a[href*="/wp-content/uploads/"][href$=".pdf"]'
+      url_attr: href
+      period_from: text
+    letters:
+      - {period: Q1 2016, url: "https://web.archive.org/web/20221021014934/http://media.wix.com/ugd/5bfe4b_1ea5b1df87b94c84a3eb545789442b3c.pdf"}
+      - {period: Q2 2016, url: "https://web.archive.org/web/20221021014905/http://media.wix.com/ugd/5bfe4b_d18a091439a6474bbcd5f95e55585067.pdf"}
+      - {period: Q3 2016, url: "https://web.archive.org/web/20221021014908/http://media.wix.com/ugd/5bfe4b_78c56d48b25c4ec38b23c252d9982d02.pdf"}
+      - {period: Q4 2016, title: Annual letter, url: "https://web.archive.org/web/20220309073915/http://media.wix.com/ugd/5bfe4b_118cca9ea5fd442fa921bc537ff661dd.pdf"}
+      - {period: Q1 2017, url: "https://web.archive.org/web/20221021014906/http://docs.wixstatic.com/ugd/5bfe4b_067ef1d8bd934921928b4391b0238403.pdf"}
+      - {period: Q2 2017, url: "https://web.archive.org/web/20221021014932/http://docs.wixstatic.com/ugd/5bfe4b_35920891da8c4b7a81811d3ab677c14f.pdf"}
+      - {period: Q3 2017, url: "https://web.archive.org/web/20220414143830/https://www.wedgewoodpartners.com/_files/ugd/5bfe4b_0b747f631c6f4bb08de919ccfe5e168f.pdf"}
+      - {period: Q1 2018, url: "https://docs.wixstatic.com/ugd/5bfe4b_35e96d3611164971bbc694a49cab705f.pdf"}
+      - {period: Q2 2018, url: "https://docs.wixstatic.com/ugd/5bfe4b_bf8dff6575d44546b17534ed393d5ab5.pdf"}
+      - {period: Q3 2018, url: "https://docs.wixstatic.com/ugd/5bfe4b_a0f6d8ad7b8d407c9182e0030b246e99.pdf"}
+      - {period: Q4 2018, title: Annual letter, url: "https://docs.wixstatic.com/ugd/5bfe4b_6bcd2ede3d6a435cac1d652f2ba5edc2.pdf"}
+      - {period: Q2 2019, url: "https://docs.wixstatic.com/ugd/5bfe4b_d88728c47e5442b9aa1f1d731c89ef5b.pdf"}
+      - {period: Q3 2019, url: "https://docs.wixstatic.com/ugd/5bfe4b_03b9a051772a4b9792c849ed7f74150a.pdf"}
+      - {period: Q4 2019, title: Annual letter, url: "https://66586259-e635-40d5-bf11-9d22ba98eca0.filesusr.com/ugd/5bfe4b_b0a5446be1a44fb587a7e770cb425849.pdf"}
+      - {period: Q1 2020, url: "https://66586259-e635-40d5-bf11-9d22ba98eca0.filesusr.com/ugd/5bfe4b_7f47cdae028142f1ade840f42986ab09.pdf"}
+      - {period: Q2 2020, url: "https://66586259-e635-40d5-bf11-9d22ba98eca0.filesusr.com/ugd/5bfe4b_a12f91a6fbfb4131afc3d1d848b4ae84.pdf"}
+      - {period: Q3 2020, url: "https://66586259-e635-40d5-bf11-9d22ba98eca0.filesusr.com/ugd/5bfe4b_7f46984994bc44abab0fa9d012fa35da.pdf"}
+      - {period: Q4 2020, title: Annual letter, url: "https://66586259-e635-40d5-bf11-9d22ba98eca0.filesusr.com/ugd/5bfe4b_756cc8b19de347b6b09d9dda7776016b.pdf"}
+      - {period: Q1 2021, url: "https://66586259-e635-40d5-bf11-9d22ba98eca0.filesusr.com/ugd/d2a1d2_de9b06acfa2e43c1b2cccbeecbca5f38.pdf"}
+      - {period: Q2 2021, url: "https://66586259-e635-40d5-bf11-9d22ba98eca0.filesusr.com/ugd/d2a1d2_a7010caa73484aa79860d446dfa072a3.pdf"}
+      - {period: Q3 2021, url: "https://66586259-e635-40d5-bf11-9d22ba98eca0.filesusr.com/ugd/d2a1d2_7edda3c956ef433dbbc1c1499ad03904.pdf"}
+      - {period: Q4 2021, title: Annual letter, url: "https://66586259-e635-40d5-bf11-9d22ba98eca0.filesusr.com/ugd/d2a1d2_ff750f7afc8b4601a14ea1571b376bfc.pdf"}
+      - {period: Q1 2022, url: "https://www.gurufocus.com/news/1687820/rolfes-wedgewood-partners-1stquarter-letter-the-end-of-an-error-the-beginning-of-an-error"}
+      - {period: Q4 2023, title: Annual letter, url: "https://wedgewoodpartners.com/wp-content/uploads/2024/01/WW_clientLetter_4Q2023.pdf"}
+      - {period: Q1 2024, url: "https://wedgewoodpartners.com/wp-content/uploads/2024/04/Wedgewood-Partners-First-Quarter-2024-Client-Letter-The-Magnificent-Roaring-20s-1.pdf"}
+      - {period: Q3 2024, url: "https://wedgewoodpartners.com/wp-content/uploads/2024/10/3Q2024_PowellandCoTakeItEasy.pdf"}
+      - {period: Q4 2024, title: Annual letter, url: "https://wedgewoodpartners.com/wp-content/uploads/2025/01/WW_4Q2024_Client_Letter_Curb_Your_Enthusiasm.pdf"}
+      - {period: Q2 2025, url: "https://focusdst.com/wp-content/uploads/2022/08/Wedgewood-Partners-Second-Quarter-2025-Client-Letter-A-Day-in-the-Stock-Market-Life.pdf"}
+      - {period: Q4 2025, title: Annual letter, url: "https://wedgewoodpartners.com/wp-content/uploads/2026/01/WW_4Q2025ClientLetter.pdf"}
+
+  - id: emeth
+    name: Andrew Carreon
+    firm: Emeth Value Capital
+    style: "Concentrated value with a quality tilt: a handful of deeply mispriced stocks."
+    why: "A one-person shop in New Orleans running about five positions. With a book that tight, every letter has to defend each name in detail."
+    best_for: "Concentrated investors who want to see a small portfolio defended name by name."
+    letters_page: https://www.emethvaluecapital.com/letters-1
+    access: open
+    scrape:
+      select: 'a[href$=".pdf"]'
+      url_attr: href
+      period_from: text
+      label: context            # the date is the caption under each cover image
+
+  - id: laughing-water
+    name: Matthew Sweeney
+    firm: Laughing Water Capital
+    style: "Concentrated small caps (8 to 20 names) working through a fixable problem, held 3 to 5 years."
+    why: "Matt runs every idea through four questions before he looks at price, and the last one is \"what happens when something goes wrong?\" His letters show that discipline in the quarters when it hurts."
+    best_for: "Small-cap investors who buy good businesses in the middle of a fixable problem."
+    letters_page: https://www.laughingwatercapital.com/letters
+    access: open
+    scrape:
+      select: 'a[href$=".pdf"]'
+      url_attr: href
+      period_from: text
+      exclude: 'vail|lp meeting|moi|graham|interview|brunch|vii|top idea|transcript|quant'
+    overrides:
+      - match: "March-2020-Interim"
+        title: "March 2020 interim update"
+
+  - id: maran
+    name: Dan Roller
+    firm: Maran Capital
+    style: "Concentrated value in off-the-radar small caps, often buy-and-build compounders."
+    why: "Dan hunts where few people look: illiquid, out-of-favor, broken IPOs. He also writes about how not to fool yourself (checklists, pre-mortems, being a fallibilist)."
+    best_for: "Special situations investors."
+    letters_page: https://marancapital.com/insights
+    access: open
+    scrape:
+      select: 'a[href$=".pdf"]'
+      url_attr: href
+      period_from: text
+      exclude: 'decade|excerpt|terms|privacy'
+    overrides:
+      - match: "Founders-Letter"
+        title: "Founder's letter"
+
+  - id: greenhaven
+    name: Scott Miller
+    firm: Greenhaven Road Capital
+    style: "Long-biased, global, off-the-beaten-path ideas, modeled on the early Buffett partnerships."
+    why: "Scott writes like he's talking to a friend and he's honest about how much of any record is luck. He also visits companies most investors only read about."
+    best_for: "Investors open to off-the-beaten-path ideas anywhere in the world."
+    letters_page: https://www.greenhavenroad.com/investor-letters
+    access: open
+    scrape:
+      select: 'a[href$=".pdf"]'
+      url_attr: href
+      period_from: url
+    overrides:                  # the firm runs two funds; mark the second one
+      - match: "partners.?fund|prtners"
+        title: "{label} · Partners Fund"
+
+  - id: saga
+    name: Joe Frankenfield
+    firm: Saga Partners
+    style: "Concentrated compounders bought when the market doubts them; calls himself a value investor who owns growth."
+    why: "Joe breaks down the unit economics of names like Carvana and The Trade Desk in more depth than most sell-side reports, and he writes openly about his mistakes."
+    best_for: "Investors who want to understand fast-growing businesses through their unit economics."
+    letters_page: https://www.sagapartners.com/investorletters
+    access: open
+    scrape:
+      select: 'a[href$=".pdf"]'
+      url_attr: href
+      period_from: text
+      exclude: 'best way|factsheet'
+    overrides:
+      - match: "07ee41b5ab5f4496917774595a979845"
+        title: "The Growth of Knowledge (Aug 2026)"
+
+  - id: greystone
+    name: Adam Wilk
+    firm: Greystone Capital
+    style: "Concentrated small and micro caps run by trustworthy managers, held for years."
+    why: "Adam uses his letters as a filter for new partners, so he writes them for people who think in years. A good source of under-followed small caps you won't find on a screen."
+    best_for: "Small and micro-cap investors with a multi-year horizon."
+    letters_page: https://www.greystonecapitalfund.com/letters
+    access: open
+    scrape:
+      select: 'a[href$=".pdf"]'
+      url_attr: href
+      period_from: text
+
+  - id: crossroads
+    name: Ryan O'Connor
+    firm: Crossroads Capital
+    style: "Undiscovered emerging franchises plus catalyst-driven special situations, in the Buffett partnership tradition."
+    why: "Ryan's grandfather put the family savings into Buffett's early partnership, and Ryan runs Crossroads in that spirit. His Nintendo work is a lesson in finding hidden assets."
+    best_for: "Special situations investors and anyone hunting under-followed small caps."
+    letters_page: https://www.crossroadscap.io/investor-portal-home
+    access: open
+    scrape:
+      select: 'a[href*="/investor-letters/"]'
+      url_attr: href
+      period_from: url
+
+  - id: semper-augustus
+    name: Chris Bloomstran
+    firm: Semper Augustus
+    style: "Concentrated portfolio of well-run, well-capitalized businesses bought below conservative appraisals."
+    why: "One letter a year, often 100+ pages, with the Berkshire Hathaway valuation serious Berkshire watchers wait for. Block an afternoon."
+    best_for: "Berkshire Hathaway shareholders and anyone who thinks about market valuation over decades."
+    letters_page: https://www.semperaugustus.com/clientletter
+    access: open
+    scrape:
+      select: 'a[href*="fmgsuite.com/media/documents"]'
+      url_attr: href
+      period_from: text
+      title_from_text: true     # Chris's letters have real titles; show them
+
+  - id: fundsmith
+    name: Terry Smith
+    firm: Fundsmith
+    style: "Global quality: buy good companies, don't overpay, do nothing."
+    why: "Terry's annual letter is short, funny and blunt, and he defends the strategy hardest in the years it isn't working."
+    best_for: "Quality investors who buy great companies and hold them."
+    letters_page: https://www.fundsmith.co.uk/documents/
+    access: open
+    scrape:
+      select: 'a[href$=".pdf"]'
+      url_attr: href
+      period_from: text
+      include: 'letter to shareholders'
+    overrides:
+      - match: "annual-letter"
+        title: "Annual letter"
+      - match: "semi-annual"
+        title: "Semi-annual letter"
+      - match: "2020-3-fef-letter"
+        period: Q1 2020
+        title: "March 2020 letter"
+
+  - id: turtle-creek
+    name: Andrew Brenton
+    firm: Turtle Creek Asset Management
+    style: "Private-equity mindset in public mid caps: 25 to 30 names, position sizes moved as value changes (\"buy and optimize\")."
+    why: "Turtle Creek has compounded since 1998 doing something closer to private equity than classic value. Andrew explains why trimming and adding around intrinsic value beats plain buy-and-hold."
+    best_for: "Mid-cap investors curious about a private-equity approach to public markets."
+    letters_page: https://www.turtlecreek.ca/communications/
+    access: registration
+    access_note: "Turtle Creek shows its letters on its own site after you confirm you live in Canada or outside the United States."
+    access_meta: "Letters on the firm's site after a residency check"
+
+# ─────────────────────────────────────────────────────────────
+#  MANUAL LETTERS (for managers without an automatic page)
+#  Add under the manager, at the same level as "access:":
+#
+#    letters:
+#      - period: Q3 2026
+#        url: https://example.com/letter.pdf
+#        title: "Optional title"
+#
+#  Links outside the manager's own site (Internet Archive,
+#  GuruFocus...) are labeled "via ..." on the site automatically.
+# ─────────────────────────────────────────────────────────────

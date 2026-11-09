@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Investor Letters{% endblock %}
+{% block main %}
+<section class="lede">
+  <p class="dek">Every quarter I read letters from a short list of fund managers. These are the ones worth your time, each linked to the manager's own site.</p>
+  <p class="free">Free to read. No sign-up, no paywall. Most letter aggregators ask you to register or pay before you can open a single letter. Here you click and read.</p>
+  <p class="small">The list is mine. The archive checks for new letters every week. {{ letter_count }} letters from {{ manager_count }} managers so far.</p>
+</section>
+
+<section>
+  <h2 class="rule-head">Latest letters</h2>
+  <ol class="letters">
+  {% for x in latest %}
+    <li>
+      <span class="period">{{ x.period.label }}</span>
+      <span class="who"><a href="{{ root }}m/{{ x.manager.id }}.html">{{ x.manager.name }}</a><span class="firm">{{ x.manager.firm }}</span></span>
+      <a class="read" href="{{ x.url }}" target="_blank" rel="noopener">Read<span class="sr"> {{ x.display }} by {{ x.manager.name }}</span> &#8599;{% if x.via %}<span class="via">via {{ x.via }}</span>{% endif %}</a>
+    </li>
+  {% endfor %}
+  </ol>
+</section>
+
+<aside class="cta">
+  <p class="cta-kicker">Ezra's Notes</p>
+  <p class="cta-text">Investing with a true long-term mindset: seeing companies beyond the numbers, the way an owner does.</p>
+  <p class="cta-sub">Ezra's Notes is free.</p>
+  <a class="button" href="{{ subscribe_url }}">Subscribe free</a>
+</aside>
+
+<section>
+  <h2 class="rule-head">The managers</h2>
+  <ul class="roster">
+  {% for m in managers %}
+    <li><a href="{{ root }}m/{{ m.id }}.html">{{ m.name }}</a> <span class="firm">{{ m.firm }}</span></li>
+  {% endfor %}
+  </ul>
+  <p><a class="more" href="{{ root }}managers.html">Why I read each one &rarr;</a></p>
+  <p class="small">Missing a letter or a manager? Run a fund and want your letters here? Write to <a class="mail" data-u="letters" data-d="ezrasnotes.com" href="{{ newsletter_url }}">letters [at] ezrasnotes [dot] com</a>.</p>
+</section>
+{% endblock %}
