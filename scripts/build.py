@@ -120,7 +120,9 @@ def write_feed(letters):
     <pubDate>{format_datetime(when)}</pubDate>
     <description>{escape(m['why'])} More from {escape(m['name'])}: {SITE_URL}/m/{m['id']}.html</description>
   </item>""")
-    now = format_datetime(dt.datetime.now(dt.timezone.utc))
+    # stable date (newest letter seen), so the file only changes when letters change
+    newest = max((x["first_seen"] for x in letters), default="2026-01-01")
+    now = format_datetime(dt.datetime.fromisoformat(newest).replace(tzinfo=dt.timezone.utc))
     feed = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
