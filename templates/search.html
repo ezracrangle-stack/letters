@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Search{% endblock %}
+{% block description %}Search the managers and the companies they write about.{% endblock %}
+{% block main %}
+<h1 class="page-title">Search</h1>
+<p class="dek">Look up a manager, a firm, an investment style or a company.</p>
+<label class="filter">
+  <span class="sr">Search</span>
+  <input id="q" type="search" placeholder="Try Terry Smith, microcaps or Novo Nordisk" autocomplete="off" autofocus>
+</label>
+<div id="results" data-index="{{ root }}search.json" data-root="{{ root }}"></div>
+<noscript><p class="small">Search needs JavaScript. You can browse the <a href="managers.html">managers</a> and <a href="companies.html">companies</a> instead.</p></noscript>
+{% endblock %}
+{% block scripts %}<script src="{{ root }}static/search.js?v={{ asset_v }}"></script>{% endblock %}

@@ -1,0 +1,127 @@
+# Companies the site tracks in the letters.
+# name: how it shows on the site. aliases: other ways letters write it.
+# exclude: a regex; a name that matches it doesn't count (e.g. "Sage of Omaha" is Buffett, not Sage).
+# Only names and counts come from the letters; their text is never stored.
+
+companies:
+  - {name: Microsoft}
+  - {name: Alphabet, aliases: [Google, DeepMind, Waymo]}
+  - {name: Meta Platforms, aliases: [Meta, Facebook, WhatsApp]}
+  - {name: Amazon}
+  - {name: Apple}
+  - {name: Nvidia}
+  - {name: Oracle}
+  - {name: Adobe}
+  - {name: Intuit}
+  - {name: Fortinet}
+  - {name: Veeva Systems, aliases: [Veeva]}
+  - {name: Sage Group, aliases: [Sage], exclude: "Sage of Omaha"}
+  - {name: SAP}
+  - {name: Amadeus}
+  - {name: ADP, aliases: [Automatic Data Processing]}
+  - {name: PayPal, aliases: [Paypal]}
+  - {name: Visa}
+  - {name: Mastercard}
+  - {name: Texas Instruments}
+  - {name: TSMC, aliases: [Taiwan Semiconductor Manufacturing Company]}
+  - {name: Broadcom}
+  - {name: Intel}
+  - {name: IBM}
+  - {name: Dell Technologies, aliases: [Dell]}
+  - {name: Snowflake}
+  - {name: Netflix}
+  - {name: Disney}
+  - {name: Tesla}
+  - {name: Uber}
+  - {name: Airbnb}
+  - {name: AppLovin}
+  - {name: CoreWeave}
+  - {name: OpenAI}
+  - {name: Novo Nordisk, aliases: [Novo]}
+  - {name: Eli Lilly}
+  - {name: AstraZeneca}
+  - {name: GSK}
+  - {name: IDEXX Laboratories, aliases: [IDEXX]}
+  - {name: Stryker}
+  - {name: Becton Dickinson}
+  - {name: Coloplast}
+  - {name: Mettler-Toledo}
+  - {name: Waters, aliases: [Waters Corporation]}
+  - {name: Zoetis}
+  - {name: EssilorLuxottica}
+  - {name: L'Oréal, aliases: ["L’Oréal", "L’Oreal", "L'Oreal"]}
+  - {name: Estée Lauder}
+  - {name: LVMH}
+  - {name: Nike}
+  - {name: Unilever}
+  - {name: Procter & Gamble, aliases: [P&G]}
+  - {name: Colgate-Palmolive, aliases: [Colgate, Colgate Palmolive]}
+  - {name: Kimberly-Clark}
+  - {name: Church & Dwight}
+  - {name: Clorox}
+  - {name: Reckitt Benckiser, aliases: [Reckitt]}
+  - {name: Johnson & Johnson}
+  - {name: Nestlé, aliases: [Nestle]}
+  - {name: PepsiCo, aliases: [Pepsico]}
+  - {name: Coca-Cola, aliases: [Coca, Coke]}
+  - {name: Dr Pepper Snapple, aliases: [Pepper Snapple]}
+  - {name: Keurig Green Mountain}
+  - {name: Kraft Heinz}
+  - {name: McCormick}
+  - {name: J M Smucker, aliases: [JM Smucker, Smucker]}
+  - {name: Campbell Soup, aliases: [Campbell]}
+  - {name: Del Monte}
+  - {name: Diageo}
+  - {name: Brown-Forman, aliases: [Brown Forman]}
+  - {name: Philip Morris International, aliases: [Philip Morris]}
+  - {name: Imperial Brands, aliases: [Imperial Tobacco]}
+  - {name: Swedish Match}
+  - {name: Starbucks}
+  - {name: Domino's Pizza, aliases: ["Domino’s Pizza", Domino]}
+  - {name: Yum! Brands, aliases: [Yum]}
+  - {name: InterContinental Hotels, aliases: [Intercontinental Hotels]}
+  - {name: Choice Hotels}
+  - {name: Marriott}
+  - {name: Walmart, aliases: [Wal-Mart]}
+  - {name: TJX, aliases: [TJX Companies, TJ Maxx, TK Maxx]}
+  - {name: Kone}
+  - {name: Schindler}
+  - {name: Otis}
+  - {name: Atlas Copco}
+  - {name: Legrand}
+  - {name: Intertek}
+  - {name: SGS}
+  - {name: Wolters Kluwer}
+  - {name: PPG Industries}
+  - {name: Akzo Nobel}
+  - {name: GE Vernova}
+  - {name: Berkshire Hathaway, aliases: [Berkshire]}
+  - {name: American Express}
+  - {name: Goldman Sachs}
+  - {name: JPMorgan, aliases: [JP Morgan]}
+  - {name: HSBC}
+  - {name: Deutsche Bank}
+  - {name: Lloyds Bank}
+  - {name: AIG}
+  - {name: KKR}
+  - {name: Cboe Global Markets}
+  - {name: Ryanair}
+  - {name: American Airlines}
+  - {name: Carnival}
+  - {name: Vodafone}
+  - {name: Nokia}
+  - {name: BlackBerry, aliases: [Blackberry, Research In Motion]}
+  - {name: Yahoo}
+  - {name: Snap}
+  - {name: Pinterest}
+  - {name: Reddit}
+  - {name: BP}
+  - {name: ExxonMobil, aliases: [Exxon]}
+  - {name: Anglo American}
+  - {name: Rio Tinto}
+  - {name: Centrica}
+  - {name: Serco}
+  - {name: Capita}
+  - {name: Provident Financial}
+  - {name: Indivior}
+  - {name: Luckin Coffee}
