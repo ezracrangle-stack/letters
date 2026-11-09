@@ -1,6 +1,6 @@
 # Companies the site tracks in the letters.
 # name: how it shows on the site. aliases: other ways letters write it.
-# Left out on purpose: names letters use as data sources or contact links (FactSet, Bloomberg, Twitter, LinkedIn).
+# Left out on purpose: names letters use as data sources or contact links (FactSet, Bloomberg, Twitter, LinkedIn) or meeting tools (Zoom).
 # exclude: a regex; a name that matches it doesn't count (e.g. "Sage of Omaha" is Buffett, not Sage).
 # Only names and counts come from the letters; their text is never stored.
 
@@ -22,9 +22,9 @@ companies:
   - {name: ADP, aliases: [Automatic Data Processing]}
   - {name: PayPal, aliases: [Paypal]}
   - {name: Visa}
-  - {name: Mastercard}
+  - {name: Mastercard, aliases: [MasterCard]}
   - {name: Texas Instruments}
-  - {name: TSMC, aliases: [Taiwan Semiconductor Manufacturing Company]}
+  - {name: TSMC, aliases: [Taiwan Semiconductor Manufacturing Company, Taiwan Semiconductor]}
   - {name: Broadcom}
   - {name: Intel}
   - {name: IBM}
@@ -96,8 +96,9 @@ companies:
   - {name: PPG Industries}
   - {name: Akzo Nobel}
   - {name: GE Vernova}
+  - {name: General Electric, aliases: [GE], exclude: "GE Vernova"}
   - {name: Berkshire Hathaway, aliases: [Berkshire]}
-  - {name: American Express}
+  - {name: American Express, aliases: [Amex, AMEX]}
   - {name: Goldman Sachs}
   - {name: JPMorgan, aliases: [JP Morgan]}
   - {name: HSBC}
@@ -174,7 +175,7 @@ companies:
   - {name: Cansortium}
   - {name: Cantaloupe, aliases: [USA Technologies]}
   - {name: CarGurus}
-  - {name: CarMax}
+  - {name: CarMax, aliases: [Carmax]}
   - {name: Carrier Global}
   - {name: Carvana}
   - {name: Catalent}
@@ -347,7 +348,7 @@ companies:
   - {name: Telesat}
   - {name: Tencent, aliases: [WeChat]}
   - {name: Tenet Healthcare}
-  - {name: Terravest}
+  - {name: TerraVest, aliases: [Terravest]}
   - {name: Tejon Ranch}
   - {name: Theravance Biopharma, aliases: [Theravance]}
   - {name: Thryv}
@@ -375,7 +376,7 @@ companies:
   - {name: Warby Parker}
   - {name: Water Intelligence}
   - {name: Wayfair}
-  - {name: Wells Fargo}
+  - {name: Wells Fargo, aliases: [Wells-Fargo]}
   - {name: Western Union}
   - {name: WeWork}
   - {name: Whole Earth Brands}
@@ -388,8 +389,192 @@ companies:
   - {name: Xponential Fitness}
   - {name: Yellow Pages}
   - {name: Zillow}
-  - {name: Zoom}
   - {name: Zooplus}
   - {name: Zynga}
   - {name: UPS}
   - {name: Kmart}
+
+  # batch 3: Giverny, Plural, Massif
+  - {name: a2 Milk, aliases: [A2 Milk]}
+  - {name: Adriatic Metals}
+  - {name: ADT}
+  - {name: Aerojet Rocketdyne}
+  - {name: Africa Oil}
+  - {name: Alimentation Couche-Tard, aliases: [Couche-Tard, Alimentation Couche]}
+  - {name: Alphamin Resources, aliases: [Alphamin]}
+  - {name: Altius Minerals, aliases: [Altius]}
+  - {name: Ameriprise}
+  - {name: Ametek, aliases: [AMETEK]}
+  - {name: Apollo Hospitals}
+  - {name: Applied Materials}
+  - {name: Aurubis}
+  - {name: AutoZone, aliases: [Autozone]}
+  - {name: Bank OZK, aliases: [OZK]}
+  - {name: Barrick Gold, aliases: [Barrick]}
+  - {name: BASF}
+  - {name: Bausch & Lomb}
+  - {name: Bed Bath & Beyond}
+  - {name: BHP}
+  - {name: Bloom Energy}
+  - {name: Boeing}
+  - {name: Bolloré, aliases: [Bollore]}
+  - {name: Bombardier}
+  - {name: Bright Horizons}
+  - {name: Brookfield Corporation, aliases: [Brookfield, Brookfield Business]}
+  - {name: Brown & Brown}
+  - {name: BTG Pactual}
+  - {name: Buffalo Wild Wings}
+  - {name: BNSF, aliases: [Burlington Northern Santa Fe]}
+  - {name: Cabela's, aliases: [Cabela]}
+  - {name: CafePress}
+  - {name: Cameco}
+  - {name: Canadian National Railway}
+  - {name: Catalina Marketing}
+  - {name: Cazoo}
+  - {name: Centaurus Metals}
+  - {name: ChargePoint}
+  - {name: Cheesecake Factory}
+  - {name: Chemring}
+  - {name: China Fire & Security}
+  - {name: Cognex}
+  - {name: CONSOL Energy, aliases: [Consol Coal Resources, CNX Coal Resources]}
+  - {name: CSX}
+  - {name: CVS}
+  - {name: Currency Exchange International}
+  - {name: Deere, aliases: [John Deere]}
+  - {name: Diamond Offshore}
+  - {name: Dollarama}
+  - {name: Douglas Dynamics}
+  - {name: Duke Energy}
+  - {name: Edwards Lifesciences}
+  - {name: Enovix}
+  - {name: Enron}
+  - {name: Equinor}
+  - {name: Equinox Gold}
+  - {name: Etsy}
+  - {name: Expeditors}
+  - {name: Fairfax}
+  - {name: Fastenal}
+  - {name: Fifth Third Bank}
+  - {name: Fiserv}
+  - {name: Floor & Decor}
+  - {name: Fortune Brands}
+  - {name: Frutarom}
+  - {name: G-Mining Ventures}
+  - {name: Ganfeng Lithium, aliases: [Ganfeng]}
+  - {name: Garmin}
+  - {name: GCI Liberty}
+  - {name: Glencore}
+  - {name: GrafTech, aliases: [Graftech]}
+  - {name: Groupe BMTC, aliases: [BMTC]}
+  - {name: Hallador Energy}
+  - {name: Hansen Natural}
+  - {name: Harbour Energy}
+  - {name: Harley-Davidson}
+  - {name: Haw Par}
+  - {name: Health Management Associates}
+  - {name: Heartland Express}
+  - {name: Heico}
+  - {name: Hermès, aliases: [Hermes]}
+  - {name: Hess}
+  - {name: Hewlett-Packard}
+  - {name: Howard Hughes}
+  - {name: Howden Joinery}
+  - {name: Hudson City Bancorp}
+  - {name: Intuitive Surgical}
+  - {name: Ionic Rare Earths, aliases: [Ionic Rare Earth Metals]}
+  - {name: Ivanhoe Mines}
+  - {name: Jet2}
+  - {name: JDS Uniphase, aliases: [JDS-Uniphase]}
+  - {name: Judges Scientific}
+  - {name: Kazatomprom}
+  - {name: Knight Transportation, aliases: [Knight Transport]}
+  - {name: Krispy Kreme}
+  - {name: Kyndryl}
+  - {name: Liberty Broadband}
+  - {name: Liberty Media}
+  - {name: Lincare}
+  - {name: Lithium Americas}
+  - {name: LKQ}
+  - {name: Lucara Diamond, aliases: [Lucara]}
+  - {name: Lumber Liquidators}
+  - {name: Lumina Gold}
+  - {name: Lundin Mining}
+  - {name: M&T Bank}
+  - {name: Maersk}
+  - {name: Martin Marietta}
+  - {name: Masco}
+  - {name: Mattel}
+  - {name: Medicis}
+  - {name: Mohawk Industries, aliases: [Mohawk]}
+  - {name: Morgan Stanley, exclude: "Capital International"}
+  - {name: Motorola}
+  - {name: Motorpoint}
+  - {name: MP Materials}
+  - {name: MTY Food, aliases: [MTY Foods, MTY]}
+  - {name: Neuberger Berman}
+  - {name: Nevsun}
+  - {name: Newcrest}
+  - {name: Newmont}
+  - {name: NextEra}
+  - {name: Nitori}
+  - {name: Nortel}
+  - {name: Norwegian Cruise Line, aliases: [Norwegian Cruise Lines]}
+  - {name: Nucor}
+  - {name: O'Reilly Automotive, aliases: ["O’Reilly", "O'Reilly"]}
+  - {name: Omnicom}
+  - {name: Ormat}
+  - {name: Panera Bread, aliases: [Panera]}
+  - {name: Pason Systems, aliases: [Pason]}
+  - {name: Petrobras}
+  - {name: Plug Power}
+  - {name: Polaris Infrastructure}
+  - {name: Porsche}
+  - {name: Precision Castparts}
+  - {name: Publicis}
+  - {name: Redbubble}
+  - {name: ResMed, aliases: [Resmed]}
+  - {name: Richelieu Hardware, aliases: [Richelieu]}
+  - {name: Rivian}
+  - {name: Salix}
+  - {name: Sara Lee}
+  - {name: Scotiabank, aliases: [Scotia Bank]}
+  - {name: Seaport Entertainment}
+  - {name: Shell}
+  - {name: Shoppers Drug Mart}
+  - {name: Siemens, exclude: "Siemens Energy|Siemens Gamesa"}
+  - {name: Siemens Energy}
+  - {name: Siemens Gamesa}
+  - {name: Signet}
+  - {name: SolGold}
+  - {name: SQM}
+  - {name: Star Bulk, aliases: [Starbulk]}
+  - {name: Stella-Jones, aliases: [Stella Jones]}
+  - {name: Stericycle}
+  - {name: Strattec}
+  - {name: Sun Microsystems}
+  - {name: Sunrun, aliases: [SunRun]}
+  - {name: Teekay}
+  - {name: Texas Roadhouse}
+  - {name: Texhong Textiles, aliases: [Texhong]}
+  - {name: Thomas Cook}
+  - {name: Tim Hortons}
+  - {name: Tripadvisor}
+  - {name: TUI}
+  - {name: Tullow}
+  - {name: Turquoise Hill}
+  - {name: Union Pacific}
+  - {name: Vale}
+  - {name: Vestas}
+  - {name: Vitesse Semiconductor}
+  - {name: Vivendi}
+  - {name: Havas}
+  - {name: Wachovia}
+  - {name: Walgreens, aliases: [Walgreen]}
+  - {name: Watches of Switzerland}
+  - {name: Wendy's, aliases: [Wendy]}
+  - {name: Wesco}
+  - {name: Wilmington Trust}
+  - {name: WorldCom, aliases: [Worldcom]}
+  - {name: WPP}
+  - {name: Zijin Mining}
