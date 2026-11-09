@@ -132,7 +132,10 @@ def build():
            managers=managers, letter_count=len(all_letters))
     render("directory.html", "managers.html", "", managers=managers)
     render("about.html", "about.html", "")
-    render("companies.html", "companies.html", "", companies=companies)
+    covered = {h["manager"]["id"] for c in companies for h in c["hits"]}
+    render("companies.html", "companies.html", "", companies=companies,
+           covered=[m for m in managers if m["id"] in covered],
+           pending=len([m for m in managers if m["id"] not in covered and m["access"] == "open"]))
     (OUT / "c").mkdir()
     for c in companies:
         render("company.html", f"c/{c['slug']}.html", "../", c=c)

@@ -1,34 +1,41 @@
-name: Read letters for company names (test)
+name: Read letters for company names (add managers)
 
+# Run by hand from the Actions tab to read every letter of new managers
+# before adding them to INDEXED in scripts/mentions.py.
 on:
   workflow_dispatch:
-  push:
-    branches: [company-search]
-    paths:
-      - scripts/mentions.py
-      - .github/workflows/mentions.yml
+    inputs:
+      managers:
+        description: "Manager ids separated by spaces, e.g. giverny plural"
+        required: true
 
 permissions:
   contents: write
 
 concurrency:
-  group: mentions
+  group: letters
+  cancel-in-progress: false
 
 jobs:
   read:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: python scripts/mentions.py --only hayden --only 1-main --only laughing-water --only saga --only greystone
+      - name: Read letters
+        env:
+          MANAGERS: ${{ inputs.managers }}
+        run: python scripts/mentions.py $(for m in $MANAGERS; do printf -- "--only %s " "$m"; done)
       - name: Save results
         run: |
           git config user.name "letters-bot"
           git config user.email "letters-bot@users.noreply.github.com"
           git add data/mentions.json
-          git diff --cached --quiet || git commit -m "Company mentions: batch 2"
+          git diff --cached --quiet || git commit -m "Company mentions: $MANAGERS"
           git pull --rebase --autostash && git push
+        env:
+          MANAGERS: ${{ inputs.managers }}

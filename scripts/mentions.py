@@ -4,8 +4,8 @@ Only names and counts are saved (data/mentions.json). The text of the
 letters is never stored or published.
 
 Usage:
-  python scripts/mentions.py --only fundsmith     # one manager
-  python scripts/mentions.py                      # every open manager
+  python scripts/mentions.py                      # managers in INDEXED (weekly run)
+  python scripts/mentions.py --only fundsmith     # a manager not yet in INDEXED
 """
 import argparse
 import datetime as dt
@@ -21,6 +21,10 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from update import Fetcher, LETTERS_FILE, DATA  # noqa: E402
 
 MENTIONS_FILE = DATA / "mentions.json"
+
+# Managers whose letters are read for the company index. Add ids here as
+# they are checked; the weekly run then reads their new letters.
+INDEXED = ["fundsmith", "hayden", "1-main", "laughing-water", "saga", "greystone"]
 MAX_BYTES = 40 * 1024 * 1024
 
 # Capitalised words that are almost never company names.
@@ -116,7 +120,7 @@ def main():
     done = failed = 0
 
     for mid, items in letters.items():
-        if args.only and mid not in args.only:
+        if mid not in (args.only or INDEXED):
             continue
         for x in items or []:
             url = x["url"]
