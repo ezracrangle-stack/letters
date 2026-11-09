@@ -238,3 +238,12 @@ footer { margin-top: 56px; padding-top: 14px; border-top: 3px double var(--rule)
 @media (max-width: 560px) {
   .hits li { grid-template-columns: 1fr; }
 }
+.section-head { font-size: 22px; margin: 30px 0 4px; }
+.top10 { columns: 2 260px; }
+.pager { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 18px; margin: 10px 0 26px;
+  font: 13px/1 var(--head); text-transform: uppercase; letter-spacing: .08em; }
+.pager a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--ink); padding-bottom: 2px; }
+.pager-nums { display: flex; flex-wrap: wrap; gap: 8px; }
+.pager-nums a, .pager-nums span { min-width: 28px; text-align: center; padding: 7px 4px 6px; border: 1px solid var(--hair); }
+.pager-nums a { border-bottom: 1px solid var(--hair); }
+.pager-nums span[aria-current] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
