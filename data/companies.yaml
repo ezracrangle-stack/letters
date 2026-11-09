@@ -578,3 +578,167 @@ companies:
   - {name: WorldCom, aliases: [Worldcom]}
   - {name: WPP}
   - {name: Zijin Mining}
+
+  # batch 4: Moerus, Emeth, Maran
+  - {name: Accenture}
+  - {name: Adyen}
+  - {name: Agnico Eagle}
+  - {name: Aker ASA, aliases: [Aker]}
+  - {name: Allianz}
+  - {name: Almacenes Éxito, aliases: [Almacenes Exito, Éxito, Exito]}
+  - {name: Altice}
+  - {name: Altria}
+  - {name: American Outdoor Brands}
+  - {name: AmeriGas}
+  - {name: Anadarko}
+  - {name: Angi, aliases: [ANGI]}
+  - {name: Arcos Dorados}
+  - {name: Aspen Insurance}
+  - {name: Atlas Mara}
+  - {name: Avianca}
+  - {name: Avon}
+  - {name: Bajaj Holdings}
+  - {name: Banco Bradesco, aliases: [Bradesco]}
+  - {name: Banco Macro}
+  - {name: Bancolombia, aliases: [Grupo Cibest, Cibest]}
+  - {name: Barratt Redrow, aliases: [Barratt Developments, Barratt Homes, Barratt]}
+  - {name: Black Diamond Equipment}
+  - {name: Black Stone Minerals}
+  - {name: BR Properties}
+  - {name: Burford Capital, aliases: [Burford]}
+  - {name: Bytes Technology}
+  - {name: Cadre Holdings}
+  - {name: Canfor Pulp}
+  - {name: Capstone Copper}
+  - {name: CDW}
+  - {name: Cenovus}
+  - {name: Citrix}
+  - {name: CNH Industrial}
+  - {name: Cnova}
+  - {name: Colfax}
+  - {name: GPA, aliases: [Pão de Açúcar, Companhia Brasileira de Distribuição]}
+  - {name: Comparex}
+  - {name: Conduit Holdings}
+  - {name: Copa Holdings, aliases: [Copa]}
+  - {name: Crayon}
+  - {name: Cromwell Property}
+  - {name: Crossroads Systems}
+  - {name: CTT Correios de Portugal, aliases: [CTT, Correios de Portugal, Correios De Portugal]}
+  - {name: DCC}
+  - {name: Delek}
+  - {name: Delta Lloyd}
+  - {name: Despegar, aliases: [Despegar.com]}
+  - {name: Dick's Sporting Goods, aliases: ["Dick’s Sporting Goods"]}
+  - {name: Diversified Energy}
+  - {name: DP Eurasia}
+  - {name: Dundee Corporation, aliases: [Dundee]}
+  - {name: Edelweiss Financial}
+  - {name: Emaar, aliases: [Emaar Properties, Emaar Malls]}
+  - {name: Encana}
+  - {name: Enerflex}
+  - {name: ESR Group, aliases: [ESR Cayman]}
+  - {name: Exor}
+  - {name: Exterran}
+  - {name: Ferrari}
+  - {name: Ferrellgas}
+  - {name: Franklin Resources}
+  - {name: Givex}
+  - {name: GKN}
+  - {name: GP Investments}
+  - {name: Gran Tierra Energy, aliases: [Gran Tierra]}
+  - {name: Grivalia Properties}
+  - {name: Grupo Financiero Galicia}
+  - {name: Grupo Sura, aliases: [GrupoSura, Grupo de Inversiones Suramericana]}
+  - {name: Gulfmark}
+  - {name: Hammerson}
+  - {name: Hellenic Exchanges}
+  - {name: Hong Kong Exchanges, aliases: [HKEX]}
+  - {name: Horizon Kinetics}
+  - {name: IAC, aliases: [InterActiveCorp]}
+  - {name: IDFC First Bank, aliases: [IDFC]}
+  - {name: Ingram Micro}
+  - {name: International Petroleum Corporation}
+  - {name: Itaú Unibanco}
+  - {name: Itaú CorpBanca}
+  - {name: Iveco}
+  - {name: JD Sports}
+  - {name: Jubilant Foodworks}
+  - {name: LATAM Airlines}
+  - {name: LoopUp}
+  - {name: Lundin Energy, aliases: [Lundin Petroleum]}
+  - {name: Magna Mining}
+  - {name: Match Group, aliases: [Match.com]}
+  - {name: MEG Energy}
+  - {name: Mediobanca}
+  - {name: Metro Bank}
+  - {name: Micros Systems}
+  - {name: Midland Holdings}
+  - {name: Mister Car Wash}
+  - {name: Natura}
+  - {name: NGL Energy}
+  - {name: Nippon Steel}
+  - {name: NN Group}
+  - {name: Nutrien}
+  - {name: Nuvama}
+  - {name: Oaktree}
+  - {name: Ocean Yield}
+  - {name: Terpel, aliases: [Organizacion Terpel]}
+  - {name: Osisko Mining}
+  - {name: Pan American Silver}
+  - {name: PartnerRe}
+  - {name: Persimmon}
+  - {name: Prada}
+  - {name: Prosus}
+  - {name: Pure Cycle}
+  - {name: Ranger Energy Services}
+  - {name: RCM Technologies}
+  - {name: Royal Gold}
+  - {name: Samsonite}
+  - {name: Santander}
+  - {name: SBI Holdings}
+  - {name: Scott's Liquid Gold, aliases: ["Scott’s Liquid Gold"]}
+  - {name: Seagram}
+  - {name: SeatGeek, aliases: [Seatgeek]}
+  - {name: Shinsei Bank, aliases: [Shinsei]}
+  - {name: Signature Bank}
+  - {name: Silicon Valley Bank}
+  - {name: Silvergate}
+  - {name: Sino Land}
+  - {name: Skyward Specialty}
+  - {name: Softcat}
+  - {name: Softchoice}
+  - {name: SoftwareOne}
+  - {name: Solstad Offshore, aliases: [Solstad]}
+  - {name: Sonae}
+  - {name: Spectrum Brands}
+  - {name: Standard Chartered}
+  - {name: Standard Diversified}
+  - {name: Straits Trading}
+  - {name: StubHub}
+  - {name: Suburban Propane}
+  - {name: Superior Plus}
+  - {name: Swire Pacific}
+  - {name: Synnex}
+  - {name: Tata Consultancy Services}
+  - {name: Taylor Wimpey}
+  - {name: Teck Resources, aliases: [Teck]}
+  - {name: Telefônica Brasil, aliases: [Telefonica Brasil]}
+  - {name: Tidewater}
+  - {name: Transocean}
+  - {name: Travis Perkins}
+  - {name: Trivago}
+  - {name: Turning Point Brands}
+  - {name: Türkiye Sigorta}
+  - {name: UBS}
+  - {name: UniCredit, aliases: [Unicredit]}
+  - {name: United Airlines}
+  - {name: Valaris}
+  - {name: Valterra Platinum, aliases: [Valterra, Amplats]}
+  - {name: Valvoline}
+  - {name: Viagogo}
+  - {name: Vivid Seats}
+  - {name: Westaim}
+  - {name: Wheaton Precious Metals}
+  - {name: Yamana Gold, aliases: [Yamana]}
+  - {name: Yemeksepeti}
+  - {name: YPF}
