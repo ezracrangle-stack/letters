@@ -27,6 +27,8 @@
   <a class="button" href="{{ subscribe_url }}">Subscribe free</a>
 </aside>
 
+{% include "_wanted.html" %}
+
 <section>
   <h2 class="rule-head">The managers</h2>
   <ul class="roster">
@@ -35,6 +37,6 @@
   {% endfor %}
   </ul>
   <p><a class="more" href="{{ root }}managers.html">Why I read each one &rarr;</a></p>
-  <p class="small">Missing a letter or a manager? Run a fund and want your letters here? Write to <a class="mail" data-u="letters" data-d="ezrasnotes.com" href="{{ newsletter_url }}">letters [at] ezrasnotes [dot] com</a>.</p>
+  <p class="small">Missing a letter or a manager? Write to <a class="mail" data-u="letters" data-d="ezrasnotes.com" href="{{ newsletter_url }}">letters [at] ezrasnotes [dot] com</a>.</p>
 </section>
 {% endblock %}
