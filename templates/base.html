@@ -14,7 +14,22 @@
 <link rel="alternate" type="application/rss+xml" title="Investor Letters · Ezra's Notes" href="{{ root }}feed.xml">
 <meta property="og:title" content="{{ self.title() }} · Ezra's Notes">
 <meta property="og:description" content="{{ self.description() }}">
-<meta property="og:url" content="{{ site_url }}/{{ page }}">
+{% set page_url = site_url ~ "/" ~ ("" if page == "index.html" else page) %}
+<meta property="og:url" content="{{ page_url }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Investor Letters · Ezra's Notes">
+<meta property="og:image" content="{{ site_url }}/static/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Investor Letters by Ezra Crangle. Letters from the value managers I read, linked to the source and checked every week.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ self.title() }} · Ezra's Notes">
+<meta name="twitter:description" content="{{ self.description() }}">
+<meta name="twitter:image" content="{{ site_url }}/static/og-image.png">
+<link rel="icon" href="{{ root }}static/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="512x512" href="{{ root }}static/icon-512.png">
+<link rel="apple-touch-icon" href="{{ root }}static/apple-touch-icon.png">
+<link rel="canonical" href="{{ page_url }}">
 </head>
 <body>
 <header class="masthead">

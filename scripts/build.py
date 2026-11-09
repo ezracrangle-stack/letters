@@ -81,6 +81,7 @@ def build():
         shutil.rmtree(OUT)
     (OUT / "m").mkdir(parents=True)
     shutil.copytree(ROOT / "static", OUT / "static")
+    shutil.copy(ROOT / "static" / "favicon.ico", OUT / "favicon.ico")
 
     def render(template, path, root, **kw):
         html = env.get_template(template).render(root=root, page=path, **common, **kw)
