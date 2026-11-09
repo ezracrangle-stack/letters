@@ -38,7 +38,7 @@ jobs:
         run: python scripts/update.py
 
       - name: Read new letters for company names
-        run: python scripts/mentions.py
+        run: python scripts/mentions.py --retry-errors
         continue-on-error: true
 
       - name: Build the site
