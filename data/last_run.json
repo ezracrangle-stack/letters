@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-09T17:50:13+00:00",
+ "last_run": "2026-11-09T20:55:20+00:00",
  "managers": {
   "brookfield": {
    "status": "ok",
@@ -72,6 +72,36 @@
   },
   "turtle-creek": {
    "status": "manual",
+   "new": 0
+  },
+  "vltava": {
+   "status": "ok",
+   "found_on_page": 90,
+   "new": 0
+  },
+  "horos": {
+   "status": "ok",
+   "found_on_page": 5,
+   "new": 0
+  },
+  "giverny": {
+   "status": "ok",
+   "found_on_page": 9,
+   "new": 0
+  },
+  "plural": {
+   "status": "ok",
+   "found_on_page": 25,
+   "new": 0
+  },
+  "massif": {
+   "status": "ok",
+   "found_on_page": 37,
+   "new": 0
+  },
+  "moerus": {
+   "status": "ok",
+   "found_on_page": 20,
    "new": 0
   }
  }
