@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<script>(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(t!=='dark'&&t!=='light'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.setAttribute('data-theme',t)})();</script>
 <title>Bruce Flatt, Brookfield Corporation · Ezra's Notes</title>
 <meta name="description" content="Every quarter the CEO of Brookfield Corporation explains where private capital is going and what it pays for. The archive goes back to 2012.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +20,10 @@
 <header class="masthead">
   <div class="topline">
     <a href="https://www.ezrasnotes.com">Ezra's Notes</a>
-    <span>Checked November 9, 2026</span>
+    <span class="topright">
+      <span class="checked">Checked November 9, 2026</span>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch between light and dark mode">Dark</button>
+    </span>
   </div>
   <a class="nameplate" href="../index.html">Investor Letters</a>
   <nav>
@@ -290,6 +295,7 @@
   <p class="rights">Every letter belongs to its author and firm. Links go to the manager's own website. When a letter is no longer there, the link goes to a public copy and says so. Nothing here is investment advice.</p>
 </footer>
 <script>document.querySelectorAll('a.mail').forEach(function(a){var e=a.dataset.u+'@'+a.dataset.d;a.href='mailto:'+e;a.textContent=e;});</script>
+<script>(function(){var b=document.getElementById('theme-toggle'),r=document.documentElement;function label(){b.textContent=r.getAttribute('data-theme')==='dark'?'Light':'Dark'}label();b.addEventListener('click',function(){var t=r.getAttribute('data-theme')==='dark'?'light':'dark';r.setAttribute('data-theme',t);try{localStorage.setItem('theme',t)}catch(e){}label()})})();</script>
 
 </body>
 </html>

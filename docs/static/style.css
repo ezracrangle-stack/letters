@@ -7,8 +7,20 @@
   --rule: #111;
   --hair: #d6d6d6;
   --paper: #fff;
+  --hover: #f6f6f6;
+  --button-hover: #333;
   --head: "Archivo Black", "Arial Black", Helvetica, sans-serif;
   --body: "Lora", Georgia, "Times New Roman", serif;
+}
+
+:root[data-theme="dark"] {
+  --ink: #ededed;
+  --mute: #a3a3a3;
+  --rule: #ededed;
+  --hair: #333;
+  --paper: #0e0e0e;
+  --hover: #1b1b1b;
+  --button-hover: #c9c9c9;
 }
 
 * { box-sizing: border-box; }
@@ -35,7 +47,13 @@ code { font-size: .85em; }
   padding-bottom: 10px; border-bottom: 1px solid var(--rule);
 }
 .topline a { text-decoration: none; }
-.topline span { color: var(--mute); font-family: var(--body); font-style: italic; text-transform: none; letter-spacing: 0; font-size: 14px; }
+.topright { display: flex; align-items: baseline; gap: 14px; }
+.theme-toggle {
+  font: 11px/1 var(--head); text-transform: uppercase; letter-spacing: .14em;
+  color: var(--ink); background: none; border: 1px solid var(--ink); padding: 5px 8px 4px; cursor: pointer;
+}
+.theme-toggle:hover { background: var(--ink); color: var(--paper); }
+.topline .checked { color: var(--mute); font-family: var(--body); font-style: italic; text-transform: none; letter-spacing: 0; font-size: 14px; }
 .nameplate {
   display: block; margin: 18px 0 14px;
   font: clamp(38px, 9vw, 68px)/1 var(--head);
@@ -90,7 +108,7 @@ h1, h2 { font-family: var(--head); font-weight: 400; line-height: 1.1; }
   display: inline-block; padding: 12px 22px; background: var(--ink); color: var(--paper);
   font: 13px/1 var(--head); text-transform: uppercase; letter-spacing: .12em; text-decoration: none;
 }
-.button:hover { background: #333; }
+.button:hover { background: var(--button-hover); }
 .nav-cta { border-bottom: 2px solid var(--ink); }
 
 /* ── Best for · via ───────────────────────── */
@@ -110,7 +128,7 @@ h1, h2 { font-family: var(--head); font-weight: 400; line-height: 1.1; }
 /* ── Directory ────────────────────────────── */
 .filter input {
   width: 100%; margin: 12px 0 8px; padding: 12px 14px;
-  font: 17px var(--body); border: 1px solid var(--rule); border-radius: 0; background: #fff;
+  font: 17px var(--body); border: 1px solid var(--rule); border-radius: 0; background: var(--paper); color: var(--ink);
 }
 .directory { list-style: none; padding: 0; margin: 0; }
 .directory li { padding: 24px 0; border-bottom: 1px solid var(--rule); }
@@ -133,7 +151,7 @@ h1, h2 { font-family: var(--head); font-weight: 400; line-height: 1.1; }
 .mtable .num { text-align: right; white-space: nowrap; font-family: var(--head); font-size: 14px; padding-right: 0; }
 .mtable th.num { font-size: 11px; }
 .mtable .latest, .mtable .reg { display: block; font: italic 12px var(--body); color: var(--mute); }
-.mtable tbody tr:hover { background: #f6f6f6; }
+.mtable tbody tr:hover { background: var(--hover); }
 
 /* ── Manager page ─────────────────────────── */
 .crumb { font: 12px/1 var(--head); text-transform: uppercase; letter-spacing: .1em; margin: 0 0 18px; }
@@ -177,6 +195,5 @@ footer { margin-top: 56px; padding-top: 14px; border-top: 3px double var(--rule)
   .roster { columns: 1; }
   .year { grid-template-columns: 1fr; gap: 6px; }
   .dek, .take p, .cta-text { font-size: 19px; }
-  .topline span { display: none; }
-  .topline { justify-content: center; }
+  .topline .checked { display: none; }
 }
