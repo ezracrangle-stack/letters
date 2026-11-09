@@ -208,6 +208,14 @@ def edgar_letters(cfg, known_periods, fetcher):
     return found
 
 
+def text_title(f):
+    """Link text as a title, without a leading '3/2026'; a bare year means an annual letter."""
+    t = re.sub(r"^\s*[1-4]/\d{4}\s+", "", f["text"]).strip()
+    if f["period"]["part"] == "Annual" and re.fullmatch(r"(annual letter\s*)?\d{4}", t, re.I):
+        return "Annual letter"
+    return t or None
+
+
 # ── main ────────────────────────────────────────────────────
 
 def load_json(path, default):
@@ -273,14 +281,15 @@ def main():
                 prev_auto = [x for x in known if x.get("source") == "auto"]
                 still_there = {f["url"] for f in found}
                 missing = [x for x in prev_auto if x["url"] not in still_there]
-                if cfg.get("source") != "edgar" and prev_auto and len(missing) > len(prev_auto) / 2:
+                # partial_page: the page shows only the newest letters (older ones are on page 2, 3...)
+                if cfg.get("source") != "edgar" and not cfg.get("partial_page") and prev_auto and len(missing) > len(prev_auto) / 2:
                     problems.append((m, f"{len(missing)} of {len(prev_auto)} letters we had are no longer on the page. "
                                         "They stay on the site, but the page may have moved or changed."))
                 for f in found:
                     if f["url"] in known_urls:
                         continue
                     known.append({"url": f["url"], "period": f["period"],
-                                  "title": f["text"] if cfg.get("title_from_text") else None,
+                                  "title": text_title(f) if cfg.get("title_from_text") else None,
                                   "first_seen": today, "source": "auto", "backfill": first_time})
                     known_urls.add(f["url"])
                     added += 1

@@ -41,14 +41,18 @@ _PATTERNS = [
     (r"\bh([12])[\s_\-'.]{0,2}(\d\d)(?!\d)", lambda m: (_y(m[2]), f"H{m[1]}")),
     # Q4-25 · Q1'26 · Q126 (1 Main style) · Q4 25
     (r"\bq([1-4])[\s_\-'.]{0,2}(\d\d)(?!\d)", lambda m: (_y(m[2]), f"Q{m[1]}")),
+    # Semi-annual letter 2025 (Fundsmith)
+    (r"semi[\s_\-]?annual\D{0,40}(20\d\d)", lambda m: (m[1], "H1")),
+    (r"(20\d\d)\D{0,10}semi[\s_\-]?annual", lambda m: (m[1], "H1")),
+    # 3/2026 (Vltava)
+    (r"(?<![\d/])([1-4])/(20\d\d)\b", lambda m: (m[2], f"Q{m[1]}")),
+    # 2nd-Qtr-2024 · 3rd Quarter 2024 (Massif)
+    (r"\b([1-4])(?:st|nd|rd|th)[\s_\-]*q(?:tr|uarter)[\s_\-]*(20\d\d)", lambda m: (m[2], f"Q{m[1]}")),
     # August 1999 · March-2020 · Aug 2026
     (r"\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*[\s_\-.,']{1,3}(20\d\d|19\d\d)\b",
      lambda m: (m[2], f"Q{(_MONTHS.index(m[1]) // 3) + 1}")),
     # Year-end 2017 · YE 2025 · YE25
     (r"\b(?:year[\s_\-]?end|ye)[\s_\-']{0,2}(20\d\d|\d\d)\b", lambda m: (_y(m[1]), "Q4")),
-    # Semi-annual letter 2025 (Fundsmith)
-    (r"semi[\s_\-]?annual\D{0,40}(20\d\d)", lambda m: (m[1], "H1")),
-    (r"(20\d\d)\D{0,10}semi[\s_\-]?annual", lambda m: (m[1], "H1")),
 ]
 
 

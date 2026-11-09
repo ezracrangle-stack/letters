@@ -1,6 +1,6 @@
 (function () {
   var input = document.getElementById('filter');
-  var items = document.querySelectorAll('#directory > li');
+  var items = document.querySelectorAll('#directory > li, #directory > tr');
   var empty = document.getElementById('empty');
   if (!input) return;
   input.addEventListener('input', function () {

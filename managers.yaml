@@ -267,6 +267,102 @@ managers:
     access_note: "Turtle Creek shows its letters on its own site after you confirm you live in Canada or outside the United States."
     access_meta: "Letters on the firm's site after a residency check"
 
+  - id: vltava
+    name: Daniel Gladiš
+    firm: Vltava Fund
+    style: "Global, concentrated portfolio of quality businesses bought at sensible prices."
+    why: "Daniel writes essays more than portfolio reports: value traps, the Kelly criterion, skill versus chance. Few letters explain the craft this clearly, and the archive goes back to 2004."
+    best_for: "Long-term investors who care more about process than about stock tips."
+    letters_page: https://www.vltavafund.com/dopisy-akcionarum
+    access: open
+    scrape:
+      select: 'a[href*="/dopisy-akcionarum/"]'
+      url_attr: href
+      period_from: text
+      title_from_text: true     # each letter has its own title
+
+  - id: horos
+    name: Javier Ruiz
+    firm: Horos Asset Management
+    style: "Contrarian global value from Madrid, mostly in small and mid caps few investors follow."
+    why: "Javier is candid about what being contrarian costs and explains each position in plain terms. One of the best value letters coming out of Spain."
+    best_for: "Contrarian value investors comfortable owning what others avoid."
+    letters_page: https://horosam.com/en/publications/letters-to-co-investors/
+    access: open
+    scrape:
+      select: 'a[href*="horosam.com/en/"]'
+      url_attr: href
+      period_from: text
+      include: 'letter to our'
+      partial_page: true        # older letters live on pages 2 to 8; they were loaded once
+    letters:
+      - {period: Q4 2024, url: "https://horosam.com/en/letter-to-our-coinvestors-4t24/"}
+    overrides:
+      - match: "annual-letter"
+        title: "Annual letter"
+
+  - id: giverny
+    name: François Rochon
+    firm: Giverny Capital
+    style: "Quality businesses with growing earnings, held for years and judged by how their intrinsic value grows."
+    why: "François's annual letter tracks the owner earnings of every holding, and every year he reminds partners that trailing the market some years is the price of doing this well."
+    best_for: "Quality investors who measure progress by business results, not stock prices."
+    letters_page: https://givernycapital.com/en/letters-to-our-partners/
+    access: open
+    scrape:
+      select: 'a[href$=".pdf"]'
+      url_attr: href
+      period_from: url
+      partial_page: true        # older letters live on pages 2 and 3; they were loaded once
+    overrides:
+      - match: "annual-letter"
+        title: "Annual letter"
+
+  - id: plural
+    name: Chris Waller
+    firm: Plural Investing
+    style: "Global small-cap value: 7 or 8 \"hidden gems\" held for 3 to 5 years."
+    why: "Chris calls his method sleuth investing: he researches small companies like an investigative journalist, and his letters show the work. Longer write-ups live on his Hidden Gems Investing Substack."
+    best_for: "Global small-cap investors who like deep primary research."
+    letters_page: https://www.pluralinvesting.com/letters
+    access: open
+    scrape:
+      select: 'a[href$=".pdf"]'
+      url_attr: href
+      period_from: url
+
+  - id: massif
+    name: William Thomson
+    firm: Massif Capital
+    style: "Long/short in liquid real assets: energy, materials and industrial businesses with tangible, long-lived assets."
+    why: "Will and Chip write about cycles, bottlenecks and their short book with rare candor. One of the few serious letters on energy, metals and industrials."
+    best_for: "Investors in commodities, energy and other real-asset businesses."
+    letters_page: https://www.massifcap.com/fund-letters
+    access: open
+    scrape:
+      select: 'a[href$=".pdf"]'
+      url_attr: href
+      period_from: url
+
+  - id: moerus
+    name: Amit Wadhwaney
+    firm: Moerus Capital Management
+    style: "Deep value worldwide, often in emerging markets and out-of-favor industries."
+    why: "Amit spent decades at Third Avenue and still hunts where the discounts are widest, often in markets most US funds won't touch."
+    best_for: "Deep value investors open to emerging and frontier markets."
+    letters_page: https://www.moeruscap.com/shareholder-letters/
+    access: open
+    scrape:
+      select: 'a[href$=".pdf"]'
+      url_attr: href
+      period_from: url
+      include: 'letter'
+    overrides:
+      - match: "annual"
+        title: "Annual letter"
+      - match: "semi-annual"
+        title: "Semi-annual letter"
+
 # ─────────────────────────────────────────────────────────────
 #  MANUAL LETTERS (for managers without an automatic page)
 #  Add under the manager, at the same level as "access:":
