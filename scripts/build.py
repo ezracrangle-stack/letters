@@ -14,6 +14,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs"
 SITE_URL = "https://letters.ezrasnotes.com"
+GA_ID = "G-5WBJ964B95"  # Google Analytics, "Letters" stream. Empty string turns it off.
 NEWSLETTER_URL = "https://www.ezrasnotes.com"
 SUBSCRIBE_URL = "https://www.ezrasnotes.com"
 # Hosts that are copies, not the manager's own site: shown as "via ..."
@@ -70,7 +71,7 @@ def build():
     import hashlib
     asset_v = hashlib.md5(b"".join((ROOT / "static" / f).read_bytes()
                                    for f in ("style.css", "filter.js"))).hexdigest()[:8]
-    common = dict(asset_v=asset_v, site_url=SITE_URL, newsletter_url=NEWSLETTER_URL,
+    common = dict(asset_v=asset_v, ga_id=GA_ID, site_url=SITE_URL, newsletter_url=NEWSLETTER_URL,
                   subscribe_url=SUBSCRIBE_URL, updated=pretty_date(last_run),
                   manager_count=len(managers))
 
