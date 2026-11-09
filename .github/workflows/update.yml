@@ -70,5 +70,5 @@ jobs:
         run: |
           OPEN=$(gh issue list --label letters-alert --state open --json number --jq '.[0].number' 2>/dev/null || true)
           if [ -n "$OPEN" ]; then
-            gh issue close "$OPEN" --comment "All pages checked fine on $(date -u +%F)."
+            gh issue close "$OPEN" --comment "No problems that need your attention as of $(date -u +%F)."
           fi
