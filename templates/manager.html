@@ -21,9 +21,9 @@
   {% for year, items in m.by_year %}
   <section class="year">
     <h2>{{ year }}</h2>
-    <ul class="year-list">
+    <ul class="year-list{% if items|selectattr("note")|list %} with-notes{% endif %}">
     {% for x in items %}
-      <li><a href="{{ x.url }}" target="_blank" rel="noopener">{% if x.title %}{{ x.title }}{% elif x.period.part == "Annual" %}Annual letter{% else %}{{ x.period.part }}{% endif %}<span class="sr"> {{ year }}</span><span class="arrow"> &#8599;</span></a>{% if x.via %} <span class="via">via {{ x.via }}</span>{% endif %}</li>
+      <li><a href="{{ x.url }}" target="_blank" rel="noopener">{% if x.title %}{{ x.title }}{% elif x.period.part == "Annual" %}Annual letter{% else %}{{ x.period.part }}{% endif %}<span class="sr"> {{ year }}</span><span class="arrow"> &#8599;</span></a>{% if x.via %} <span class="via">via {{ x.via }}</span>{% endif %}{% if x.note %}<span class="inletter">In this letter: {{ x.note }}.</span>{% endif %}</li>
     {% endfor %}
     </ul>
   </section>

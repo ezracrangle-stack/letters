@@ -187,6 +187,8 @@ h1, h2 { font-family: var(--head); font-weight: 400; line-height: 1.1; }
 .year-list { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 22px; }
 .year-list a { text-decoration: none; border-bottom: 1px solid var(--ink); }
 .year-list a:hover { border-bottom-width: 2px; }
+.year-list.with-notes { flex-direction: column; gap: 12px; }
+.inletter { display: block; margin-top: 3px; color: var(--mute); font-style: italic; font-size: 0.95em; line-height: 1.45; }
 .arrow { font-size: .8em; }
 
 /* ── About ────────────────────────────────── */

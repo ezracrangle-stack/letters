@@ -31,6 +31,8 @@ def load():
     archive = json.loads(archive_path.read_text(encoding="utf-8")) if archive_path.exists() else {}
     run_path = ROOT / "data" / "last_run.json"
     last_run = json.loads(run_path.read_text(encoding="utf-8")).get("last_run") if run_path.exists() else None
+    notes_path = ROOT / "data" / "notes.json"
+    notes = json.loads(notes_path.read_text(encoding="utf-8")) if notes_path.exists() else {}
     managers = []
     for m in config["managers"]:
         m = dict(m)
@@ -47,6 +49,9 @@ def load():
             x["display"] = x.get("title") or f"{x['period']['label']} letter"
             host = urlparse(x["url"]).netloc.lower().removeprefix("www.")
             x["via"] = next((v for k, v in THIRD_PARTY.items() if host.endswith(k)), None)
+        mine = dict(notes.get(m["id"], {}))
+        for x in m["letters"]:
+            x["note"] = mine.pop(x["period"]["label"], None)
         years = {}
         for x in m["letters"]:
             years.setdefault(x["period"]["year"], []).append(x)
