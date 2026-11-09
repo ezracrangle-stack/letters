@@ -26,7 +26,7 @@ managers:
     scrape:                     # brookfield.com blocks automated visits; new letters come from SEC EDGAR
       source: edgar
       cik: 1001085
-      title: "{label} letter (in the interim report)"
+      title: "{label} letter (inside the report filed with the SEC)"
     overrides:                  # fix a letter the script dated wrong
       - match: "march-final"
         period: Q1 2025

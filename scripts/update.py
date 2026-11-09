@@ -25,6 +25,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 LETTERS_FILE = DATA / "letters.json"
 RUN_FILE = DATA / "last_run.json"
+FAIL_FILE = DATA / "failures.json"     # consecutive failed weeks per manager
+ALERT_AFTER = 2                         # warn only after this many failed weeks in a row
 ALERT_FILE = ROOT / "alert.md"
 
 USER_AGENT = "EzrasNotesLettersBot/1.0 (+https://letters.ezrasnotes.com/about.html)"
@@ -223,6 +225,7 @@ def main():
     fetcher = Fetcher(args.fixtures)
     today = dt.date.today().isoformat()
     problems, report = [], {}
+    fails = load_json(FAIL_FILE, {})
 
     for m in config["managers"]:
         mid = m["id"]
@@ -283,8 +286,12 @@ def main():
                     added += 1
                 report[mid] = {"status": "ok", "found_on_page": len(found), "new": added}
             except Exception as e:  # noqa: BLE001
-                problems.append((m, f"{type(e).__name__}: {e}"))
+                fails[mid] = fails.get(mid, 0) + 1
+                if fails[mid] >= ALERT_AFTER:
+                    problems.append((m, f"{type(e).__name__}: {e} (failed {fails[mid]} weeks in a row)"))
                 report[mid] = {"status": "error", "error": str(e), "new": added}
+            else:
+                fails.pop(mid, None)
         else:
             report[mid] = {"status": "manual", "new": added}
 
@@ -306,6 +313,7 @@ def main():
 
     DATA.mkdir(exist_ok=True)
     LETTERS_FILE.write_text(json.dumps(archive, indent=1, ensure_ascii=False), encoding="utf-8")
+    FAIL_FILE.write_text(json.dumps(fails, indent=1), encoding="utf-8")
     RUN_FILE.write_text(json.dumps({"last_run": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
                                     "managers": report}, indent=1), encoding="utf-8")
 
