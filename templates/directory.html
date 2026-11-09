@@ -27,4 +27,4 @@
 </table>
 <p id="empty" class="small" hidden>No manager matches that.</p>
 {% endblock %}
-{% block scripts %}<script src="{{ root }}static/filter.js"></script>{% endblock %}
+{% block scripts %}<script src="{{ root }}static/filter.js?v={{ asset_v }}"></script>{% endblock %}

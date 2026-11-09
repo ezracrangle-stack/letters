@@ -67,7 +67,10 @@ def build():
     managers, last_run = load()
     env = Environment(loader=FileSystemLoader(ROOT / "templates"),
                       autoescape=select_autoescape(["html"]))
-    common = dict(site_url=SITE_URL, newsletter_url=NEWSLETTER_URL,
+    import hashlib
+    asset_v = hashlib.md5(b"".join((ROOT / "static" / f).read_bytes()
+                                   for f in ("style.css", "filter.js"))).hexdigest()[:8]
+    common = dict(asset_v=asset_v, site_url=SITE_URL, newsletter_url=NEWSLETTER_URL,
                   subscribe_url=SUBSCRIBE_URL, updated=pretty_date(last_run),
                   manager_count=len(managers))
 
