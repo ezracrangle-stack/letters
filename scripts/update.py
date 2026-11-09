@@ -42,7 +42,11 @@ class Fetcher:
         if not self.fixtures:
             import requests
             self.session = requests.Session()
-            self.session.headers["User-Agent"] = USER_AGENT
+            self.session.headers.update({
+                "User-Agent": USER_AGENT,
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.9",
+            })
 
     def _robots_for(self, url):
         host = urlparse(url).scheme + "://" + urlparse(url).netloc
@@ -141,8 +145,8 @@ def find_letters(html, page_url, cfg):
             per = periods.from_parts(el.get(ya), el.get(qa))
         elif cfg.get("period_from") == "text":
             per = periods.parse(text) or periods.parse_url(url)
-        else:
-            per = periods.parse_url(url) or periods.parse(text)
+        else:                    # period_from: url → the file name decides, nothing else
+            per = periods.parse_url(url)
         if not per:              # no date found: not a letter (presentations, memos)
             continue
         if per["year"] < since:
