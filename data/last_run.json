@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-09T20:55:20+00:00",
+ "last_run": "2026-11-09T21:01:24+00:00",
  "managers": {
   "brookfield": {
    "status": "ok",
@@ -36,8 +36,8 @@
    "new": 0
   },
   "maran": {
-   "status": "ok",
-   "found_on_page": 10,
+   "status": "error",
+   "error": "503 Server Error: Service Unavailable for url: https://marancapital.com/insights",
    "new": 0
   },
   "greenhaven": {
