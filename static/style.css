@@ -121,6 +121,17 @@ h1, h2 { font-family: var(--head); font-weight: 400; line-height: 1.1; }
 .read .via { display: block; margin-top: 4px; text-align: right; }
 .cta-sub { font-size: 15px; color: var(--mute); margin: -6px 0 18px; }
 
+/* ── Share ─────────────────────────────── */
+.share { margin: 28px 0; padding: 14px 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 20px; }
+.share-text { margin: 0; font-style: italic; }
+.share-buttons { margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.share-buttons a, .share-buttons button {
+  font: 11px/1 var(--head); text-transform: uppercase; letter-spacing: .12em; text-decoration: none;
+  color: var(--ink); background: none; border: 1px solid var(--ink); padding: 8px 10px 7px; cursor: pointer; }
+.share-buttons a:hover, .share-buttons button:hover { background: var(--ink); color: var(--paper); }
+.share-buttons .share-native { background: var(--ink); color: var(--paper); }
+
 /* ── Wanted (classified ad) ─────────────── */
 .wanted { margin: 40px 0; padding: 16px 18px; border: 1px dashed var(--ink); text-align: center; }
 .wanted-kicker { display: inline-block; margin: 0 0 8px; padding: 3px 8px 2px; background: var(--ink); color: var(--paper);

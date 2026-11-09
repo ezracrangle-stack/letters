@@ -30,6 +30,10 @@
   {% endfor %}
 {% endif %}
 
+{% set share_text = "Know someone who should read " ~ m.name ~ "? Send them this page." %}
+{% set share_title = m.name ~ " (" ~ m.firm ~ "): every letter in one place" %}
+{% include "_share.html" %}
+
 <aside class="cta slim">
   <p class="cta-text">Ezra's Notes: investing with a long-term mindset, seeing companies the way an owner does. Free.</p>
   <a class="button" href="{{ subscribe_url }}">Subscribe</a>

@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="static/style.css?v=db27ebb5">
+<link rel="stylesheet" href="static/style.css?v=e5190e00">
 <link rel="alternate" type="application/rss+xml" title="Investor Letters · Ezra's Notes" href="feed.xml">
 <meta property="og:title" content="Investor Letters · Ezra's Notes">
 <meta property="og:description" content="Free investor letters from the value managers I read. No sign-up, no paywall, linked to the source and checked every week.">
@@ -140,6 +140,20 @@
   </ol>
 </section>
 
+
+
+
+<div class="share" data-url="https://letters.ezrasnotes.com/" data-title="Investor Letters: free letters from the value managers Ezra Crangle reads">
+  <p class="share-text">Know someone who reads fund letters? Send them this page.</p>
+  <p class="share-buttons">
+    <button type="button" class="share-native" hidden>Share</button>
+    <button type="button" class="share-copy">Copy link</button>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//letters.ezrasnotes.com/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://x.com/intent/tweet?url=https%3A//letters.ezrasnotes.com/&amp;text=Investor%20Letters%3A%20free%20letters%20from%20the%20value%20managers%20Ezra%20Crangle%20reads" target="_blank" rel="noopener">X</a>
+    <a href="mailto:?subject=Investor%20Letters%3A%20free%20letters%20from%20the%20value%20managers%20Ezra%20Crangle%20reads&amp;body=Investor%20Letters%3A%20free%20letters%20from%20the%20value%20managers%20Ezra%20Crangle%20reads%20https%3A//letters.ezrasnotes.com/">Email</a>
+  </p>
+</div>
+
 <aside class="cta">
   <p class="cta-kicker">Ezra's Notes</p>
   <p class="cta-text">Investing with a true long-term mindset: seeing companies beyond the numbers, the way an owner does.</p>
@@ -218,6 +232,7 @@
 </footer>
 <script>document.querySelectorAll('a.mail').forEach(function(a){var e=a.dataset.u+'@'+a.dataset.d;a.href='mailto:'+e;a.textContent=e;});</script>
 <script>(function(){var b=document.getElementById('theme-toggle'),r=document.documentElement;function label(){b.textContent=r.getAttribute('data-theme')==='dark'?'Light':'Dark'}label();b.addEventListener('click',function(){var t=r.getAttribute('data-theme')==='dark'?'light':'dark';r.setAttribute('data-theme',t);try{localStorage.setItem('theme',t)}catch(e){}label()})})();</script>
+<script>(function(){document.querySelectorAll('.share').forEach(function(box){var url=box.dataset.url,title=box.dataset.title,n=box.querySelector('.share-native'),c=box.querySelector('.share-copy');if(navigator.share){n.hidden=false;n.addEventListener('click',function(){navigator.share({title:title,url:url}).catch(function(){})})}c.addEventListener('click',function(){var done=function(){c.textContent='Copied';setTimeout(function(){c.textContent='Copy link'},2000)};if(navigator.clipboard){navigator.clipboard.writeText(url).then(done,function(){prompt('Copy this link:',url)})}else{prompt('Copy this link:',url)}})})})();</script>
 
 </body>
 </html>

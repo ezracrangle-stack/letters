@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../static/style.css?v=db27ebb5">
+<link rel="stylesheet" href="../static/style.css?v=e5190e00">
 <link rel="alternate" type="application/rss+xml" title="Investor Letters · Ezra's Notes" href="../feed.xml">
 <meta property="og:title" content="Scott Miller, Greenhaven Road Capital · Ezra's Notes">
 <meta property="og:description" content="Scott writes like he&#39;s talking to a friend and he&#39;s honest about how much of any record is luck. He also visits companies most investors only read about.">
@@ -307,6 +307,20 @@
   
 
 
+
+
+
+<div class="share" data-url="https://letters.ezrasnotes.com/m/greenhaven.html" data-title="Scott Miller (Greenhaven Road Capital): every letter in one place">
+  <p class="share-text">Know someone who should read Scott Miller? Send them this page.</p>
+  <p class="share-buttons">
+    <button type="button" class="share-native" hidden>Share</button>
+    <button type="button" class="share-copy">Copy link</button>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A//letters.ezrasnotes.com/m/greenhaven.html" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://x.com/intent/tweet?url=https%3A//letters.ezrasnotes.com/m/greenhaven.html&amp;text=Scott%20Miller%20%28Greenhaven%20Road%20Capital%29%3A%20every%20letter%20in%20one%20place" target="_blank" rel="noopener">X</a>
+    <a href="mailto:?subject=Scott%20Miller%20%28Greenhaven%20Road%20Capital%29%3A%20every%20letter%20in%20one%20place&amp;body=Scott%20Miller%20%28Greenhaven%20Road%20Capital%29%3A%20every%20letter%20in%20one%20place%20https%3A//letters.ezrasnotes.com/m/greenhaven.html">Email</a>
+  </p>
+</div>
+
 <aside class="cta slim">
   <p class="cta-text">Ezra's Notes: investing with a long-term mindset, seeing companies the way an owner does. Free.</p>
   <a class="button" href="https://www.ezrasnotes.com">Subscribe</a>
@@ -326,6 +340,7 @@
 </footer>
 <script>document.querySelectorAll('a.mail').forEach(function(a){var e=a.dataset.u+'@'+a.dataset.d;a.href='mailto:'+e;a.textContent=e;});</script>
 <script>(function(){var b=document.getElementById('theme-toggle'),r=document.documentElement;function label(){b.textContent=r.getAttribute('data-theme')==='dark'?'Light':'Dark'}label();b.addEventListener('click',function(){var t=r.getAttribute('data-theme')==='dark'?'light':'dark';r.setAttribute('data-theme',t);try{localStorage.setItem('theme',t)}catch(e){}label()})})();</script>
+<script>(function(){document.querySelectorAll('.share').forEach(function(box){var url=box.dataset.url,title=box.dataset.title,n=box.querySelector('.share-native'),c=box.querySelector('.share-copy');if(navigator.share){n.hidden=false;n.addEventListener('click',function(){navigator.share({title:title,url:url}).catch(function(){})})}c.addEventListener('click',function(){var done=function(){c.textContent='Copied';setTimeout(function(){c.textContent='Copy link'},2000)};if(navigator.clipboard){navigator.clipboard.writeText(url).then(done,function(){prompt('Copy this link:',url)})}else{prompt('Copy this link:',url)}})})})();</script>
 
 </body>
 </html>

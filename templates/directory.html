@@ -27,6 +27,10 @@
 </table>
 <p id="empty" class="small" hidden>No manager matches that.</p>
 
+{% set share_text = "Know someone who reads fund letters? Send them this list." %}
+{% set share_title = "The fund managers worth reading, picked by Ezra Crangle" %}
+{% include "_share.html" %}
+
 {% include "_wanted.html" %}
 {% endblock %}
 {% block scripts %}<script src="{{ root }}static/filter.js?v={{ asset_v }}"></script>{% endblock %}

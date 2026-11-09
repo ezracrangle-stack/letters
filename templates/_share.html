@@ -1,0 +1,11 @@
+{% set share_url = site_url ~ "/" ~ ("" if page == "index.html" else page) %}
+<div class="share" data-url="{{ share_url }}" data-title="{{ share_title }}">
+  <p class="share-text">{{ share_text }}</p>
+  <p class="share-buttons">
+    <button type="button" class="share-native" hidden>Share</button>
+    <button type="button" class="share-copy">Copy link</button>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url|urlencode }}" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://x.com/intent/tweet?url={{ share_url|urlencode }}&amp;text={{ share_title|urlencode }}" target="_blank" rel="noopener">X</a>
+    <a href="mailto:?subject={{ share_title|urlencode }}&amp;body={{ (share_title ~ ' ' ~ share_url)|urlencode }}">Email</a>
+  </p>
+</div>
