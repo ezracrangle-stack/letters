@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Companies in the letters{% endblock %}
+{% block description %}Find every letter that discusses a company, from the value managers I read. Free, linked to the source.{% endblock %}
+{% block main %}
+<h1 class="page-title">Companies</h1>
+<p class="dek">Which letters talk about which companies. Pick one to see every letter that mentions it, newest first.</p>
+
+{% if pending %}<p class="small">So far the index covers {% for m in covered %}{% if not loop.first %}{% if loop.last %} and {% else %}, {% endif %}{% endif %}<a href="{{ root }}m/{{ m.id }}.html">{{ m.firm }}</a>{% endfor %}. I'm adding the other managers a few at a time.</p>{% endif %}
+
+<label class="filter">
+  <span class="sr">Filter companies</span>
+  <input id="filter" type="search" placeholder="Type a company, like Microsoft or L'Oréal" autocomplete="off">
+</label>
+
+<ol class="clist" id="directory">
+{% for c in companies %}
+  <li data-search="{{ c.name|lower }}"><a href="{{ root }}c/{{ c.slug }}.html">{{ c.name }}</a><span class="ccount">{{ c.hits|length }} letter{{ "s" if c.hits|length != 1 }}</span></li>
+{% endfor %}
+</ol>
+<p id="empty" class="small" hidden>No company matches that. The index only covers letters I've been able to read so far.</p>
+<p class="source">The index is built by reading each letter once and keeping only the company names it finds. Letters that are scanned images, or only open to registered users, aren't covered.</p>
+{% endblock %}
+{% block scripts %}<script src="{{ root }}static/filter.js?v={{ asset_v }}"></script>{% endblock %}

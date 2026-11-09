@@ -1,6 +1,8 @@
 """Build the static site into docs/ from managers.yaml + data/letters.json."""
 import datetime as dt
 import json
+import re
+import unicodedata
 import pathlib
 import shutil
 from email.utils import format_datetime
@@ -64,13 +66,51 @@ def pretty_date(iso):
     return d.strftime("%B %-d, %Y")
 
 
+def slugify(name):
+    return re.sub(r"[^a-z0-9]+", "-", unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode().lower()).strip("-")
+
+
+def load_companies(managers):
+    """Match the names found in each letter (data/mentions.json) to the companies
+    listed in data/companies.yaml. Returns companies sorted by number of letters."""
+    cpath, mpath = ROOT / "data" / "companies.yaml", ROOT / "data" / "mentions.json"
+    if not (cpath.exists() and mpath.exists()):
+        return []
+    mentions = json.loads(mpath.read_text(encoding="utf-8"))
+    by_url = {x["url"]: (m, x) for m in managers for x in m["letters"]}
+    companies = []
+    for c in yaml.safe_load(cpath.read_text(encoding="utf-8"))["companies"]:
+        terms = [c["name"]] + c.get("aliases", [])
+        rx = re.compile("|".join(rf"(?<![\w&'’]){re.escape(t)}(?![\w&])" for t in terms))
+        ex = re.compile(c["exclude"]) if c.get("exclude") else None
+        hits = []
+        for url, rec in mentions.items():
+            if url not in by_url or rec.get("status") != "ok":
+                continue
+            n = sum(v for k, v in rec["names"].items() if rx.search(k) and not (ex and ex.search(k)))
+            if n:
+                m, x = by_url[url]
+                hits.append({"manager": m, "letter": x, "count": n})
+        if hits:
+            hits.sort(key=lambda h: (h["letter"]["period"]["sort"], h["count"]), reverse=True)
+            mgrs = {}
+            for h in hits:
+                mgrs.setdefault(h["manager"]["id"], [h["manager"], 0])[1] += 1
+            companies.append({"name": c["name"], "slug": slugify(c["name"]), "hits": hits,
+                              "managers": sorted(mgrs.values(), key=lambda v: -v[1]),
+                              "mentions": sum(h["count"] for h in hits)})
+    companies.sort(key=lambda c: (-len(c["hits"]), -c["mentions"], c["name"].lower()))
+    return companies
+
+
 def build():
     managers, last_run = load()
+    companies = load_companies(managers)
     env = Environment(loader=FileSystemLoader(ROOT / "templates"),
                       autoescape=select_autoescape(["html"]))
     import hashlib
     asset_v = hashlib.md5(b"".join((ROOT / "static" / f).read_bytes()
-                                   for f in ("style.css", "filter.js"))).hexdigest()[:8]
+                                   for f in ("style.css", "filter.js", "search.js"))).hexdigest()[:8]
     common = dict(asset_v=asset_v, ga_id=GA_ID, site_url=SITE_URL, newsletter_url=NEWSLETTER_URL,
                   subscribe_url=SUBSCRIBE_URL, updated=pretty_date(last_run),
                   manager_count=len(managers))
@@ -92,6 +132,20 @@ def build():
            managers=managers, letter_count=len(all_letters))
     render("directory.html", "managers.html", "", managers=managers)
     render("about.html", "about.html", "")
+    covered = {h["manager"]["id"] for c in companies for h in c["hits"]}
+    render("companies.html", "companies.html", "", companies=companies,
+           covered=[m for m in managers if m["id"] in covered],
+           pending=len([m for m in managers if m["id"] not in covered and m["access"] == "open"]))
+    (OUT / "c").mkdir()
+    for c in companies:
+        render("company.html", f"c/{c['slug']}.html", "../", c=c)
+    render("search.html", "search.html", "")
+    index = {"managers": [{"n": m["name"], "f": m["firm"], "s": m["style"], "u": f"m/{m['id']}.html"}
+                          for m in managers],
+             "companies": [{"n": c["name"], "l": len(c["hits"]), "u": f"c/{c['slug']}.html"}
+                           for c in companies]}
+    (OUT / "search.json").write_text(json.dumps(index, ensure_ascii=False, separators=(",", ":")),
+                                     encoding="utf-8")
     render("404.html", "404.html", "/")
     for m in managers:
         render("manager.html", f"m/{m['id']}.html", "../", m=m)
