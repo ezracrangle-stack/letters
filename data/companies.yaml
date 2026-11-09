@@ -1,13 +1,14 @@
 # Companies the site tracks in the letters.
 # name: how it shows on the site. aliases: other ways letters write it.
+# Left out on purpose: names letters use as data sources or contact links (FactSet, Bloomberg, Twitter, LinkedIn).
 # exclude: a regex; a name that matches it doesn't count (e.g. "Sage of Omaha" is Buffett, not Sage).
 # Only names and counts come from the letters; their text is never stored.
 
 companies:
   - {name: Microsoft}
-  - {name: Alphabet, aliases: [Google, DeepMind, Waymo]}
-  - {name: Meta Platforms, aliases: [Meta, Facebook, WhatsApp]}
-  - {name: Amazon}
+  - {name: Alphabet, aliases: [Google, DeepMind, Waymo, YouTube, Youtube]}
+  - {name: Meta Platforms, aliases: [Meta, Facebook, WhatsApp, Instagram, Oculus]}
+  - {name: Amazon, aliases: [Amazon Web Services, AWS]}
   - {name: Apple}
   - {name: Nvidia}
   - {name: Oracle}
@@ -112,7 +113,7 @@ companies:
   - {name: Nokia}
   - {name: BlackBerry, aliases: [Blackberry, Research In Motion]}
   - {name: Yahoo}
-  - {name: Snap}
+  - {name: Snap, aliases: [Snapchat]}
   - {name: Pinterest}
   - {name: Reddit}
   - {name: BP}
@@ -125,3 +126,270 @@ companies:
   - {name: Provident Financial}
   - {name: Indivior}
   - {name: Luckin Coffee}
+
+  # batch 2: Hayden, 1 Main, Laughing Water, Saga, Greystone
+  - {name: Activision Blizzard, aliases: [Activision]}
+  - {name: AcuityAds}
+  - {name: ADESA, aliases: [Adesa]}
+  - {name: Adidas}
+  - {name: Aeromexico, aliases: [AeroMexico, Aero Mexico]}
+  - {name: Afterpay}
+  - {name: Aimia}
+  - {name: Air Canada}
+  - {name: AirAsia}
+  - {name: Alarm.com}
+  - {name: Alcoa}
+  - {name: Alcon}
+  - {name: Alibaba, aliases: [Taobao, Tmall, Alipay, Lazada, Cainiao]}
+  - {name: Ally Financial, aliases: [Ally]}
+  - {name: Allstate}
+  - {name: Altigen}
+  - {name: Anthropic}
+  - {name: Apollo Global Management}
+  - {name: Assa Abloy}
+  - {name: AT&T}
+  - {name: Atento}
+  - {name: ATI Physical Therapy}
+  - {name: Atlassian}
+  - {name: AutoNation}
+  - {name: AvalonBay}
+  - {name: Avanos}
+  - {name: Avid Bioservices}
+  - {name: Baidu}
+  - {name: Bank of America, aliases: [BofA]}
+  - {name: Barnes & Noble Education}
+  - {name: Basic-Fit, aliases: [Basic Fit]}
+  - {name: Beacon Roofing Supply}
+  - {name: Bel Fuse}
+  - {name: Black Knight}
+  - {name: Blackbaud}
+  - {name: Blackstone}
+  - {name: Blade Air Mobility}
+  - {name: BlueLinx, aliases: [Bluelinx Holdings]}
+  - {name: Booking Holdings, aliases: [Priceline]}
+  - {name: ByteDance, aliases: [Bytedance, TikTok, Tiktok, Tik Tok, Douyin]}
+  - {name: BYD}
+  - {name: Caesars Entertainment, aliases: [Caesars]}
+  - {name: Camping World}
+  - {name: Cansortium}
+  - {name: Cantaloupe, aliases: [USA Technologies]}
+  - {name: CarGurus}
+  - {name: CarMax}
+  - {name: Carrier Global}
+  - {name: Carvana}
+  - {name: Catalent}
+  - {name: CBRE}
+  - {name: Charles Schwab, aliases: [Schwab]}
+  - {name: Chewy}
+  - {name: Chipotle}
+  - {name: Chubb}
+  - {name: Cimpress}
+  - {name: Cintas}
+  - {name: Cisco}
+  - {name: Citigroup, aliases: [Citi]}
+  - {name: Clarus}
+  - {name: Coinbase}
+  - {name: Comcast}
+  - {name: CommerceHub}
+  - {name: Constellation Software}
+  - {name: Copart}
+  - {name: CoStar, aliases: [Costar]}
+  - {name: Costco}
+  - {name: Coupang}
+  - {name: Crawford United}
+  - {name: Credit Acceptance}
+  - {name: CRH Medical}
+  - {name: Ctrip}
+  - {name: DiaMedica Therapeutics}
+  - {name: Diamond Resorts}
+  - {name: Dish Network}
+  - {name: DoorDash, aliases: [Doordash]}
+  - {name: Douglas Elliman}
+  - {name: Dropbox}
+  - {name: eBay, aliases: [Ebay]}
+  - {name: EchoStar, aliases: [Echostar]}
+  - {name: Electronic Arts}
+  - {name: Elizabeth Arden}
+  - {name: Ellie Mae}
+  - {name: Enzo Biochem}
+  - {name: Expedia}
+  - {name: EZCorp}
+  - {name: FedEx}
+  - {name: Fiat Chrysler}
+  - {name: FICO}
+  - {name: FIGS, aliases: [Figs]}
+  - {name: Flotek}
+  - {name: Ford, exclude: "Henry Ford|Model T"}
+  - {name: Franklin Covey}
+  - {name: Freddie Mac}
+  - {name: Gaia}
+  - {name: GFL Environmental, aliases: [GFL]}
+  - {name: Glassdoor}
+  - {name: GoodRx, aliases: [Goodrx]}
+  - {name: Grab}
+  - {name: Griffon}
+  - {name: Groupon}
+  - {name: Halozyme}
+  - {name: Hanesbrands, aliases: [Hanes]}
+  - {name: HCA}
+  - {name: Herbalife}
+  - {name: Hill International}
+  - {name: Hilton Grand Vacations}
+  - {name: Honeywell}
+  - {name: Houghton Mifflin Harcourt, aliases: [Houghton Mifflin]}
+  - {name: HubSpot}
+  - {name: IDT}
+  - {name: Innovative Food Holdings}
+  - {name: Innovative Industrial Properties}
+  - {name: Instacart}
+  - {name: Inter Parfums}
+  - {name: Interactive Brokers}
+  - {name: Invitation Homes}
+  - {name: Issuer Direct}
+  - {name: Iteris}
+  - {name: IWG}
+  - {name: J&T Express}
+  - {name: JD.com, aliases: [JD Logistics, JD Finance]}
+  - {name: Jefferies}
+  - {name: Keller Williams}
+  - {name: KITS Eyecare, aliases: [KITS]}
+  - {name: Koolearn}
+  - {name: Krafton}
+  - {name: Kroger}
+  - {name: Labcorp}
+  - {name: Landec}
+  - {name: Leon's Furniture, aliases: ["Leon’s Furniture"]}
+  - {name: LGI Homes}
+  - {name: Libsyn, aliases: [Liberated Syndication]}
+  - {name: Lifecore Biomedical}
+  - {name: Lightspeed}
+  - {name: Limbach}
+  - {name: Linamar}
+  - {name: Lionsgate}
+  - {name: Liquidia}
+  - {name: Lithia Motors}
+  - {name: Livongo}
+  - {name: Loral Space & Communications}
+  - {name: Lululemon}
+  - {name: Luxoft}
+  - {name: Lyft}
+  - {name: Macy's, aliases: [Macy]}
+  - {name: Markel}
+  - {name: Mastech Digital}
+  - {name: MasterCraft Boat, aliases: [MasterCraft, MCBC Holdings]}
+  - {name: McDonald's, aliases: [McDonalds, McDonald]}
+  - {name: Medtronic}
+  - {name: Meituan}
+  - {name: MercadoLibre, aliases: [Mercado Libre]}
+  - {name: Mercari}
+  - {name: Merck}
+  - {name: Michelin}
+  - {name: Miniso}
+  - {name: Naked Wines}
+  - {name: Natural Resource Partners, aliases: [NRP]}
+  - {name: NCR, aliases: [NCR Voyix]}
+  - {name: NextNav, aliases: [Nextnav]}
+  - {name: Nubank}
+  - {name: NVR}
+  - {name: Ocwen}
+  - {name: Opendoor}
+  - {name: Paramount}
+  - {name: PAR Technology, aliases: [PAR Technologies]}
+  - {name: ParkerVision}
+  - {name: Pfizer}
+  - {name: PDD Holdings, aliases: [Pinduoduo, Temu]}
+  - {name: Pitney Bowes}
+  - {name: Playa Hotels & Resorts}
+  - {name: PLBY Group, aliases: [Playboy Enterprises, Playboy]}
+  - {name: Polished.com, aliases: [Goedeker]}
+  - {name: Poshmark}
+  - {name: Progressive}
+  - {name: Qualcomm, aliases: [QCOM]}
+  - {name: Quest Diagnostics}
+  - {name: R1 RCM}
+  - {name: Radiant Logistics}
+  - {name: RCI Hospitality}
+  - {name: RealPage, aliases: [Realpage]}
+  - {name: Realogy}
+  - {name: Redfin}
+  - {name: Redknee}
+  - {name: Revlon}
+  - {name: Rimini Street}
+  - {name: Roblox}
+  - {name: Rocket Companies}
+  - {name: Roku}
+  - {name: Roper}
+  - {name: Rosetta Stone}
+  - {name: Saia}
+  - {name: Salesforce}
+  - {name: Samsung}
+  - {name: Sanofi}
+  - {name: Sea Limited, aliases: [Sea Ltd, Shopee, Garena, SeaMoney, Sea Money]}
+  - {name: Sears}
+  - {name: Secure Waste Infrastructure, aliases: [SECURE Waste Infrastructure, Secure Waste]}
+  - {name: Seneca Foods}
+  - {name: ServiceNow}
+  - {name: SharpSpring, aliases: [Sharpspring]}
+  - {name: Shift4}
+  - {name: Shopify}
+  - {name: SK Hynix}
+  - {name: Slack}
+  - {name: SmartRent}
+  - {name: Sony}
+  - {name: Spotify}
+  - {name: Straight Path Communications}
+  - {name: Strata Critical Medical}
+  - {name: Superior Industries}
+  - {name: Sylogist}
+  - {name: Take-Two}
+  - {name: Tandem Diabetes}
+  - {name: Teladoc}
+  - {name: Telesat}
+  - {name: Tencent, aliases: [WeChat]}
+  - {name: Tenet Healthcare}
+  - {name: Terravest}
+  - {name: Tejon Ranch}
+  - {name: Theravance Biopharma, aliases: [Theravance]}
+  - {name: Thryv}
+  - {name: Thunderbird Entertainment}
+  - {name: Toast}
+  - {name: Toyota}
+  - {name: The Trade Desk, aliases: [Trade Desk]}
+  - {name: Transact Technologies}
+  - {name: TransDigm, aliases: [Transdigm]}
+  - {name: TransMedics, aliases: [Transmedics]}
+  - {name: Traveloka}
+  - {name: Trupanion}
+  - {name: Tyler Technologies}
+  - {name: United Therapeutics}
+  - {name: Unity}
+  - {name: Valeant}
+  - {name: Vanda}
+  - {name: Verifone}
+  - {name: Verizon}
+  - {name: Viatris}
+  - {name: Vistry}
+  - {name: Countryside Partnerships}
+  - {name: Vizio}
+  - {name: Vroom}
+  - {name: Warby Parker}
+  - {name: Water Intelligence}
+  - {name: Wayfair}
+  - {name: Wells Fargo}
+  - {name: Western Union}
+  - {name: WeWork}
+  - {name: Whole Earth Brands}
+  - {name: WildBrain}
+  - {name: Wise, aliases: [Wise Platform]}
+  - {name: Wix}
+  - {name: Worldpay}
+  - {name: WWE}
+  - {name: XPEL, aliases: [Xpel]}
+  - {name: Xponential Fitness}
+  - {name: Yellow Pages}
+  - {name: Zillow}
+  - {name: Zoom}
+  - {name: Zooplus}
+  - {name: Zynga}
+  - {name: UPS}
+  - {name: Kmart}
