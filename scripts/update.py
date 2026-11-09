@@ -162,9 +162,9 @@ EDGAR_UA = "EzrasNotes Letters letters@ezrasnotes.com"   # SEC asks for a contac
 
 
 def edgar_letters(cfg, known_periods, fetcher):
-    """Quarterly letters that a foreign issuer files as Exhibit 99.1 of a 6-K
-    (cover file like a2026-q26xkcover.htm), plus the annual report filed with
-    the 40-F (treated as the Q4 letter). Only periods we don't have yet."""
+    """Quarterly letters that a foreign issuer files inside Exhibit 99.1 of a 6-K
+    (cover file like a2026-q26xkcover.htm; Q4 comes the same way in March).
+    Only periods we don't have yet."""
     import requests
     s = requests.Session()
     s.headers.update({"User-Agent": EDGAR_UA, "Accept-Encoding": "gzip, deflate"})
@@ -178,14 +178,10 @@ def edgar_letters(cfg, known_periods, fetcher):
     for form, acc, date, doc in zip(rec["form"], rec["accessionNumber"], rec["filingDate"], rec["primaryDocument"]):
         if date < cutoff:
             break
-        per = None
         m = cover.search(doc or "")
-        if form == "6-K" and m:
-            per = periods.make(m[1], f"Q{m[2]}")
-            want = re.compile(r"interim report|letter to shareholders", re.I)
-        elif form == "40-F":
-            per = periods.make(int(date[:4]) - 1, "Q4")
-            want = re.compile(r"annual report", re.I)
+        if form != "6-K" or not m:
+            continue
+        per = periods.make(m[1], f"Q{m[2]}")
         if not per or per["label"] in known_periods or checked >= 6:
             continue
         checked += 1
@@ -201,11 +197,11 @@ def edgar_letters(cfg, known_periods, fetcher):
             if len(cells) < 4:
                 continue
             a = cells[2].find("a")
-            if a and want.search(cells[1].get_text(" ")) and a["href"].lower().endswith((".htm", ".html", ".pdf")):
+            if a and cells[3].get_text(" ").strip().upper() == "EX-99.1":
                 link = urljoin("https://www.sec.gov", a["href"].replace("/ix?doc=", ""))
                 break
         if link:
-            found.append({"url": link, "period": per, "text": cells[1].get_text(" ").strip()})
+            found.append({"url": link, "period": per, "text": "Interim report"})
             known_periods.add(per["label"])
     return found
 
