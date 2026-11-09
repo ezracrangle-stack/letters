@@ -1,0 +1,34 @@
+name: Read letters for company names (test)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [company-search]
+    paths:
+      - scripts/mentions.py
+      - .github/workflows/mentions.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mentions
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python scripts/mentions.py --only fundsmith
+      - name: Save results
+        run: |
+          git config user.name "letters-bot"
+          git config user.email "letters-bot@users.noreply.github.com"
+          git add data/mentions.json
+          git diff --cached --quiet || git commit -m "Company mentions: Fundsmith"
+          git pull --rebase --autostash && git push
