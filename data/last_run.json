@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-09T17:47:26+00:00",
+ "last_run": "2026-11-09T17:48:32+00:00",
  "managers": {
   "brookfield": {
    "status": "ok",
@@ -61,8 +61,8 @@
    "new": 0
   },
   "semper-augustus": {
-   "status": "ok",
-   "found_on_page": 21,
+   "status": "error",
+   "error": "403 Client Error: Forbidden for url: https://www.semperaugustus.com/clientletter",
    "new": 0
   },
   "fundsmith": {
