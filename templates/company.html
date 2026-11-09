@@ -1,13 +1,13 @@
 {% extends "base.html" %}
-{% block title %}{{ c.name }} in investor letters{% endblock %}
+{% block title %}{{ c.name }} in investor letters{% if pager.num > 1 %} (page {{ pager.num }}){% endif %}{% endblock %}
 {% block description %}{{ c.hits|length }} letter{{ "s" if c.hits|length != 1 }} from value managers that mention {{ c.name }}, linked to the source.{% endblock %}
 {% block main %}
 <p class="crumb"><a href="{{ root }}companies.html">&larr; All companies</a></p>
 <h1 class="page-title">{{ c.name }}</h1>
-<p class="dek">{{ c.hits|length }} letter{{ "s" if c.hits|length != 1 }} mention {{ c.name }}{% if c.managers|length > 1 %}, from {{ c.managers|length }} managers{% endif %}.</p>
+<p class="dek">{{ c.hits|length }} letter{{ "s" if c.hits|length != 1 }} mention {{ c.name }}{% if c.managers|length > 1 %}, from {{ c.managers|length }} managers{% endif %}.{% if pager.pages|length > 1 %} Page {{ pager.num }} of {{ pager.pages|length }}.{% endif %}</p>
 
 <ul class="hits">
-{% for h in c.hits %}
+{% for h in hits %}
   <li>
     <span class="hit-when">{{ h.letter.period.label }}</span>
     <span class="hit-what"><a href="{{ h.letter.url }}" target="_blank" rel="noopener">{{ h.manager.firm }} · {{ h.letter.display }}<span class="arrow"> &#8599;</span></a>
@@ -15,6 +15,7 @@
   </li>
 {% endfor %}
 </ul>
+{% set prefix = "" %}{% include "_pager.html" %}
 <p class="source">Counts are how many times the name appears in the letter. A high count usually means the letter discusses the company; one mention can be a passing reference.</p>
 {% set share_text = "Know someone who follows " ~ c.name ~ "? Send them this page." %}
 {% set share_title = c.name ~ ": what value managers wrote about it in their letters" %}

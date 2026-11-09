@@ -48,7 +48,7 @@
   <nav>
     <a href="{{ root }}index.html"{% if page == 'index.html' %} aria-current="page"{% endif %}>Latest</a>
     <a href="{{ root }}managers.html"{% if page == 'managers.html' %} aria-current="page"{% endif %}>Managers</a>
-    <a href="{{ root }}companies.html"{% if page == 'companies.html' %} aria-current="page"{% endif %}>Companies</a>
+    <a href="{{ root }}companies.html"{% if page.startswith('companies') or page.startswith('c/') %} aria-current="page"{% endif %}>Companies</a>
     <a href="{{ root }}search.html"{% if page == 'search.html' %} aria-current="page"{% endif %}>Search</a>
     <a href="{{ root }}about.html"{% if page == 'about.html' %} aria-current="page"{% endif %}>About</a>
     <a href="{{ subscribe_url }}" class="nav-cta">Subscribe</a>
@@ -65,7 +65,7 @@
     <a href="https://substack.com/@ezracrangle">Substack @ezracrangle</a>
     <a href="https://www.linkedin.com/in/ezracrangle/">LinkedIn</a>
     <a href="{{ root }}feed.xml">RSS</a>
-    <a href="{{ root }}companies.html"{% if page == 'companies.html' %} aria-current="page"{% endif %}>Companies</a>
+    <a href="{{ root }}companies.html"{% if page.startswith('companies') or page.startswith('c/') %} aria-current="page"{% endif %}>Companies</a>
     <a href="{{ root }}search.html"{% if page == 'search.html' %} aria-current="page"{% endif %}>Search</a>
     <a href="{{ root }}about.html">About</a>
   </p>

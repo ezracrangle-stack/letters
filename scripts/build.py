@@ -16,6 +16,10 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs"
 SITE_URL = "https://letters.ezrasnotes.com"
+COMPANIES_PER_PAGE = 100
+HITS_PER_PAGE = 20
+TOP_COMPANIES = ["Alphabet", "Amazon", "Berkshire Hathaway", "Meta Platforms", "Microsoft",
+                 "Apple", "Alibaba", "Netflix", "Carvana", "Nvidia"]
 GA_ID = "G-5WBJ964B95"  # Google Analytics, "Letters" stream. Empty string turns it off.
 NEWSLETTER_URL = "https://www.ezrasnotes.com"
 SUBSCRIBE_URL = "https://www.ezrasnotes.com"
@@ -133,12 +137,24 @@ def build():
     render("directory.html", "managers.html", "", managers=managers)
     render("about.html", "about.html", "")
     covered = {h["manager"]["id"] for c in companies for h in c["hits"]}
-    render("companies.html", "companies.html", "", companies=companies,
-           covered=[m for m in managers if m["id"] in covered],
-           pending=len([m for m in managers if m["id"] not in covered and m["access"] == "open"]))
+    letters_read = len({h["letter"]["url"] for c in companies for h in c["hits"]})
+    by_name = {c["name"]: c for c in companies}
+    top = [by_name[n] for n in TOP_COMPANIES if n in by_name]
+    pages = [companies[i:i + COMPANIES_PER_PAGE] for i in range(0, len(companies), COMPANIES_PER_PAGE)] or [[]]
+    page_url = lambda n, base: f"{base}.html" if n == 1 else f"{base}-{n}.html"
+    for n, chunk in enumerate(pages, 1):
+        render("companies.html", page_url(n, "companies"), "", companies=chunk, top=top if n == 1 else [],
+               total=len(companies), letters_read=letters_read,
+               pager={"num": n, "pages": [(i, page_url(i, "companies")) for i in range(1, len(pages) + 1)]},
+               start=(n - 1) * COMPANIES_PER_PAGE,
+               covered=[m for m in managers if m["id"] in covered],
+               pending=len([m for m in managers if m["id"] not in covered and m["access"] == "open"]))
     (OUT / "c").mkdir()
     for c in companies:
-        render("company.html", f"c/{c['slug']}.html", "../", c=c)
+        chunks = [c["hits"][i:i + HITS_PER_PAGE] for i in range(0, len(c["hits"]), HITS_PER_PAGE)]
+        for n, chunk in enumerate(chunks, 1):
+            render("company.html", "c/" + page_url(n, c["slug"]), "../", c=c, hits=chunk,
+                   pager={"num": n, "pages": [(i, page_url(i, c["slug"])) for i in range(1, len(chunks) + 1)]})
     render("search.html", "search.html", "")
     index = {"managers": [{"n": m["name"], "f": m["firm"], "s": m["style"], "u": f"m/{m['id']}.html"}
                           for m in managers],

@@ -1,0 +1,9 @@
+{% if pager.pages|length > 1 %}
+<nav class="pager" aria-label="Pages">
+  {% if pager.num > 1 %}<a href="{{ prefix }}{{ pager.pages[pager.num - 2][1] }}" rel="prev">&larr; Previous</a>{% endif %}
+  <span class="pager-nums">
+  {% for n, href in pager.pages %}{% if n == pager.num %}<span aria-current="page">{{ n }}</span>{% else %}<a href="{{ prefix }}{{ href }}">{{ n }}</a>{% endif %}{% endfor %}
+  </span>
+  {% if pager.num < pager.pages|length %}<a href="{{ prefix }}{{ pager.pages[pager.num][1] }}" rel="next">Next &rarr;</a>{% endif %}
+</nav>
+{% endif %}
