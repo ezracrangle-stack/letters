@@ -156,6 +156,60 @@ def find_letters(html, page_url, cfg):
     return found
 
 
+# ── SEC EDGAR (for firms that block automated visits) ───────
+
+EDGAR_UA = "EzrasNotes Letters letters@ezrasnotes.com"   # SEC asks for a contact
+
+
+def edgar_letters(cfg, known_periods, fetcher):
+    """Quarterly letters that a foreign issuer files as Exhibit 99.1 of a 6-K
+    (cover file like a2026-q26xkcover.htm), plus the annual report filed with
+    the 40-F (treated as the Q4 letter). Only periods we don't have yet."""
+    import requests
+    s = requests.Session()
+    s.headers.update({"User-Agent": EDGAR_UA, "Accept-Encoding": "gzip, deflate"})
+    cik = int(cfg["cik"])
+    r = s.get(f"https://data.sec.gov/submissions/CIK{cik:010d}.json", timeout=TIMEOUT)
+    r.raise_for_status()
+    rec = r.json()["filings"]["recent"]
+    cover = re.compile(cfg.get("cover_pattern", r"a(\d{4})-q([1-4])6xkcover"), re.I)
+    cutoff = (dt.date.today() - dt.timedelta(days=int(cfg.get("lookback_days", 400)))).isoformat()
+    found, checked = [], 0
+    for form, acc, date, doc in zip(rec["form"], rec["accessionNumber"], rec["filingDate"], rec["primaryDocument"]):
+        if date < cutoff:
+            break
+        per = None
+        m = cover.search(doc or "")
+        if form == "6-K" and m:
+            per = periods.make(m[1], f"Q{m[2]}")
+            want = re.compile(r"interim report|letter to shareholders", re.I)
+        elif form == "40-F":
+            per = periods.make(int(date[:4]) - 1, "Q4")
+            want = re.compile(r"annual report", re.I)
+        if not per or per["label"] in known_periods or checked >= 6:
+            continue
+        checked += 1
+        time.sleep(1)
+        nodash = acc.replace("-", "")
+        idx = f"https://www.sec.gov/Archives/edgar/data/{cik}/{nodash}/{acc}-index.htm"
+        page = s.get(idx, timeout=TIMEOUT)
+        page.raise_for_status()
+        soup = BeautifulSoup(page.text, "html.parser")
+        link = None
+        for row in soup.select("table.tableFile tr"):
+            cells = row.find_all("td")
+            if len(cells) < 4:
+                continue
+            a = cells[2].find("a")
+            if a and want.search(cells[1].get_text(" ")) and a["href"].lower().endswith((".htm", ".html", ".pdf")):
+                link = urljoin("https://www.sec.gov", a["href"].replace("/ix?doc=", ""))
+                break
+        if link:
+            found.append({"url": link, "period": per, "text": cells[1].get_text(" ").strip()})
+            known_periods.add(per["label"])
+    return found
+
+
 # ── main ────────────────────────────────────────────────────
 
 def load_json(path, default):
@@ -199,14 +253,28 @@ def main():
         cfg = m.get("scrape")
         if cfg and m.get("access", "open") == "open":
             try:
-                html, final_url = fetcher.get(mid, m["letters_page"])
-                found = find_letters(html, final_url, cfg)
+                if cfg.get("source") == "edgar":
+                    if args.fixtures:
+                        report[mid] = {"status": "skipped", "new": added}
+                        continue
+                    found = edgar_letters(cfg, {x["period"]["label"] for x in known}, fetcher)
+                    title = cfg.get("title")
+                    for f in found:
+                        f["text"] = title.replace("{label}", f["period"]["label"]) if title else f["text"]
+                    cfg = dict(cfg, title_from_text=bool(title))
+                    if not found:
+                        report[mid] = {"status": "ok", "found_on_page": 0, "new": added}
+                        known.sort(key=lambda x: x["period"]["sort"], reverse=True)
+                        continue
+                else:
+                    html, final_url = fetcher.get(mid, m["letters_page"])
+                    found = find_letters(html, final_url, cfg)
                 if not found:
                     raise RuntimeError("the page loaded but no letters were found (its layout may have changed)")
                 prev_auto = [x for x in known if x.get("source") == "auto"]
                 still_there = {f["url"] for f in found}
                 missing = [x for x in prev_auto if x["url"] not in still_there]
-                if prev_auto and len(missing) > len(prev_auto) / 2:
+                if cfg.get("source") != "edgar" and prev_auto and len(missing) > len(prev_auto) / 2:
                     problems.append((m, f"{len(missing)} of {len(prev_auto)} letters we had are no longer on the page. "
                                         "They stay on the site, but the page may have moved or changed."))
                 for f in found:

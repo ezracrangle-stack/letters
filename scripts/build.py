@@ -19,7 +19,8 @@ SUBSCRIBE_URL = "https://www.ezrasnotes.com"
 # Hosts that are copies, not the manager's own site: shown as "via ..."
 THIRD_PARTY = {"web.archive.org": "Internet Archive", "gurufocus.com": "GuruFocus",
                "focusdst.com": "Focus DST", "seekingalpha.com": "Seeking Alpha",
-               "hedgefundalpha.com": "Hedge Fund Alpha", "scribd.com": "Scribd"}
+               "hedgefundalpha.com": "Hedge Fund Alpha", "scribd.com": "Scribd",
+               "sec.gov": "SEC EDGAR"}
 LATEST_ON_HOME = 15
 
 

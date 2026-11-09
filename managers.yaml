@@ -23,11 +23,10 @@ managers:
     best_for: "Investors in real assets, infrastructure and the business of alternative asset management."
     letters_page: https://bn.brookfield.com/reports-filings/letters-to-shareholders
     access: open                # open | registration
-    scrape:
-      select: 'a[href*="Letter-to-Shareholder"], a[href*="letter-to-shareholder"]'
-      url_attr: href
-      period_from: url
-      since: 2012
+    scrape:                     # brookfield.com blocks automated visits; new letters come from SEC EDGAR
+      source: edgar
+      cik: 1001085
+      title: "{label} letter (in the interim report)"
     overrides:                  # fix a letter the script dated wrong
       - match: "march-final"
         period: Q1 2025
