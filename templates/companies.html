@@ -21,6 +21,8 @@
   <li><a href="{{ root }}c/{{ c.slug }}.html">{{ c.name }}</a><span class="ccount">{{ c.hits|length }} letter{{ "s" if c.hits|length != 1 }}</span></li>
 {% endfor %}
 </ol>
+<h2 class="section-head">By sector</h2>
+{% set current = None %}{% include "_sectors.html" %}
 <h2 class="section-head">All companies</h2>
 {% else %}
 <h2 class="section-head">All companies, page {{ pager.num }}</h2>

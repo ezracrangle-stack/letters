@@ -24,8 +24,8 @@
     var words = q.split(/\s+/);
     function hit(s) { s = norm(s); return words.every(function (w) { return s.indexOf(w) !== -1; }); }
     var ms = data.managers.filter(function (m) { return hit(m.n + ' ' + m.f + ' ' + m.s); });
-    var cs = data.companies.filter(function (c) { return hit(c.n); });
-    section('Companies', cs.slice(0, 30), function (c) { return link(c.u, c.n, c.l + (c.l === 1 ? ' letter' : ' letters')); });
+    var cs = data.companies.filter(function (c) { return hit(c.n + ' ' + (c.s || '')); });
+    section('Companies', cs.slice(0, 30), function (c) { return link(c.u, c.n, (c.s ? c.s + ' \u00b7 ' : '') + c.l + (c.l === 1 ? ' letter' : ' letters')); });
     section('Managers', ms, function (m) { return link(m.u, m.n + ', ' + m.f, m.s); });
     if (!ms.length && !cs.length) box.appendChild(el('p', 'small', 'Nothing found. The company index only covers letters I’ve been able to read so far.'));
   }

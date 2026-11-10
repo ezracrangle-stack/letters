@@ -101,6 +101,7 @@ def load_companies(managers):
             for h in hits:
                 mgrs.setdefault(h["manager"]["id"], [h["manager"], 0])[1] += 1
             companies.append({"name": c["name"], "slug": slugify(c["name"]), "hits": hits,
+                              "sector": c.get("sector"),
                               "managers": sorted(mgrs.values(), key=lambda v: -v[1]),
                               "mentions": sum(h["count"] for h in hits)})
     companies.sort(key=lambda c: (-len(c["hits"]), -c["mentions"], c["name"].lower()))
@@ -140,15 +141,32 @@ def build():
     letters_read = len({h["letter"]["url"] for c in companies for h in c["hits"]})
     by_name = {c["name"]: c for c in companies}
     top = [by_name[n] for n in TOP_COMPANIES if n in by_name]
+    sectors = {}
+    for c in companies:
+        if c["sector"]:
+            sectors.setdefault(c["sector"], []).append(c)
+    sectors = sorted(({"name": k, "slug": slugify(k), "companies": v} for k, v in sectors.items()),
+                     key=lambda x: x["name"])
+    for c in companies:
+        c["sector_slug"] = slugify(c["sector"]) if c["sector"] else None
     pages = [companies[i:i + COMPANIES_PER_PAGE] for i in range(0, len(companies), COMPANIES_PER_PAGE)] or [[]]
     page_url = lambda n, base: f"{base}.html" if n == 1 else f"{base}-{n}.html"
     for n, chunk in enumerate(pages, 1):
         render("companies.html", page_url(n, "companies"), "", companies=chunk, top=top if n == 1 else [],
+               sectors=sectors,
                total=len(companies), letters_read=letters_read,
                pager={"num": n, "pages": [(i, page_url(i, "companies")) for i in range(1, len(pages) + 1)]},
                start=(n - 1) * COMPANIES_PER_PAGE,
                covered=[m for m in managers if m["id"] in covered],
                pending=len([m for m in managers if m["id"] not in covered and m["access"] == "open"]))
+    (OUT / "s").mkdir()
+    for sec in sectors:
+        chunks = [sec["companies"][i:i + COMPANIES_PER_PAGE]
+                  for i in range(0, len(sec["companies"]), COMPANIES_PER_PAGE)]
+        for n, chunk in enumerate(chunks, 1):
+            render("sector.html", "s/" + page_url(n, sec["slug"]), "../", sec=sec, companies=chunk,
+                   start=(n - 1) * COMPANIES_PER_PAGE, sectors=sectors,
+                   pager={"num": n, "pages": [(i, page_url(i, sec["slug"])) for i in range(1, len(chunks) + 1)]})
     (OUT / "c").mkdir()
     for c in companies:
         chunks = [c["hits"][i:i + HITS_PER_PAGE] for i in range(0, len(c["hits"]), HITS_PER_PAGE)]
@@ -158,7 +176,7 @@ def build():
     render("search.html", "search.html", "")
     index = {"managers": [{"n": m["name"], "f": m["firm"], "s": m["style"], "u": f"m/{m['id']}.html"}
                           for m in managers],
-             "companies": [{"n": c["name"], "l": len(c["hits"]), "u": f"c/{c['slug']}.html"}
+             "companies": [{"n": c["name"], "l": len(c["hits"]), "u": f"c/{c['slug']}.html", "s": c["sector"] or ""}
                            for c in companies]}
     (OUT / "search.json").write_text(json.dumps(index, ensure_ascii=False, separators=(",", ":")),
                                      encoding="utf-8")

@@ -4,6 +4,7 @@
 {% block main %}
 <p class="crumb"><a href="{{ root }}companies.html">&larr; All companies</a></p>
 <h1 class="page-title">{{ c.name }}</h1>
+{% if c.sector %}<p class="best-for"><span>Sector</span> <a href="{{ root }}s/{{ c.sector_slug }}.html">{{ c.sector }}</a></p>{% endif %}
 <p class="dek">{{ c.hits|length }} letter{{ "s" if c.hits|length != 1 }} mention {{ c.name }}{% if c.managers|length > 1 %}, from {{ c.managers|length }} managers{% endif %}.{% if pager.pages|length > 1 %} Page {{ pager.num }} of {{ pager.pages|length }}.{% endif %}</p>
 
 <ul class="hits">

@@ -25,7 +25,8 @@ MENTIONS_FILE = DATA / "mentions.json"
 # Managers whose letters are read for the company index. Add ids here as
 # they are checked; the weekly run then reads their new letters.
 INDEXED = ["fundsmith", "hayden", "1-main", "laughing-water", "saga", "greystone",
-           "giverny", "plural", "massif", "moerus", "emeth", "maran"]
+           "giverny", "plural", "massif", "moerus", "emeth", "maran",
+           "wedgewood", "greenhaven"]
 MAX_BYTES = 40 * 1024 * 1024
 
 # Capitalised words that are almost never company names.

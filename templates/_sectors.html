@@ -1,0 +1,3 @@
+<ul class="sectors">
+{% for s in sectors %}<li><a href="{{ root }}s/{{ s.slug }}.html"{% if current == s.slug %} aria-current="page"{% endif %}>{{ s.name }}</a> <span class="ccount">{{ s.companies|length }}</span></li>{% endfor %}
+</ul>

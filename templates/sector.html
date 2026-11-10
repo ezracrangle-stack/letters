@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}{{ sec.name }} companies in investor letters{% if pager.num > 1 %} (page {{ pager.num }}){% endif %}{% endblock %}
+{% block description %}{{ sec.companies|length }} {{ sec.name|lower }} companies mentioned in letters from the value managers I read.{% endblock %}
+{% block main %}
+<p class="crumb"><a href="{{ root }}companies.html">&larr; All companies</a></p>
+<h1 class="page-title">{{ sec.name }}</h1>
+<p class="dek">{{ sec.companies|length }} {{ sec.name|lower }} compan{{ "ies" if sec.companies|length != 1 else "y" }} mentioned in the letters, sorted by how many letters talk about them.</p>
+<h2 class="section-head">Other sectors</h2>
+{% set current = sec.slug %}{% include "_sectors.html" %}
+<h2 class="section-head">Companies{% if pager.pages|length > 1 %}, page {{ pager.num }}{% endif %}</h2>
+<ol class="clist">
+{% for c in companies %}
+  <li><a href="{{ root }}c/{{ c.slug }}.html">{{ c.name }}</a><span class="ccount">{{ c.hits|length }} letter{{ "s" if c.hits|length != 1 }}</span></li>
+{% endfor %}
+</ol>
+{% set prefix = "" %}{% include "_pager.html" %}
+<p class="source">Sectors follow the 11 GICS sectors. I assigned them by hand, so tell me if one looks wrong.</p>
+{% endblock %}
