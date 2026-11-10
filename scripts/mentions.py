@@ -26,9 +26,10 @@ MENTIONS_FILE = DATA / "mentions.json"
 # they are checked; the weekly run then reads their new letters.
 INDEXED = ["fundsmith", "hayden", "1-main", "laughing-water", "saga", "greystone",
            "giverny", "plural", "massif", "moerus", "emeth", "maran",
-           "wedgewood", "greenhaven"]
+           "wedgewood", "greenhaven", "vltava", "horos"]
 # Not indexed: semper-augustus (its file host's robots.txt forbids robots) and
-# brookfield (bn.brookfield.com answers 403 to automated visits).
+# brookfield (bn.brookfield.com answers 403 to automated visits) and crossroads
+# (letters shown in an Adobe viewer, with no file a robot can open).
 MAX_BYTES = 40 * 1024 * 1024
 
 # Capitalised words that are almost never company names.
@@ -100,6 +101,24 @@ def html_text(data):
     return main.get_text("\n")
 
 
+def letter_pdf(data, page_url):
+    """The PDF a short letter page links to, if it links to exactly one letter-like PDF."""
+    from bs4 import BeautifulSoup
+    from urllib.parse import urljoin
+    soup = BeautifulSoup(data, "html.parser")
+    main = soup.find("article") or soup.find("main") or soup.body or soup
+    pdfs = []
+    for a in main.find_all("a", href=True):
+        href = urljoin(page_url, a["href"])
+        if href.lower().split("?")[0].endswith(".pdf") and href not in pdfs:
+            pdfs.append(href)
+    slug = page_url.rstrip("/").rsplit("/", 1)[-1].lower()
+    same = [h for h in pdfs if slug and slug in h.lower()]
+    if len(same) == 1:
+        return same[0]
+    return pdfs[0] if len(pdfs) == 1 else None
+
+
 class BytesFetcher(Fetcher):
     def get_bytes(self, url):
         rp = self._robots_for(url)
@@ -151,6 +170,12 @@ def main():
                     text, pages = pdf_text(data)
                 elif "html" in ctype or data.lstrip()[:15].lower().startswith((b"<!doctype", b"<html")):
                     text, pages = html_text(data), 1
+                    pdf = letter_pdf(data, url) if len(text.split()) < 1500 else None
+                    if pdf:      # a short page that only introduces the letter: read the PDF it links to
+                        pdata, _ = fetcher.get_bytes(pdf)
+                        if pdata[:4] == b"%PDF":
+                            text, pages = pdf_text(pdata)
+                            rec["via"] = pdf
                 else:
                     raise RuntimeError(f"not a PDF or web page ({ctype.split(';')[0] or 'unknown type'})")
                 rec["pages"] = pages
