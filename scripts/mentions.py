@@ -26,7 +26,7 @@ MENTIONS_FILE = DATA / "mentions.json"
 # they are checked; the weekly run then reads their new letters.
 INDEXED = ["fundsmith", "hayden", "1-main", "laughing-water", "saga", "greystone",
            "giverny", "plural", "massif", "moerus", "emeth", "maran",
-           "wedgewood", "greenhaven", "vltava", "horos"]
+           "wedgewood", "greenhaven", "vltava", "horos", "hinde", "mayar"]
 # Not indexed: semper-augustus (its file host's robots.txt forbids robots) and
 # brookfield (bn.brookfield.com answers 403 to automated visits) and crossroads
 # (letters shown in an Adobe viewer, with no file a robot can open).

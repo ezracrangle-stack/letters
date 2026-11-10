@@ -33,7 +33,7 @@ companies:
   - {name: TSMC, aliases: [Taiwan Semiconductor Manufacturing Company, Taiwan Semiconductor, Taiwan Semiconductors], sector: Information Technology}
   - {name: Broadcom, sector: Information Technology}
   - {name: Intel, sector: Information Technology}
-  - {name: IBM, sector: Information Technology}
+  - {name: IBM, aliases: [International Business Machines], sector: Information Technology}
   - {name: Dell Technologies, aliases: [Dell], sector: Information Technology}
   - {name: Snowflake, sector: Information Technology}
   - {name: Netflix, sector: Communication Services}
@@ -50,7 +50,7 @@ companies:
   - {name: GSK, sector: Health Care}
   - {name: IDEXX Laboratories, aliases: [IDEXX], sector: Health Care}
   - {name: Stryker, sector: Health Care}
-  - {name: Becton Dickinson, sector: Health Care}
+  - {name: Becton Dickinson, aliases: ["Becton, Dickinson", BDX], sector: Health Care}
   - {name: Coloplast, sector: Health Care}
   - {name: Mettler-Toledo, sector: Health Care}
   - {name: Waters, aliases: [Waters Corporation], sector: Health Care}
@@ -224,7 +224,7 @@ companies:
   - {name: Innovative Industrial Properties, sector: Real Estate}
   - {name: Instacart, sector: Consumer Discretionary}
   - {name: Inter Parfums, sector: Consumer Staples}
-  - {name: Interactive Brokers, sector: Financials}
+  - {name: Interactive Brokers, aliases: [Interactive Brokers Group, IBKR], sector: Financials}
   - {name: Invitation Homes, sector: Real Estate}
   - {name: Issuer Direct, sector: Information Technology}
   - {name: IWG, sector: Industrials}
@@ -235,7 +235,7 @@ companies:
   - {name: KITS Eyecare, aliases: [KITS], sector: Consumer Discretionary}
   - {name: Krafton, sector: Communication Services}
   - {name: Kroger, sector: Consumer Staples}
-  - {name: Labcorp, sector: Health Care}
+  - {name: Labcorp, aliases: [LabCorp, Laboratory Corp of America, Laboratory Corporation of America, Lab Corp of America, LabCorp of America], sector: Health Care}
   - {name: Leon's Furniture, aliases: ["Leon’s Furniture"], sector: Consumer Discretionary}
   - {name: LGI Homes, sector: Consumer Discretionary}
   - {name: Libsyn, aliases: [Liberated Syndication], sector: Communication Services}
@@ -342,7 +342,7 @@ companies:
   - {name: Xponential Fitness, sector: Consumer Discretionary}
   - {name: Yellow Pages, sector: Communication Services}
   - {name: Zillow, sector: Real Estate}
-  - {name: UPS, sector: Industrials}
+  - {name: UPS, aliases: [United Parcel Service], sector: Industrials}
 
   # batch 3: Giverny, Plural, Massif
   - {name: a2 Milk, aliases: [A2 Milk], sector: Consumer Staples}
@@ -410,7 +410,7 @@ companies:
   - {name: Heico, sector: Industrials}
   - {name: Hermès, aliases: [Hermes], sector: Consumer Discretionary}
   - {name: Howard Hughes, sector: Real Estate}
-  - {name: Howden Joinery, sector: Consumer Discretionary}
+  - {name: Howden Joinery, aliases: [Howdens, Howdens Joinery], sector: Consumer Discretionary}
   - {name: Intuitive Surgical, sector: Health Care}
   - {name: Ionic Rare Earths, aliases: [Ionic Rare Earth Metals], sector: Materials}
   - {name: Ivanhoe Mines, sector: Materials}
@@ -843,6 +843,47 @@ companies:
   - {name: Zegona, aliases: [Zegona Communications], sector: Communication Services}
   - {name: Zigup, sector: Industrials}
 
+  # Batch 8: Hinde Group and Mayar Capital
+  - {name: Northeast Bank, aliases: [Northeast Bancorp], sector: Financials}
+  - {name: NMI Holdings, sector: Financials}
+  - {name: TopBuild, sector: Consumer Discretionary}
+  - {name: Sleep Number, sector: Consumer Discretionary}
+  - {name: ESAB, sector: Industrials}
+  - {name: Danaher, aliases: [Danaher Corporation], sector: Health Care}
+  - {name: Henry Schein, sector: Health Care}
+  - {name: Husqvarna, sector: Industrials}
+  - {name: Brenntag, sector: Industrials}
+  - {name: Richemont, aliases: [Compagnie Financière Richemont, Cartier], sector: Consumer Discretionary}
+  - {name: Henkel, aliases: [HENKEL], sector: Consumer Staples}
+  - {name: Ashtead Group, aliases: [Ashtead, Asthead, Sunbelt Rentals], sector: Industrials}
+  - {name: Capgemini, aliases: [CapGemini], sector: Information Technology}
+  - {name: Danone, sector: Consumer Staples}
+  - {name: Swatch Group, aliases: [Swatch], sector: Consumer Discretionary}
+  - {name: Vontier, sector: Information Technology}
+  - {name: Evertec, aliases: [EVERTEC], sector: Financials}
+  - {name: Helical, sector: Real Estate}
+  - {name: Wickes, sector: Consumer Discretionary}
+  - {name: Solventum, sector: Health Care}
+  - {name: Kering, aliases: [Gucci, Bottega Veneta], sector: Consumer Discretionary}
+  - {name: Linde, sector: Materials}
+  - {name: PZ Cussons, sector: Consumer Staples}
+  - {name: Hasbro, sector: Consumer Discretionary}
+  - {name: Dunelm, sector: Consumer Discretionary}
+  - {name: Tapestry, aliases: [Coach], sector: Consumer Discretionary}
+  - {name: Alstom, sector: Industrials}
+  - {name: Indofood, sector: Consumer Staples}
+  - {name: Johnson Service Group, aliases: [Johnson Service], sector: Industrials}
+  - {name: Neinor Homes, aliases: [Neinor], sector: Consumer Discretionary}
+  - {name: Metrovacesa, sector: Real Estate}
+  - {name: Semperit, sector: Industrials}
+  - {name: Rosenbauer, aliases: [Rosenbauer International], sector: Industrials}
+  - {name: Croda International, aliases: [Croda], sector: Materials}
+  - {name: DiaSorin, sector: Health Care}
+  - {name: British Land, sector: Real Estate}
+  - {name: Van de Velde, sector: Consumer Discretionary}
+  - {name: Victrex, sector: Materials}
+  - {name: Bath & Body Works, aliases: [L Brands, Limited Brands], sector: Consumer Discretionary}
+
   # Former companies: discussed as investments in the letters, no longer independent.
   # former: what happened. They get their own page and stay out of the main list, sectors and Top 10.
   - {name: Despegar, aliases: [Despegar.com], former: "Acquired by Prosus (2025)"}
@@ -929,3 +970,28 @@ companies:
   - {name: Blade Air Mobility, former: "Renamed Strata Critical Medical (2025)"}
   - {name: Credit Suisse, former: "Acquired by UBS (2023)"}
   - {name: Splunk, former: "Acquired by Cisco (2024)"}
+  - {name: Covetrus, former: "Taken private by CD&R and TPG (2022)"}
+  - {name: QVC Group, aliases: [QVC, Liberty Interactive, Qurate Retail], former: "Filed for Chapter 11 (2026)"}
+  - {name: HSN, former: "Acquired by Liberty Interactive (2017)"}
+  - {name: HRG Group, aliases: [HRG], former: "Merged into Spectrum Brands (2018)"}
+  - {name: Fidelity & Guaranty Life, aliases: [CF Corporation, FGL Holdings], former: "Acquired by Fidelity National Financial (2020)"}
+  - {name: Blount International, aliases: [Blount], former: "Taken private by American Securities and P2 Capital (2016)"}
+  - {name: TD Ameritrade, aliases: [Ameritrade], former: "Acquired by Charles Schwab (2020)"}
+  - {name: E*TRADE, aliases: [E*TRADE Financial], former: "Acquired by Morgan Stanley (2020)"}
+  - {name: IHS Markit, former: "Merged with S&P Global (2022)"}
+  - {name: Kenvue, former: "Acquired by Kimberly-Clark (2026)"}
+  - {name: Nordstrom, former: "Taken private by the Nordstrom family and Liverpool (2025)"}
+  - {name: Dun & Bradstreet, former: "Taken private by Clearlake Capital (2025)"}
+  - {name: Ascential, former: "Acquired by Informa (2024)"}
+  - {name: Wincor Nixdorf, former: "Merged with Diebold to form Diebold Nixdorf (2016)"}
+  - {name: Silver Bay Realty Trust, former: "Acquired by Tricon Capital (2017)"}
+  - {name: Discovery Communications, former: "Merged with WarnerMedia to form Warner Bros. Discovery (2022)"}
+  - {name: Scripps Networks Interactive, former: "Acquired by Discovery (2018)"}
+  - {name: Express Scripts, former: "Acquired by Cigna (2018)"}
+  - {name: Redrow, former: "Acquired by Barratt Developments (2024)"}
+  - {name: Farfetch, former: "Rescued by Coupang and delisted (2024)"}
+  - {name: Yoox Net-a-Porter, former: "Taken over by Richemont (2018), sold to Mytheresa (2025)"}
+  - {name: Merlin Entertainments, former: "Taken private by Kirkbi, Blackstone and CPPIB (2019)"}
+  - {name: L’Occitane, aliases: ["L'Occitane"], former: "Taken private by Reinold Geiger (2024)"}
+  - {name: Tiffany, former: "Acquired by LVMH (2021)"}
+  - {name: Computer Sciences, former: "Merged with HPE's services unit to form DXC Technology (2017)"}
