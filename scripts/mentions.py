@@ -26,7 +26,7 @@ MENTIONS_FILE = DATA / "mentions.json"
 # they are checked; the weekly run then reads their new letters.
 INDEXED = ["fundsmith", "hayden", "1-main", "laughing-water", "saga", "greystone",
            "giverny", "plural", "massif", "moerus", "emeth", "maran",
-           "wedgewood", "greenhaven"]
+           "wedgewood", "greenhaven", "brookfield"]
 MAX_BYTES = 40 * 1024 * 1024
 
 # Capitalised words that are almost never company names.
@@ -89,6 +89,15 @@ def pdf_text(data):
     return "\n".join((p.extract_text() or "") for p in reader.pages), len(reader.pages)
 
 
+def html_text(data):
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(data, "html.parser")
+    for tag in soup(["script", "style", "nav", "header", "footer", "noscript"]):
+        tag.decompose()
+    main = soup.find("article") or soup.find("main") or soup.body or soup
+    return main.get_text("\n")
+
+
 class BytesFetcher(Fetcher):
     def get_bytes(self, url):
         rp = self._robots_for(url)
@@ -101,7 +110,11 @@ class BytesFetcher(Fetcher):
         wait = self.last_hit.get(host, 0) + delay - time.time()
         if wait > 0:
             time.sleep(wait)
-        r = self.session.get(url, timeout=60, headers={"Accept": "application/pdf,*/*;q=0.8"})
+        headers = {"Accept": "application/pdf,text/html;q=0.9,*/*;q=0.8"}
+        if host.endswith("sec.gov"):
+            from update import EDGAR_UA
+            headers["User-Agent"] = EDGAR_UA       # the SEC asks for a contact
+        r = self.session.get(url, timeout=60, headers=headers)
         self.last_hit[host] = time.time()
         r.raise_for_status()
         if len(r.content) > MAX_BYTES:
@@ -132,9 +145,12 @@ def main():
             rec = {"manager": mid, "checked": today}
             try:
                 data, ctype = fetcher.get_bytes(url)
-                if data[:4] != b"%PDF":
-                    raise RuntimeError(f"not a PDF ({ctype.split(';')[0] or 'unknown type'})")
-                text, pages = pdf_text(data)
+                if data[:4] == b"%PDF":
+                    text, pages = pdf_text(data)
+                elif "html" in ctype or data.lstrip()[:15].lower().startswith((b"<!doctype", b"<html")):
+                    text, pages = html_text(data), 1
+                else:
+                    raise RuntimeError(f"not a PDF or web page ({ctype.split(';')[0] or 'unknown type'})")
                 rec["pages"] = pages
                 words = len(text.split())
                 if words < 50 * max(pages, 1) // 4:

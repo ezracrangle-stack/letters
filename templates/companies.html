@@ -23,6 +23,7 @@
 </ol>
 <h2 class="section-head">By sector</h2>
 {% set current = None %}{% include "_sectors.html" %}
+<p class="small"><a href="{{ root }}companies-former.html">Former companies ({{ former_count }})</a>: bought, merged, renamed or bankrupt, kept for what the managers wrote about them.</p>
 <h2 class="section-head">All companies</h2>
 {% else %}
 <h2 class="section-head">All companies, page {{ pager.num }}</h2>
@@ -35,7 +36,7 @@
 </ol>
 {% set prefix = root %}{% include "_pager.html" %}
 </div>
-<p class="source">The index is built by reading each letter once and keeping only the company names it finds. It lists companies that still exist on their own. Letters that are scanned images, or only open to registered users, aren't covered.</p>
+<p class="source">The index is built by reading each letter once and keeping only the company names it finds. The main list has companies that still exist on their own; the ones that were bought, merged, renamed or went bankrupt are under former companies. Letters that are scanned images, or only open to registered users, aren't covered.</p>
 {% endblock %}
 {% block scripts %}<script>
 (function () {

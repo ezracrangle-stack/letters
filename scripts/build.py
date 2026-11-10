@@ -101,7 +101,7 @@ def load_companies(managers):
             for h in hits:
                 mgrs.setdefault(h["manager"]["id"], [h["manager"], 0])[1] += 1
             companies.append({"name": c["name"], "slug": slugify(c["name"]), "hits": hits,
-                              "sector": c.get("sector"),
+                              "sector": c.get("sector"), "former": c.get("former"),
                               "managers": sorted(mgrs.values(), key=lambda v: -v[1]),
                               "mentions": sum(h["count"] for h in hits)})
     companies.sort(key=lambda c: (-len(c["hits"]), -c["mentions"], c["name"].lower()))
@@ -110,7 +110,9 @@ def load_companies(managers):
 
 def build():
     managers, last_run = load()
-    companies = load_companies(managers)
+    every_company = load_companies(managers)
+    companies = [c for c in every_company if not c["former"]]
+    former = sorted([c for c in every_company if c["former"]], key=lambda c: c["name"].lower())
     env = Environment(loader=FileSystemLoader(ROOT / "templates"),
                       autoescape=select_autoescape(["html"]))
     import hashlib
@@ -147,13 +149,13 @@ def build():
             sectors.setdefault(c["sector"], []).append(c)
     sectors = sorted(({"name": k, "slug": slugify(k), "companies": v} for k, v in sectors.items()),
                      key=lambda x: x["name"])
-    for c in companies:
+    for c in every_company:
         c["sector_slug"] = slugify(c["sector"]) if c["sector"] else None
     pages = [companies[i:i + COMPANIES_PER_PAGE] for i in range(0, len(companies), COMPANIES_PER_PAGE)] or [[]]
     page_url = lambda n, base: f"{base}.html" if n == 1 else f"{base}-{n}.html"
     for n, chunk in enumerate(pages, 1):
         render("companies.html", page_url(n, "companies"), "", companies=chunk, top=top if n == 1 else [],
-               sectors=sectors,
+               sectors=sectors, former_count=len(former),
                total=len(companies), letters_read=letters_read,
                pager={"num": n, "pages": [(i, page_url(i, "companies")) for i in range(1, len(pages) + 1)]},
                start=(n - 1) * COMPANIES_PER_PAGE,
@@ -167,8 +169,9 @@ def build():
             render("sector.html", "s/" + page_url(n, sec["slug"]), "../", sec=sec, companies=chunk,
                    start=(n - 1) * COMPANIES_PER_PAGE, sectors=sectors,
                    pager={"num": n, "pages": [(i, page_url(i, sec["slug"])) for i in range(1, len(chunks) + 1)]})
+    render("former.html", "companies-former.html", "", former=former)
     (OUT / "c").mkdir()
-    for c in companies:
+    for c in every_company:
         chunks = [c["hits"][i:i + HITS_PER_PAGE] for i in range(0, len(c["hits"]), HITS_PER_PAGE)]
         for n, chunk in enumerate(chunks, 1):
             render("company.html", "c/" + page_url(n, c["slug"]), "../", c=c, hits=chunk,
@@ -176,8 +179,9 @@ def build():
     render("search.html", "search.html", "")
     index = {"managers": [{"n": m["name"], "f": m["firm"], "s": m["style"], "u": f"m/{m['id']}.html"}
                           for m in managers],
-             "companies": [{"n": c["name"], "l": len(c["hits"]), "u": f"c/{c['slug']}.html", "s": c["sector"] or ""}
-                           for c in companies]}
+             "companies": [{"n": c["name"], "l": len(c["hits"]), "u": f"c/{c['slug']}.html",
+                            "s": "Former company" if c["former"] else (c["sector"] or "")}
+                           for c in every_company]}
     (OUT / "search.json").write_text(json.dumps(index, ensure_ascii=False, separators=(",", ":")),
                                      encoding="utf-8")
     render("404.html", "404.html", "/")
