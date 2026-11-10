@@ -26,7 +26,9 @@ MENTIONS_FILE = DATA / "mentions.json"
 # they are checked; the weekly run then reads their new letters.
 INDEXED = ["fundsmith", "hayden", "1-main", "laughing-water", "saga", "greystone",
            "giverny", "plural", "massif", "moerus", "emeth", "maran",
-           "wedgewood", "greenhaven", "brookfield"]
+           "wedgewood", "greenhaven"]
+# Not indexed: semper-augustus (its file host's robots.txt forbids robots) and
+# brookfield (bn.brookfield.com answers 403 to automated visits).
 MAX_BYTES = 40 * 1024 * 1024
 
 # Capitalised words that are almost never company names.
