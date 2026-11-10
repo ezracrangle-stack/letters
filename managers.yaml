@@ -363,6 +363,79 @@ managers:
       - match: "semi-annual"
         title: "Semi-annual letter"
 
+  - id: hinde
+    name: Marc Werres
+    firm: Hinde Group
+    style: "Concentrated value in a handful of businesses, mostly well-known US large caps, held for years."
+    why: "Marc owns six or seven stocks and explains each one at length. You see how a concentrated investor reasons about companies like Alphabet, Netflix, Uber and Interactive Brokers that most people assume are already fairly priced."
+    best_for: "Investors who run concentrated portfolios of large-cap compounders."
+    letters_page: https://www.hinde-group.com/letters
+    access: open
+    scrape:
+      select: 'a[href*="Partner-Letter"]'
+      url_attr: href
+      period_from: text
+
+  - id: mayar
+    name: Abdulaziz Alnaim
+    firm: Mayar Capital
+    style: "Responsible global value: quality businesses bought at a discount, with ethical and Shariah screens. London-based, letters since 2011."
+    why: "Aziz has written to his partners every quarter since 2011, including the long stretch when value lagged and a few expensive tech stocks led the index. His letters show a global value investor holding his ground and explaining why."
+    best_for: "Global value investors, especially those who invest with ethical or Shariah screens."
+    letters_page: https://www.mayarcapital.com/letters-global
+    access: open
+    scrape:                     # newest letters; 2011-2019 come from the archive page, listed below
+      select: 'a[href$=".pdf"]'
+      url_attr: href
+      period_from: url
+    overrides:
+      - match: "Q1-Quarterly-Letter-2023"
+        period: Q1 2023
+      - match: "Q2-Quarterly-Letter-2023"
+        period: Q2 2023
+      - match: "Q3-Quarterly-letter-2023"
+        period: Q3 2023
+      - match: "Apr-2020"
+        period: Q1 2020
+      - match: "Full-Year-2021"
+        period: Q4 2021
+        title: "Annual letter"
+    letters:
+      - {period: Q1 2019, url: "https://www.mayarcapital.com/s/2019-Q1-Quarterly-Letter-flnl.pdf"}
+      - {period: Q2 2019, url: "https://www.mayarcapital.com/s/2019-Q2-Quarterly-Letter.pdf"}
+      - {period: Q3 2019, url: "https://www.mayarcapital.com/s/2019-Q3-Quarterly-Letter.pdf"}
+      - {period: Q4 2019, url: "https://www.mayarcapital.com/s/2019-Q4-Quarterly-Letter.pdf"}
+      - {period: Q1 2018, url: "https://www.mayarcapital.com/s/2018-Q1-Quarterly-Letter.pdf"}
+      - {period: Q2 2018, url: "https://www.mayarcapital.com/s/2018-Q2-Quarterly-Letter.pdf"}
+      - {period: Q3 2018, url: "https://www.mayarcapital.com/s/2018-Q3-Quarterly-Letter.pdf"}
+      - {period: Q4 2018, url: "https://www.mayarcapital.com/s/2018-Q4-Quarterly-Letter.pdf"}
+      - {period: Q1 2017, url: "https://www.mayarcapital.com/s/2017-Q1-Quarterly-Letter.pdf"}
+      - {period: Q2 2017, url: "https://www.mayarcapital.com/s/2017-Q2-Quarterly-Letter.pdf"}
+      - {period: Q3 2017, url: "https://www.mayarcapital.com/s/2017-Q3-Quarterly-Letter.pdf"}
+      - {period: Q4 2017, url: "https://www.mayarcapital.com/s/2017-Q4-Quarterly-Letter.pdf"}
+      - {period: Q1 2016, url: "https://www.mayarcapital.com/s/2016-Q1-Quarterly-Letter.pdf"}
+      - {period: Q2 2016, url: "https://www.mayarcapital.com/s/2016-Q2-Quarterly-Letter.pdf"}
+      - {period: Q3 2016, url: "https://www.mayarcapital.com/s/2016-Q3-Quarterly-Letter.pdf"}
+      - {period: Q4 2016, url: "https://www.mayarcapital.com/s/2016-Q4-Quarterly-Letter.pdf"}
+      - {period: Q1 2015, url: "https://www.mayarcapital.com/s/2015-Q1-Quarterly-Letter.pdf"}
+      - {period: Q2 2015, url: "https://www.mayarcapital.com/s/2015-Q2-Quarterly-Letter.pdf"}
+      - {period: Q3 2015, url: "https://www.mayarcapital.com/s/2015-Q3-Quarterly-Letter.pdf"}
+      - {period: Q4 2015, url: "https://www.mayarcapital.com/s/2015-Q4-Quarterly-Letter.pdf"}
+      - {period: Q1 2014, url: "https://www.mayarcapital.com/s/2014-Q1-Quarterly-Letter.pdf"}
+      - {period: Q2 2014, url: "https://www.mayarcapital.com/s/2014-Q2-Quarterly-Letter.pdf"}
+      - {period: Q3 2014, url: "https://www.mayarcapital.com/s/2014-Q3-Quarterly-Letter.pdf"}
+      - {period: Q4 2014, url: "https://www.mayarcapital.com/s/2014-Q4-Quarterly-Letter.pdf"}
+      - {period: Q1 2013, url: "https://www.mayarcapital.com/s/2013-Q1-Quarterly-Letter.pdf"}
+      - {period: Q2 2013, url: "https://www.mayarcapital.com/s/2013-Q2-Quarterly-Letter.pdf"}
+      - {period: Q3 2013, url: "https://www.mayarcapital.com/s/2013-Q3-Quarterly-Letter.pdf"}
+      - {period: Q4 2013, url: "https://www.mayarcapital.com/s/2013-Q4-Quarterly-Letter.pdf"}
+      - {period: Q1 2012, url: "https://www.mayarcapital.com/s/2012-Q1-Quarterly-Letter.pdf"}
+      - {period: Q2 2012, url: "https://www.mayarcapital.com/s/2012-Q2-Quarterly-Letter.pdf"}
+      - {period: Q3 2012, url: "https://www.mayarcapital.com/s/2012-Q3-Quarterly-Letter.pdf"}
+      - {period: Q4 2012, url: "https://www.mayarcapital.com/s/2012-Q4-Quarterly-Letter.pdf"}
+      - {period: Q3 2011, url: "https://www.mayarcapital.com/s/2011-Q3-Quarterly-Letter.pdf"}
+      - {period: Q4 2011, url: "https://www.mayarcapital.com/s/2011-Q4-Quarterly-Letter.pdf"}
+
 # ─────────────────────────────────────────────────────────────
 #  MANUAL LETTERS (for managers without an automatic page)
 #  Add under the manager, at the same level as "access:":

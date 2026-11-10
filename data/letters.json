@@ -8436,5 +8436,1387 @@
    "source": "auto",
    "backfill": true
   }
+ ],
+ "mayar": [
+  {
+   "url": "https://www.mayarcapital.com/s/Q3-2026-Letter-to-Partners-FINAL-z6m4.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "Q3 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Q2-2026-Letter-to-Partners-FINAL-20260709.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "Q2 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Mayar-RGEF-Q1-2026-Letter-to-Partners.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "Q1 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Quarterly-Letter-Q4-2025.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "Q4 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Quarterly-Letter-Q3-2025.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "Q3 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Quarterly-Letter-Q2-2025.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "Q2 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Quarterly-Letter-Q1-2025.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "Q1 2025",
+    "sort": 202503
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Quarterly-letter-Q4-2024.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "Q4 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Quarterly-letter-Q3-2024.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "Q3 2024",
+    "sort": 202409
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Quarterly-letter-Q2-2024.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q2",
+    "label": "Q2 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Quarterly-letter-Q1-2024.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "Q1 2024",
+    "sort": 202403
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Q4-Quarterly-letter-Q4-2023.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "Q4 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Q3-Quarterly-letter-2023-1.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "Q3 2023",
+    "sort": 202309
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Q2-Quarterly-Letter-2023.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "Q2 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Q1-Quarterly-Letter-2023.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q1",
+    "label": "Q1 2023",
+    "sort": 202303
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Mayar-Fund-Letter-to-Partners-Q4-2022.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "Q4 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Mayar-Fund-Letter-to-Partners-Q3-2022.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "Q3 2022",
+    "sort": 202209
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Mayar-Fund-Letter-to-Partners-Q2-2022.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "Q2 2022",
+    "sort": 202206
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Mayar-Fund-Letter-to-Partners-Q1-2022.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "Q1 2022",
+    "sort": 202203
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Mayar-Fund-Letter-to-Partners-Full-Year-2021.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q4",
+    "label": "Q4 2021",
+    "sort": 202112
+   },
+   "title": "Annual letter",
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Mayar-Fund-Letter-to-Partners-Sep-2021-web.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q3",
+    "label": "Q3 2021",
+    "sort": 202109
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/Mayar-Fund-Letter-to-Partners-Jun-2021_web.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q2",
+    "label": "Q2 2021",
+    "sort": 202106
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/3d-Mayar-Fund-Letter-to-Partners-Mar-2021_web.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q1",
+    "label": "Q1 2021",
+    "sort": 202103
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/12d-Mayar-Fund-Letter-to-Partners-Dec-2020-web.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q4",
+    "label": "Q4 2020",
+    "sort": 202012
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/9d-Mayar-Fund-Letter-to-Partners-Sep-2020-web.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q3",
+    "label": "Q3 2020",
+    "sort": 202009
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/6d-Mayar-Fund-Letter-to-Partners-Jun-2020-web.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q2",
+    "label": "Q2 2020",
+    "sort": 202006
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/3d-Mayar-Fund-Letter-to-Partners-Apr-2020_web.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q1",
+    "label": "Q1 2020",
+    "sort": 202003
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2019-Q4-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q4",
+    "label": "Q4 2019",
+    "sort": 201912
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2019-Q3-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q3",
+    "label": "Q3 2019",
+    "sort": 201909
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2019-Q2-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q2",
+    "label": "Q2 2019",
+    "sort": 201906
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2019-Q1-Quarterly-Letter-flnl.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q1",
+    "label": "Q1 2019",
+    "sort": 201903
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2018-Q4-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q4",
+    "label": "Q4 2018",
+    "sort": 201812
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2018-Q3-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q3",
+    "label": "Q3 2018",
+    "sort": 201809
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2018-Q2-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q2",
+    "label": "Q2 2018",
+    "sort": 201806
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2018-Q1-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q1",
+    "label": "Q1 2018",
+    "sort": 201803
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2017-Q4-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q4",
+    "label": "Q4 2017",
+    "sort": 201712
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2017-Q3-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q3",
+    "label": "Q3 2017",
+    "sort": 201709
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2017-Q2-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q2",
+    "label": "Q2 2017",
+    "sort": 201706
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2017-Q1-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q1",
+    "label": "Q1 2017",
+    "sort": 201703
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2016-Q4-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q4",
+    "label": "Q4 2016",
+    "sort": 201612
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2016-Q3-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q3",
+    "label": "Q3 2016",
+    "sort": 201609
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2016-Q2-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q2",
+    "label": "Q2 2016",
+    "sort": 201606
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2016-Q1-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q1",
+    "label": "Q1 2016",
+    "sort": 201603
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2015-Q4-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2015,
+    "part": "Q4",
+    "label": "Q4 2015",
+    "sort": 201512
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2015-Q3-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2015,
+    "part": "Q3",
+    "label": "Q3 2015",
+    "sort": 201509
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2015-Q2-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2015,
+    "part": "Q2",
+    "label": "Q2 2015",
+    "sort": 201506
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2015-Q1-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2015,
+    "part": "Q1",
+    "label": "Q1 2015",
+    "sort": 201503
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2014-Q4-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2014,
+    "part": "Q4",
+    "label": "Q4 2014",
+    "sort": 201412
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2014-Q3-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2014,
+    "part": "Q3",
+    "label": "Q3 2014",
+    "sort": 201409
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2014-Q2-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2014,
+    "part": "Q2",
+    "label": "Q2 2014",
+    "sort": 201406
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2014-Q1-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2014,
+    "part": "Q1",
+    "label": "Q1 2014",
+    "sort": 201403
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2013-Q4-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2013,
+    "part": "Q4",
+    "label": "Q4 2013",
+    "sort": 201312
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2013-Q3-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2013,
+    "part": "Q3",
+    "label": "Q3 2013",
+    "sort": 201309
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2013-Q2-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2013,
+    "part": "Q2",
+    "label": "Q2 2013",
+    "sort": 201306
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2013-Q1-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2013,
+    "part": "Q1",
+    "label": "Q1 2013",
+    "sort": 201303
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2012-Q4-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2012,
+    "part": "Q4",
+    "label": "Q4 2012",
+    "sort": 201212
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2012-Q3-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2012,
+    "part": "Q3",
+    "label": "Q3 2012",
+    "sort": 201209
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2012-Q2-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2012,
+    "part": "Q2",
+    "label": "Q2 2012",
+    "sort": 201206
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2012-Q1-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2012,
+    "part": "Q1",
+    "label": "Q1 2012",
+    "sort": 201203
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2011-Q4-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2011,
+    "part": "Q4",
+    "label": "Q4 2011",
+    "sort": 201112
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  },
+  {
+   "url": "https://www.mayarcapital.com/s/2011-Q3-Quarterly-Letter.pdf",
+   "period": {
+    "year": 2011,
+    "part": "Q3",
+    "label": "Q3 2011",
+    "sort": 201109
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "manual",
+   "backfill": true
+  }
+ ],
+ "hinde": [
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2026-Q3.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "Q3 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2026-Q2.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "Q2 2026",
+    "sort": 202606
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2026-Q1_R.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q1",
+    "label": "Q1 2026",
+    "sort": 202603
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2025-Q4_R.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q4",
+    "label": "Q4 2025",
+    "sort": 202512
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2025-Q3_R.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q3",
+    "label": "Q3 2025",
+    "sort": 202509
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2025-Q2_R.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q2",
+    "label": "Q2 2025",
+    "sort": 202506
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2025-Q1_R.pdf",
+   "period": {
+    "year": 2025,
+    "part": "Q1",
+    "label": "Q1 2025",
+    "sort": 202503
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2024-Q4_R.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q4",
+    "label": "Q4 2024",
+    "sort": 202412
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2024-Q3_R.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q3",
+    "label": "Q3 2024",
+    "sort": 202409
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2024-Q2_R.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q2",
+    "label": "Q2 2024",
+    "sort": 202406
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2024-Q1_R.pdf",
+   "period": {
+    "year": 2024,
+    "part": "Q1",
+    "label": "Q1 2024",
+    "sort": 202403
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2023-Q4_R-9w7l.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q4",
+    "label": "Q4 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2023-Q3_R.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q3",
+    "label": "Q3 2023",
+    "sort": 202309
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2023-Q2_R.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q2",
+    "label": "Q2 2023",
+    "sort": 202306
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2023-Q1_R.pdf",
+   "period": {
+    "year": 2023,
+    "part": "Q1",
+    "label": "Q1 2023",
+    "sort": 202303
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2022-Q4_R.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q4",
+    "label": "Q4 2022",
+    "sort": 202212
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2022-Q3_R.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q3",
+    "label": "Q3 2022",
+    "sort": 202209
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2022-Q2_R.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q2",
+    "label": "Q2 2022",
+    "sort": 202206
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2022-Q1_R.pdf",
+   "period": {
+    "year": 2022,
+    "part": "Q1",
+    "label": "Q1 2022",
+    "sort": 202203
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2021-Q4_R.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q4",
+    "label": "Q4 2021",
+    "sort": 202112
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2021-Q3_R.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q3",
+    "label": "Q3 2021",
+    "sort": 202109
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2021-Q2_R.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q2",
+    "label": "Q2 2021",
+    "sort": 202106
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2021-Q1_R.pdf",
+   "period": {
+    "year": 2021,
+    "part": "Q1",
+    "label": "Q1 2021",
+    "sort": 202103
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2020-Q4_R.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q4",
+    "label": "Q4 2020",
+    "sort": 202012
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2020-Q3_R.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q3",
+    "label": "Q3 2020",
+    "sort": 202009
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2020-Q2_R.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q2",
+    "label": "Q2 2020",
+    "sort": 202006
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2020-Q1_R.pdf",
+   "period": {
+    "year": 2020,
+    "part": "Q1",
+    "label": "Q1 2020",
+    "sort": 202003
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2019-Q4.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q4",
+    "label": "Q4 2019",
+    "sort": 201912
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2019-Q3.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q3",
+    "label": "Q3 2019",
+    "sort": 201909
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2019-Q2-j28t.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q2",
+    "label": "Q2 2019",
+    "sort": 201906
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2019-Q1-7hgj.pdf",
+   "period": {
+    "year": 2019,
+    "part": "Q1",
+    "label": "Q1 2019",
+    "sort": 201903
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2018-Q4.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q4",
+    "label": "Q4 2018",
+    "sort": 201812
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2018-Q3.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q3",
+    "label": "Q3 2018",
+    "sort": 201809
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2018-Q2.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q2",
+    "label": "Q2 2018",
+    "sort": 201806
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2018-Q1.pdf",
+   "period": {
+    "year": 2018,
+    "part": "Q1",
+    "label": "Q1 2018",
+    "sort": 201803
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2017-Q4.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q4",
+    "label": "Q4 2017",
+    "sort": 201712
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2017-Q3.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q3",
+    "label": "Q3 2017",
+    "sort": 201709
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2017-Q2.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q2",
+    "label": "Q2 2017",
+    "sort": 201706
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2017-Q1.pdf",
+   "period": {
+    "year": 2017,
+    "part": "Q1",
+    "label": "Q1 2017",
+    "sort": 201703
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2016-Q4.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q4",
+    "label": "Q4 2016",
+    "sort": 201612
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2016-Q3.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q3",
+    "label": "Q3 2016",
+    "sort": 201609
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2016-Q2.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q2",
+    "label": "Q2 2016",
+    "sort": 201606
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2016-Q1.pdf",
+   "period": {
+    "year": 2016,
+    "part": "Q1",
+    "label": "Q1 2016",
+    "sort": 201603
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2015-Q4.pdf",
+   "period": {
+    "year": 2015,
+    "part": "Q4",
+    "label": "Q4 2015",
+    "sort": 201512
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  },
+  {
+   "url": "https://www.hinde-group.com/s/Hinde_Partner-Letter_2015-Q3-zdra.pdf",
+   "period": {
+    "year": 2015,
+    "part": "Q3",
+    "label": "Q3 2015",
+    "sort": 201509
+   },
+   "title": null,
+   "first_seen": "2026-11-10",
+   "source": "auto",
+   "backfill": true
+  }
  ]
 }
