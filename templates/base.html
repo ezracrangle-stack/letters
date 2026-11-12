@@ -26,6 +26,8 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Investor Letters by Ezra Crangle. Letters from the value managers I read, linked to the source and checked every week.">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ezracrangle">
+<meta name="twitter:creator" content="@ezracrangle">
 <meta name="twitter:title" content="{{ self.title() }} · Ezra's Notes">
 <meta name="twitter:description" content="{{ self.description() }}">
 <meta name="twitter:image" content="{{ site_url }}/static/og-image.png">
@@ -44,7 +46,7 @@
     </span>
   </div>
   <a class="nameplate" href="{{ root }}index.html">Investor Letters</a>
-  <p class="byline">By <a href="https://www.linkedin.com/in/ezracrangle/">Ezra Crangle</a></p>
+  <p class="byline">By <a href="https://x.com/ezracrangle">@ezracrangle</a></p>
   <nav>
     <a href="{{ root }}index.html"{% if page == 'index.html' %} aria-current="page"{% endif %}>Latest</a>
     <a href="{{ root }}managers.html"{% if page == 'managers.html' %} aria-current="page"{% endif %}>Managers</a>
@@ -63,7 +65,9 @@
   <p class="footer-links">
     <a href="{{ subscribe_url }}">Subscribe to the newsletter</a>
     <a href="https://substack.com/@ezracrangle">Substack @ezracrangle</a>
+    <a href="https://x.com/ezracrangle">X @ezracrangle</a>
     <a href="https://www.linkedin.com/in/ezracrangle/">LinkedIn</a>
+    <a href="https://gd.ezrasnotes.com/">The G&amp;D Index</a>
     <a href="{{ root }}feed.xml">RSS</a>
     <a href="{{ root }}companies.html"{% if page.startswith('companies') or page.startswith('c/') or page.startswith('s/') %} aria-current="page"{% endif %}>Companies</a>
     <a href="{{ root }}search.html"{% if page == 'search.html' %} aria-current="page"{% endif %}>Search</a>
