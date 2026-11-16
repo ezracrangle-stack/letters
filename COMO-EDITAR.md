@@ -19,6 +19,7 @@ Reglas de oro:
 Busca al gestor (Ctrl + F con su nombre) y cambia el texto entre comillas de:
 - `why:` → por qué leerlo
 - `best_for:` → para qué tipo de inversor son sus cartas
+- `holdings:` → (opcional) su página en holdings.ezrasnotes.com, por ejemplo `terry-smith`. Si la pones, su página aquí muestra "See his portfolio →".
 - `style:` → estilo de inversión en una línea
 
 ## Agregar un gestor que publica cartas en su sitio

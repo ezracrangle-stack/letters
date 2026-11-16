@@ -8,6 +8,9 @@
 #  the archive file but stop showing on the site.
 #  To EDIT your comment: change the text after "why:".
 #  "best_for" says which kind of investor gets the most out of the letters.
+#  "holdings" is the manager's page on holdings.ezrasnotes.com, if he has one
+#  (the end of the address: holdings.ezrasnotes.com/m/terry-smith.html → terry-smith).
+#  Then his page here links to his 13F portfolio.
 #
 #  Keep the two spaces of indentation. Text with a colon (:)
 #  inside must go between double quotes.
@@ -64,6 +67,7 @@ managers:
   - id: rv-capital
     name: Rob Vinall
     firm: RV Capital
+    holdings: robert-vinall
     style: "Business Owner Fund: about 10 to 12 owner-operated businesses held for the long term."
     why: "Rob puts management character at the center of every decision and is candid about drawdowns, including a near-50% one."
     best_for: "Long-term investors focused on quality businesses run by owner-operators."
@@ -73,6 +77,7 @@ managers:
   - id: wedgewood
     name: David Rolfe
     firm: Wedgewood Partners
+    holdings: david-rolfe
     style: "Focused, low-turnover growth portfolios in large and SMID caps, owned like businesses."
     why: "Dave pairs holding-by-holding notes with blunt commentary on the Fed and valuations, and follows the same companies for years."
     best_for: "Investors in large-cap quality growth who hold for years."
@@ -164,6 +169,7 @@ managers:
   - id: greenhaven
     name: Scott Miller
     firm: Greenhaven Road Capital
+    holdings: scott-miller
     style: "Long-biased, global, off-the-beaten-path ideas, modeled on the early Buffett partnerships."
     why: "Scott writes like he's talking to a friend and he's honest about how much of any record is luck. He also visits companies most investors only read about."
     best_for: "Investors open to off-the-beaten-path ideas anywhere in the world."
@@ -223,6 +229,7 @@ managers:
   - id: semper-augustus
     name: Chris Bloomstran
     firm: Semper Augustus
+    holdings: chris-bloomstran
     style: "Concentrated portfolio of well-run, well-capitalized businesses bought below conservative appraisals."
     why: "One letter a year, often 100+ pages, with the Berkshire Hathaway valuation serious Berkshire watchers wait for. Block an afternoon."
     best_for: "Berkshire Hathaway shareholders and anyone who thinks about market valuation over decades."
@@ -237,6 +244,7 @@ managers:
   - id: fundsmith
     name: Terry Smith
     firm: Fundsmith
+    holdings: terry-smith
     style: "Global quality: buy good companies, don't overpay, do nothing."
     why: "Terry's annual letter is short, funny and blunt, and he defends the strategy hardest in the years it isn't working."
     best_for: "Quality investors who buy great companies and hold them."
@@ -259,6 +267,7 @@ managers:
   - id: turtle-creek
     name: Andrew Brenton
     firm: Turtle Creek Asset Management
+    holdings: andrew-brenton
     style: "Private-equity mindset in public mid caps: 25 to 30 names, position sizes moved as value changes (\"buy and optimize\")."
     why: "Turtle Creek has compounded since 1998 doing something closer to private equity than classic value. Andrew explains why trimming and adding around intrinsic value beats plain buy-and-hold."
     best_for: "Mid-cap investors curious about a private-equity approach to public markets."
@@ -304,6 +313,7 @@ managers:
   - id: giverny
     name: François Rochon
     firm: Giverny Capital
+    holdings: francois-rochon
     style: "Quality businesses with growing earnings, held for years and judged by how their intrinsic value grows."
     why: "François's annual letter tracks the owner earnings of every holding, and every year he reminds partners that trailing the market some years is the price of doing this well."
     best_for: "Quality investors who measure progress by business results, not stock prices."

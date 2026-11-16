@@ -259,3 +259,6 @@ footer { margin-top: 56px; padding-top: 14px; border-top: 3px double var(--rule)
 .sectors a { text-decoration: none; border-bottom: 1px solid var(--ink); }
 .sectors a[aria-current] { border-bottom-width: 2px; font-weight: 600; }
 .sectors .ccount { margin-left: 4px; }
+
+.holdings-link { margin: -6px 0 26px; }
+.holdings-link a { font-weight: 600; text-decoration: none; border-bottom: 1px solid var(--ink); }

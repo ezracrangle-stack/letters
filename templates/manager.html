@@ -12,7 +12,8 @@
   <p class="take-label">Why I read {{ m.name.split()[0] }}</p>
   <p>{{ m.why }}</p>
 </blockquote>
-
+{% if m.holdings %}<p class="holdings-link"><a href="https://holdings.ezrasnotes.com/m/{{ m.holdings }}.html">See his portfolio &rarr;</a> <span class="small">His 13F, quarter by quarter, on Investor Holdings.</span></p>
+{% endif %}
 {% if m.access == 'registration' %}
   <p class="notice">{{ m.access_note or (m.firm ~ " shares its letters with registered readers only. Sign up on the firm's site to read them.") }}</p>
   <p><a class="button" href="{{ m.letters_page }}" target="_blank" rel="noopener">Go to {{ m.firm }} &#8599;</a></p>
