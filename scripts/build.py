@@ -189,9 +189,25 @@ def build():
         render("manager.html", f"m/{m['id']}.html", "../", m=m)
 
     write_feed(all_letters)
+    write_sitemap()
     (OUT / "CNAME").write_text("letters.ezrasnotes.com\n")
     (OUT / ".nojekyll").write_text("")
     print(f"Built {len(managers)} managers, {len(all_letters)} letters into docs/")
+
+
+def write_sitemap():
+    """sitemap.xml and robots.txt for Google: every page of the site except the 404."""
+    urls = []
+    for f in sorted(OUT.rglob("*.html")):
+        rel = f.relative_to(OUT).as_posix()
+        if rel == "404.html":
+            continue
+        urls.append(f"{SITE_URL}/" + ("" if rel == "index.html" else rel))
+    body = "\n".join(f"  <url><loc>{escape(u)}</loc></url>" for u in urls)
+    (OUT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n'
+                                     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                                     f"{body}\n</urlset>\n", encoding="utf-8")
+    (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}/sitemap.xml\n")
 
 
 def write_feed(letters):
