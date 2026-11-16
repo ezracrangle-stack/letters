@@ -1,6 +1,19 @@
 {
  "brookfield": [
   {
+   "url": "https://www.sec.gov/Archives/edgar/data/1001085/000100108526000030/a2026-q3bninterimreport.htm",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "Q3 2026",
+    "sort": 202609
+   },
+   "title": "Q3 2026 letter (inside the report filed with the SEC)",
+   "first_seen": "2026-11-16",
+   "source": "auto",
+   "backfill": false
+  },
+  {
    "url": "https://bn.brookfield.com/sites/brookfield-bn-v2/files/Brookfield-BN-IR-V2/2026/Q2/Q2-26-Brookfield-Letter-to-Shareholders.pdf",
    "period": {
     "year": 2026,
