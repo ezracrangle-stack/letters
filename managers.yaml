@@ -357,6 +357,7 @@ managers:
   - id: moerus
     name: Amit Wadhwaney
     firm: Moerus Capital Management
+    holdings: amit-wadhwaney
     style: "Deep value worldwide, often in emerging markets and out-of-favor industries."
     why: "Amit spent decades at Third Avenue and still hunts where the discounts are widest, often in markets most US funds won't touch."
     best_for: "Deep value investors open to emerging and frontier markets."
