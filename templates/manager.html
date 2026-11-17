@@ -1,4 +1,6 @@
 {% extends "base.html" %}
+{% from "_subscribe.html" import subscribe %}
+{% set end_kind = "manager-end" %}
 {% block title %}{{ m.name }}, {{ m.firm }}{% endblock %}
 {% block description %}{{ m.why }}{% endblock %}
 {% block main %}
@@ -14,6 +16,8 @@
 </blockquote>
 {% if m.holdings %}<p class="holdings-link"><a href="https://holdings.ezrasnotes.com/m/{{ m.holdings }}.html">See his portfolio &rarr;</a> <span class="small">His 13F, quarter by quarter, on Investor Holdings.</span></p>
 {% endif %}
+{{ subscribe("manager", "mid") }}
+
 {% if m.access == 'registration' %}
   <p class="notice">{{ m.access_note or (m.firm ~ " shares its letters with registered readers only. Sign up on the firm's site to read them.") }}</p>
   <p><a class="button" href="{{ m.letters_page }}" target="_blank" rel="noopener">Go to {{ m.firm }} &#8599;</a></p>
@@ -35,8 +39,4 @@
 {% set share_title = m.name ~ " (" ~ m.firm ~ "): every letter in one place" %}
 {% include "_share.html" %}
 
-<aside class="cta slim">
-  <p class="cta-text">Ezra's Notes: investing with a long-term mindset, seeing companies the way an owner does. Free.</p>
-  <a class="button" href="{{ subscribe_url }}">Subscribe</a>
-</aside>
 {% endblock %}
