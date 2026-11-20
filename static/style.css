@@ -262,3 +262,13 @@ footer { margin-top: 56px; padding-top: 14px; border-top: 3px double var(--rule)
 
 .holdings-link { margin: -6px 0 26px; }
 .holdings-link a { font-weight: 600; text-decoration: none; border-bottom: 1px solid var(--ink); }
+
+/* ── Back to top ─────────────────────────── */
+.to-top { position: fixed; right: 20px; bottom: 20px; z-index: 50; width: 44px; height: 44px;
+  display: flex; align-items: center; justify-content: center; border: 2px solid var(--ink);
+  background: var(--paper); color: var(--ink); font: 20px/1 var(--head); text-decoration: none;
+  opacity: 0; visibility: hidden; transform: translateY(8px);
+  transition: opacity .2s, transform .2s, visibility .2s; }
+.to-top.show { opacity: 1; visibility: visible; transform: none; }
+.to-top:hover, .to-top:focus-visible { background: var(--ink); color: var(--paper); }
+@media print { .to-top { display: none; } }
