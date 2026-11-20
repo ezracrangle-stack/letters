@@ -26,6 +26,8 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main             # latest main, not the commit that queued this run
 
       - uses: actions/setup-python@v5
         with:
