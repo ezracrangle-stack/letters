@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../static/style.css?v=cab87872">
+<link rel="stylesheet" href="../static/style.css?v=99a51fec">
 <link rel="alternate" type="application/rss+xml" title="Investor Letters · Ezra's Notes" href="../feed.xml">
 <meta property="og:title" content="Seneca Foods in investor letters · Ezra's Notes">
 <meta property="og:description" content="2 letters from value managers that mention Seneca Foods, linked to the source.">
@@ -52,7 +52,7 @@
     <a href="../index.html">Latest</a>
     <a href="../managers.html">Managers</a>
     <a href="../companies.html" aria-current="page">Companies</a>
-    <a href="../search.html">Search</a>
+    <a href="../search.html" title="Search (shortcut: /)">Search</a>
     <a href="../about.html">About</a>
     <a href="https://www.ezrasnotes.com" class="nav-cta">Subscribe</a>
   </nav>
@@ -113,7 +113,7 @@
     <a href="https://www.linkedin.com/in/ezracrangle/">LinkedIn</a>
     <a href="../feed.xml">RSS</a>
     <a href="../companies.html" aria-current="page">Companies</a>
-    <a href="../search.html">Search</a>
+    <a href="../search.html" title="Search (shortcut: /)">Search</a>
     <a href="../about.html">About</a>
   </p>
   <nav class="footer-network" aria-label="More from Ezra's Notes"><span class="fn-label">More from Ezra's Notes</span>
@@ -153,5 +153,9 @@
 })();
 </script>
 <script>(function(){var now=Date.now();document.querySelectorAll('.new-badge[data-seen]').forEach(function(s){var t=Date.parse(s.getAttribute('data-seen')+'T00:00:00Z');if(now-t<14*864e5)s.hidden=false;});})();</script>
+<script>(function(){
+document.querySelectorAll('a.mail-report').forEach(function(a){var e=a.dataset.u+'@'+a.dataset.d;a.href='mailto:'+e+'?subject='+encodeURIComponent(a.dataset.s)+'&body='+encodeURIComponent(location.href+'\n\n');a.addEventListener('click',function(){if(window.gtag)gtag('event','broken_link_report',{page:location.pathname});});});
+document.addEventListener('keydown',function(e){if(e.key!=='/'||e.ctrlKey||e.metaKey||e.altKey)return;var t=e.target;if(t&&(t.isContentEditable||/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)))return;e.preventDefault();var box=document.querySelector('#q,#cfind,#filter,#f');if(box){box.focus();box.select&&box.select();}else{location.href='../search.html';}});
+})();</script>
 </body>
 </html>

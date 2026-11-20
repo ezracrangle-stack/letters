@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-20T22:44:47+00:00",
+ "last_run": "2026-11-20T23:02:07+00:00",
  "managers": {
   "brookfield": {
    "status": "ok",
@@ -75,8 +75,8 @@
    "new": 0
   },
   "vltava": {
-   "status": "ok",
-   "found_on_page": 90,
+   "status": "error",
+   "error": "HTTPSConnectionPool(host='www.vltavafund.com', port=443): Max retries exceeded with url: /dopisy-akcionarum (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.vltavafund.com', port=443) at 0x79b90529cd70>, 'Connection to www.vltavafund.com timed out. (connect timeout=30)'))",
    "new": 0
   },
   "horos": {
