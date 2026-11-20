@@ -13,7 +13,7 @@
   {% for x in latest %}
     <li>
       <span class="period">{{ x.period.label }}</span>
-      <span class="who"><a href="{{ root }}m/{{ x.manager.id }}.html">{{ x.manager.name }}</a><span class="firm">{{ x.manager.firm }}</span></span>
+      <span class="who"><a href="{{ root }}m/{{ x.manager.id }}.html">{{ x.manager.name }}</a>{% if x.is_new %}<span class="new-badge" data-seen="{{ x.first_seen }}" hidden>New</span>{% endif %}<span class="firm">{{ x.manager.firm }}</span></span>
       <a class="read" href="{{ x.url }}" target="_blank" rel="noopener">Read<span class="sr"> {{ x.display }} by {{ x.manager.name }}</span> &#8599;{% if x.via %}<span class="via">via {{ x.via }}</span>{% endif %}</a>
     </li>
   {% endfor %}

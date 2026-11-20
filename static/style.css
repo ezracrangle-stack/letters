@@ -281,3 +281,8 @@ footer { margin-top: 56px; padding-top: 14px; border-top: 3px double var(--rule)
 .footer-network a { color: var(--ink); text-decoration: none; }
 .footer-network a:hover { text-decoration: underline; }
 .footer-network [aria-current] { color: var(--mute); }
+
+/* "New" badge on letters found in the last 14 days */
+.new-badge{display:inline-block;margin-left:.5em;padding:1px 6px;font-family:var(--head);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;line-height:1.5;color:var(--paper);background:var(--ink);vertical-align:middle;}
+.new-badge[hidden]{display:none;}
+@media print{.new-badge{display:none;}}

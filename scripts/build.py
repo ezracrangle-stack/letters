@@ -122,6 +122,14 @@ def build():
                   subscribe_url=SUBSCRIBE_URL, updated=pretty_date(last_run),
                   manager_count=len(managers))
 
+    # "New" badge candidates: found by a weekly check (not the first import of a
+    # manager) and for a recent period, so old letters added by hand never qualify.
+    # The page shows the badge only while first_seen is under 14 days old (static/new.js).
+    for m in managers:
+        for x in m["letters"]:
+            y, mo = int(x["first_seen"][:4]), int(x["first_seen"][5:7])
+            floor = (y * 12 + mo - 1 - 9) // 12 * 100 + (y * 12 + mo - 1 - 9) % 12 + 1
+            x["is_new"] = not x.get("backfill") and x["period"]["sort"] >= floor
     all_letters = [dict(x, manager=m) for m in managers for x in m["letters"]]
     all_letters.sort(key=lambda x: (x["period"]["sort"], x["first_seen"]), reverse=True)
 
