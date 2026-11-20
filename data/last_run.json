@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-17T18:56:40+00:00",
+ "last_run": "2026-11-20T22:09:27+00:00",
  "managers": {
   "brookfield": {
    "status": "ok",
@@ -66,8 +66,8 @@
    "new": 0
   },
   "fundsmith": {
-   "status": "ok",
-   "found_on_page": 23,
+   "status": "error",
+   "error": "403 Client Error: Forbidden for url: https://www.fundsmith.co.uk/documents/",
    "new": 0
   },
   "turtle-creek": {
@@ -100,8 +100,8 @@
    "new": 0
   },
   "moerus": {
-   "status": "ok",
-   "found_on_page": 20,
+   "status": "error",
+   "error": "HTTPSConnectionPool(host='www.moeruscap.com', port=443): Max retries exceeded with url: /shareholder-letters/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.moeruscap.com', port=443) at 0x77b9e4c9d6a0>, 'Connection to www.moeruscap.com timed out. (connect timeout=30)'))",
    "new": 0
   },
   "hinde": {
