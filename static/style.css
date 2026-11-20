@@ -272,3 +272,12 @@ footer { margin-top: 56px; padding-top: 14px; border-top: 3px double var(--rule)
 .to-top.show { opacity: 1; visibility: visible; transform: none; }
 .to-top:hover, .to-top:focus-visible { background: var(--ink); color: var(--paper); }
 @media print { .to-top { display: none; } }
+
+/* ── Footer: all Ezra's Notes sites ──────── */
+.footer-network { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; margin: 14px 0;
+  padding: 10px 0; border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair);
+  font: 12px/1.4 var(--head); text-transform: uppercase; letter-spacing: .1em; }
+.footer-network .fn-label { color: var(--mute); }
+.footer-network a { color: var(--ink); text-decoration: none; }
+.footer-network a:hover { text-decoration: underline; }
+.footer-network [aria-current] { color: var(--mute); }
