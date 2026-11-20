@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="static/style.css?v=347b46c8">
+<link rel="stylesheet" href="static/style.css?v=cab87872">
 <link rel="alternate" type="application/rss+xml" title="Investor Letters · Ezra's Notes" href="feed.xml">
 <meta property="og:title" content="Investor Letters · Ezra's Notes">
 <meta property="og:description" content="Free investor letters from the value managers I read. No sign-up, no paywall, linked to the source and checked every week.">
@@ -71,7 +71,7 @@
   
     <li>
       <span class="period">Q3 2026</span>
-      <span class="who"><a href="m/brookfield.html">Bruce Flatt</a><span class="firm">Brookfield Corporation</span></span>
+      <span class="who"><a href="m/brookfield.html">Bruce Flatt</a><span class="new-badge" data-seen="2026-11-16" hidden>New</span><span class="firm">Brookfield Corporation</span></span>
       <a class="read" href="https://www.sec.gov/Archives/edgar/data/1001085/000100108526000030/a2026-q3bninterimreport.htm" target="_blank" rel="noopener">Read<span class="sr"> Q3 2026 letter (inside the report filed with the SEC) by Bruce Flatt</span> &#8599;<span class="via">via SEC EDGAR</span></a>
     </li>
   
@@ -306,5 +306,6 @@
   });
 })();
 </script>
+<script>(function(){var now=Date.now();document.querySelectorAll('.new-badge[data-seen]').forEach(function(s){var t=Date.parse(s.getAttribute('data-seen')+'T00:00:00Z');if(now-t<14*864e5)s.hidden=false;});})();</script>
 </body>
 </html>
