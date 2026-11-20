@@ -62,7 +62,7 @@
     <a href="{{ root }}index.html"{% if page == 'index.html' %} aria-current="page"{% endif %}>Latest</a>
     <a href="{{ root }}managers.html"{% if page == 'managers.html' %} aria-current="page"{% endif %}>Managers</a>
     <a href="{{ root }}companies.html"{% if page.startswith('companies') or page.startswith('c/') or page.startswith('s/') %} aria-current="page"{% endif %}>Companies</a>
-    <a href="{{ root }}search.html"{% if page == 'search.html' %} aria-current="page"{% endif %}>Search</a>
+    <a href="{{ root }}search.html" title="Search (shortcut: /)"{% if page == 'search.html' %} aria-current="page"{% endif %}>Search</a>
     <a href="{{ root }}about.html"{% if page == 'about.html' %} aria-current="page"{% endif %}>About</a>
     <a href="{{ subscribe_url }}" class="nav-cta">Subscribe</a>
   </nav>
@@ -81,7 +81,7 @@
     <a href="https://www.linkedin.com/in/ezracrangle/">LinkedIn</a>
     <a href="{{ root }}feed.xml">RSS</a>
     <a href="{{ root }}companies.html"{% if page.startswith('companies') or page.startswith('c/') or page.startswith('s/') %} aria-current="page"{% endif %}>Companies</a>
-    <a href="{{ root }}search.html"{% if page == 'search.html' %} aria-current="page"{% endif %}>Search</a>
+    <a href="{{ root }}search.html" title="Search (shortcut: /)"{% if page == 'search.html' %} aria-current="page"{% endif %}>Search</a>
     <a href="{{ root }}about.html">About</a>
   </p>
   <nav class="footer-network" aria-label="More from Ezra's Notes"><span class="fn-label">More from Ezra's Notes</span>
@@ -121,5 +121,9 @@
 })();
 </script>
 <script>(function(){var now=Date.now();document.querySelectorAll('.new-badge[data-seen]').forEach(function(s){var t=Date.parse(s.getAttribute('data-seen')+'T00:00:00Z');if(now-t<14*864e5)s.hidden=false;});})();</script>
+<script>(function(){
+document.querySelectorAll('a.mail-report').forEach(function(a){var e=a.dataset.u+'@'+a.dataset.d;a.href='mailto:'+e+'?subject='+encodeURIComponent(a.dataset.s)+'&body='+encodeURIComponent(location.href+'\n\n');a.addEventListener('click',function(){if(window.gtag)gtag('event','broken_link_report',{page:location.pathname});});});
+document.addEventListener('keydown',function(e){if(e.key!=='/'||e.ctrlKey||e.metaKey||e.altKey)return;var t=e.target;if(t&&(t.isContentEditable||/^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName)))return;e.preventDefault();var box=document.querySelector('#q,#cfind,#filter,#f');if(box){box.focus();box.select&&box.select();}else{location.href='{{ root }}search.html';}});
+})();</script>
 </body>
 </html>

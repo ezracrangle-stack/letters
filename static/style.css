@@ -286,3 +286,7 @@ footer { margin-top: 56px; padding-top: 14px; border-top: 3px double var(--rule)
 .new-badge{display:inline-block;margin-left:.5em;padding:1px 6px;font-family:var(--head);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;line-height:1.5;color:var(--paper);background:var(--ink);vertical-align:middle;}
 .new-badge[hidden]{display:none;}
 @media print{.new-badge{display:none;}}
+
+/* "Broken link?" line at the end of a manager page */
+.report{margin-top:28px;font-size:14px;color:var(--mute);}
+.report a{color:var(--ink);}
