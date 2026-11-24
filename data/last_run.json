@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-20T23:02:07+00:00",
+ "last_run": "2026-11-24T00:51:37+00:00",
  "managers": {
   "brookfield": {
    "status": "ok",
@@ -21,8 +21,8 @@
    "new": 0
   },
   "wedgewood": {
-   "status": "ok",
-   "found_on_page": 1,
+   "status": "error",
+   "error": "HTTPSConnectionPool(host='wedgewoodpartners.com', port=443): Max retries exceeded with url: /investor-resources/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='wedgewoodpartners.com', port=443) at 0x7389d958f4d0>, 'Connection to wedgewoodpartners.com timed out. (connect timeout=30)'))",
    "new": 0
   },
   "emeth": {
@@ -42,13 +42,13 @@
   },
   "greenhaven": {
    "status": "ok",
-   "found_on_page": 80,
-   "new": 0
+   "found_on_page": 84,
+   "new": 4
   },
   "saga": {
    "status": "ok",
    "found_on_page": 23,
-   "new": 0
+   "new": 1
   },
   "greystone": {
    "status": "ok",
@@ -66,8 +66,8 @@
    "new": 0
   },
   "fundsmith": {
-   "status": "error",
-   "error": "403 Client Error: Forbidden for url: https://www.fundsmith.co.uk/documents/",
+   "status": "ok",
+   "found_on_page": 23,
    "new": 0
   },
   "turtle-creek": {
@@ -76,7 +76,7 @@
   },
   "vltava": {
    "status": "error",
-   "error": "HTTPSConnectionPool(host='www.vltavafund.com', port=443): Max retries exceeded with url: /dopisy-akcionarum (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.vltavafund.com', port=443) at 0x79b90529cd70>, 'Connection to www.vltavafund.com timed out. (connect timeout=30)'))",
+   "error": "HTTPSConnectionPool(host='www.vltavafund.com', port=443): Max retries exceeded with url: /dopisy-akcionarum (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.vltavafund.com', port=443) at 0x7389d96cd1c0>, 'Connection to www.vltavafund.com timed out. (connect timeout=30)'))",
    "new": 0
   },
   "horos": {

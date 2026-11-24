@@ -3006,6 +3006,32 @@
  ],
  "greenhaven": [
   {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven_Road_Q3_2026_17_FINAL.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "Q3 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-24",
+   "source": "auto",
+   "backfill": false
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven_Road_Q3_2026_17_FINAL-4lsf.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q3",
+    "label": "Q3 2026",
+    "sort": 202609
+   },
+   "title": null,
+   "first_seen": "2026-11-24",
+   "source": "auto",
+   "backfill": false
+  },
+  {
    "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Q2-2026-Final.pdf",
    "period": {
     "year": 2026,
@@ -3017,6 +3043,32 @@
    "first_seen": "2026-11-09",
    "source": "auto",
    "backfill": true
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-Q2-2026-FINAL.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "Q2 2026",
+    "sort": 202606
+   },
+   "title": "Q2 2026 · Partners Fund",
+   "first_seen": "2026-11-24",
+   "source": "auto",
+   "backfill": false
+  },
+  {
+   "url": "https://www.greenhavenroad.com/s/Greenhaven-Road-Partners-Fund-Q2-2026-FINAL-ygwg.pdf",
+   "period": {
+    "year": 2026,
+    "part": "Q2",
+    "label": "Q2 2026",
+    "sort": 202606
+   },
+   "title": "Q2 2026 · Partners Fund",
+   "first_seen": "2026-11-24",
+   "source": "auto",
+   "backfill": false
   },
   {
    "url": "https://www.greenhavenroad.com/s/Greenhaven_Road_Partners_Fund_2025Q4_FINAL__-cpdz.pdf",
@@ -4124,6 +4176,19 @@
    "first_seen": "2026-11-09",
    "source": "auto",
    "backfill": true
+  },
+  {
+   "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_7e097c5678b84f6a9cca9c30b830dd2f.pdf",
+   "period": {
+    "year": 2023,
+    "part": "H2",
+    "label": "H2 2023",
+    "sort": 202312
+   },
+   "title": null,
+   "first_seen": "2026-11-24",
+   "source": "auto",
+   "backfill": false
   },
   {
    "url": "https://www.sagapartners.com/_files/ugd/3b0d6d_5511790a0f35496abd60ed7d776876f4.pdf",
